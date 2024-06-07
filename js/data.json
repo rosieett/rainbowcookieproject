@@ -1,744 +1,782 @@
 [
-    {
-        "BakeryNumber": 1,
-        "Name": "Gian Piero Bakery",
-        "Address": "4417 30th Ave., Queens, NY 11103",
-        "Weightg": 28.5,
-        "Cost": 1.4,
-        "Scores": [
-            {
-            "Tester": "Overall",
-            "Chocolate": 3,
-            "Almond": 3.6,
-            "Moistness": 4.3,
-            "Jam": 3,
-            "Color": 5,
-            "Overall": 3.6,
-            "Notes": "TKTK text here"
-        },
-        {
-            "Tester": "Ken",
-            "Chocolate": 4,
-            "Almond": 5,
-            "Moistness": 4,
-            "Jam": 3,
-            "Color": 5,
-            "Overall": 4,
-            "Notes": "Not enough jam, almond punched me in the face"
-        },
-        {
-            "Tester": "Tracy",
-            "Chocolate": 2,
-            "Almond": 1,
-            "Moistness": 5,
-            "Jam": 5,
-            "Color": 5,
-            "Overall": 4.5,
-            "Notes": "Aesthetically perfect"
-        },
-        {
-            "Tester": "Mattie",
-            "Chocolate": 2,
-            "Almond": 3,
-            "Moistness": 4,
-            "Jam": 2,
-            "Color": 5,
-            "Overall": 2,
-            "Notes": "Has a bad aftertaste from the cake"
-        },
-        {
-            "Tester": "Rosie",
-            "Chocolate": 3,
-            "Almond": 4,
-            "Moistness": 4.5,
-            "Jam": 2,
-            "Color": 5,
-            "Overall": 4,
-            "Notes": "I wish there was more jam but overall great"
-        }]
-    },
-    {
-        "BakeryNumber": 2,
-        "Name": "Parisi Bakery",
-        "Address": "30-17 Broadway, Queens, NY 11106",
-        "Weightg": 40,
-        "Cost": 1.6,
-        "Scores": [{
-            "Tester": "Overall",
-            "Chocolate": 2.7,
-            "Almond": 3.3,
-            "Moistness": 4,
-            "Jam": 1.4,
-            "Color": 3.4,
-            "Overall": 2.5,
-            "Notes": "TKTK text here"
-        },
-        {
-            "Tester": "Ken",
-            "Chocolate": 3,
-            "Almond": 4,
-            "Moistness": 4,
-            "Jam": 1,
-            "Color": 5,
-            "Overall": 3,
-            "Notes": ""
-        },
-        {
-            "Tester": "Tracy",
-            "Chocolate": 2,
-            "Almond": 1,
-            "Moistness": 5,
-            "Jam": 1,
-            "Color": 1,
-            "Overall": 2,
-            "Notes": "Definitely has additives, notices no jam"
-        },
-        {
-            "Tester": "Mattie",
-            "Chocolate": 2,
-            "Almond": 3,
-            "Moistness": 3,
-            "Jam": 2,
-            "Color": 3,
-            "Overall": 2,
-            "Notes": "Color was off. No real taste of jam, too moist overall"
-        },
-        {
-            "Tester": "Rosie",
-            "Chocolate": 3.5,
-            "Almond": 4.5,
-            "Moistness": 4,
-            "Jam": 2,
-            "Color": 3,
-            "Overall": 3,
-            "Notes": "Sprinkles? Actual almond taste but not enough jam"
-        }]
-    },
-    {
-        "BakeryNumber": 3,
-        "Name": "Astoria Bakery",
-        "Address": "4321 Ditmars Blvd, Queens, NY 11105",
-        "Weightg": 53.4,
-        "Cost": 2,
-        "Scores": [{
-            "Tester": "Overall",
-            "Chocolate": 2.6,
-            "Almond": 2.4,
-            "Moistness": 3.8,
-            "Jam": 3.8,
-            "Color": 5,
-            "Overall": 2.8,
-            "Notes": "TKTK text here"
-        },
-        {
-            "Tester": "Ken",
-            "Chocolate": 3,
-            "Almond": 3,
-            "Moistness": 4,
-            "Jam": 4,
-            "Color": 5,
-            "Overall": 3,
-            "Notes": "Melted in the bag, might try again"
-        },
-        {
-            "Tester": "Tracy",
-            "Chocolate": 1,
-            "Almond": 1,
-            "Moistness": 4,
-            "Jam": 4,
-            "Color": 5,
-            "Overall": 3,
-            "Notes": "Bad quality, too much jam"
-        },
-        {
-            "Tester": "Mattie",
-            "Chocolate": 3,
-            "Almond": 3,
-            "Moistness": 4,
-            "Jam": 3,
-            "Color": 5,
-            "Overall": 2,
-            "Notes": "Didnt like the jam, but overall it wasnt great"
-        },
-        {
-            "Tester": "Rosie",
-            "Chocolate": 3,
-            "Almond": 2,
-            "Moistness": 3,
-            "Jam": 4,
-            "Color": 5,
-            "Overall": 3,
-            "Notes": "Very prominent jam"
-        }]
-    },
-    {
-        "BakeryNumber": 4,
-        "Name": "Paris Oven",
-        "Address": "38-12 30th Ave., Queens, NY 11103",
-        "Weightg": 104.6,
-        "Cost": 3.5,
-        "Scores": [{
-            "Tester": "Overall",
-            "Chocolate": 2.8,
-            "Almond": 1.6,
-            "Moistness": 2.8,
-            "Jam": 2.8,
-            "Color": 4.6,
-            "Overall": 2.2,
-            "Notes": "TKTK text here"
-        },
-        {
-            "Tester": "Ken",
-            "Chocolate": 3,
-            "Almond": 1,
-            "Moistness": 3,
-            "Jam": 3,
-            "Color": 5,
-            "Overall": 2.3,
-            "Notes": ""
-        },
-        {
-            "Tester": "Tracy",
-            "Chocolate": 3,
-            "Almond": 1,
-            "Moistness": 4,
-            "Jam": 4,
-            "Color": 4,
-            "Overall": 3.5,
-            "Notes": "Chocolate is supringly okay, but sprinkles, why?"
-        },
-        {
-            "Tester": "Mattie",
-            "Chocolate": 2,
-            "Almond": 3,
-            "Moistness": 2,
-            "Jam": 2,
-            "Color": 5,
-            "Overall": 1,
-            "Notes": "Has too much of a bite from the jam. Chocoalte is dry/crunchy on top. Shouldnt have sprinkles - made my eyes water"
-        },
-        {
-            "Tester": "Rosie",
-            "Chocolate": 3,
-            "Almond": 2,
-            "Moistness": 2,
-            "Jam": 2,
-            "Color": 4,
-            "Overall": 2,
-            "Notes": "Sprinkles noticeable and dry/almost hard"
-        }]
-    },
-    {
-        "BakeryNumber": 5,
-        "Name": "Il Fornaio (34th Street)",
-        "Address": "33-14 30th Ave., Queens, NY 11103",
-        "Weightg": 56.9,
-        "Cost": 2.8,
-        "Scores": [{
-            "Tester": "Overall",
-            "Chocolate": 5,
-            "Almond": 3.5,
-            "Moistness": 4.6,
-            "Jam": 4.4,
-            "Color": 5,
-            "Overall": 3.8,
-            "Notes": "TKTK text here"
-        },
-        {
-            "Tester": "Ken",
-            "Chocolate": 5,
-            "Almond": 4,
-            "Moistness": 5,
-            "Jam": 5,
-            "Color": 5,
-            "Overall": 4,
-            "Notes": "Could be sweeter"
-        },
-        {
-            "Tester": "Tracy",
-            "Chocolate": 5,
-            "Almond": 3,
-            "Moistness": 5,
-            "Jam": 4,
-            "Color": 5,
-            "Overall": 4,
-            "Notes": "A little messy but pretty classic"
-        },
-        {
-            "Tester": "Mattie",
-            "Chocolate": 5,
-            "Almond": 3,
-            "Moistness": 4,
-            "Jam": 4,
-            "Color": 5,
-            "Overall": 3,
-            "Notes": "Totally fine but not special."
-        },
-        {
-            "Tester": "Rosie",
-            "Chocolate": 5,
-            "Almond": 3.5,
-            "Moistness": 4,
-            "Jam": 4,
-            "Color": 5,
-            "Overall": 4,
-            "Notes": "Jam taste is noticeable and really good, also great chocolate"
-        }]
-    },
-    {
-        "BakeryNumber": 6,
-        "Name": "Leli's Bakery & Pastry Shop",
-        "Address": "3514 30th Ave., Queens, NY 11103",
-        "Weightg": 45.7,
-        "Cost": 2,
-        "Scores": [{
-            "Tester": "Overall",
-            "Chocolate": 2,
-            "Almond": 1.4,
-            "Moistness": 3.6,
-            "Jam": 2,
-            "Color": 3,
-            "Overall": 1.8,
-            "Notes": "TKTK text here"
-        },
-        {
-            "Tester": "Ken",
-            "Chocolate": 1,
-            "Almond": 2,
-            "Moistness": 4,
-            "Jam": 2,
-            "Color": 3,
-            "Overall": 2,
-            "Notes": "Too many layers. Not enough jam. Chocolate is butt."
-        },
-        {
-            "Tester": "Tracy",
-            "Chocolate": 4,
-            "Almond": 1,
-            "Moistness": 4,
-            "Jam": 3,
-            "Color": 1,
-            "Overall": 2,
-            "Notes": "5 layers?"
-        },
-        {
-            "Tester": "Mattie",
-            "Chocolate": 1,
-            "Almond": 1,
-            "Moistness": 3,
-            "Jam": 1,
-            "Color": 5,
-            "Overall": 1,
-            "Notes": "Terrible individual components, made a terrible cookie"
-        },
-        {
-            "Tester": "Rosie",
-            "Chocolate": 3,
-            "Almond": 1,
-            "Moistness": 3,
-            "Jam": 2,
-            "Color": 3,
-            "Overall": 2,
-            "Notes": "Cant taste marzipan, cake doesnt taste like anything and has 7 layers"
-        }]
-    },
-    {
-        "BakeryNumber": 7,
-        "Name": "Oasis Cafe",
-        "Address": "30-92 31st St, Queens, NY 11102",
-        "Weightg": 46.7,
-        "Cost": 2.7,
-        "Scores": [{
-            "Tester": "Overall",
-            "Chocolate": 2,
-            "Almond": 1.8,
-            "Moistness": 3.8,
-            "Jam": 2.8,
-            "Color": 1.8,
-            "Overall": 2.3,
-            "Notes": "TKTK text here"
-        },
-        {
-            "Tester": "Ken",
-            "Chocolate": 2,
-            "Almond": 2,
-            "Moistness": 4,
-            "Jam": 2,
-            "Color": 2,
-            "Overall": 3,
-            "Notes": "Entenmans vibes"
-        },
-        {
-            "Tester": "Tracy",
-            "Chocolate": 2,
-            "Almond": 1,
-            "Moistness": 3,
-            "Jam": 4,
-            "Color": 1,
-            "Overall": 3,
-            "Notes": "Terrible colors - sesame street?"
-        },
-        {
-            "Tester": "Mattie",
-            "Chocolate": 2,
-            "Almond": 1,
-            "Moistness": 4,
-            "Jam": 4,
-            "Color": 1,
-            "Overall": 1,
-            "Notes": "Overall dry and components are bad. Chocolate is bad."
-        },
-        {
-            "Tester": "Rosie",
-            "Chocolate": 2,
-            "Almond": 3,
-            "Moistness": 4,
-            "Jam": 2,
-            "Color": 3,
-            "Overall": 2,
-            "Notes": "Bad chalky chocolate with the wong colors"
-        }]
-    },
-    {
-        "BakeryNumber": 8,
-        "Name": "Rose & Joe's Italian Bakery",
-        "Address": "22-40 31st St, Queens, NY 11105",
-        "Weightg": 29.5,
-        "Cost": 1.1,
-        "Scores": [{
-            "Tester": "Overall",
-            "Chocolate": 3,
-            "Almond": 1.2,
-            "Moistness": 2.8,
-            "Jam": 1.8,
-            "Color": 4.2,
-            "Overall": 2,
-            "Notes": "TKTK text here"
-        },
-        {
-            "Tester": "Ken",
-            "Chocolate": 3,
-            "Almond": 1,
-            "Moistness": 3,
-            "Jam": 2,
-            "Color": 4,
-            "Overall": 2,
-            "Notes": "Dry, no marzipan. Choclate ratio was bad."
-        },
-        {
-            "Tester": "Tracy",
-            "Chocolate": 4,
-            "Almond": 1,
-            "Moistness": 2,
-            "Jam": 2,
-            "Color": 5,
-            "Overall": 3,
-            "Notes": "A little dry"
-        },
-        {
-            "Tester": "Mattie",
-            "Chocolate": 3,
-            "Almond": 1,
-            "Moistness": 4,
-            "Jam": 1,
-            "Color": 4,
-            "Overall": 1,
-            "Notes": "Overall not there. Needs more chocolate, needs better everything"
-        },
-        {
-            "Tester": "Rosie",
-            "Chocolate": 2,
-            "Almond": 2,
-            "Moistness": 2,
-            "Jam": 2,
-            "Color": 4,
-            "Overall": 2,
-            "Notes": "Too much extract and kinda dry"
-        }]
-    },
-    {
-        "BakeryNumber": 9,
-        "Name": "New York Bakery Café",
-        "Address": "32-06 30th Ave., Astoria, NY 11102",
-        "Weightg": 69.5,
-        "Cost": 3.3,
-        "Scores": [{
-            "Tester": "Overall",
-            "Chocolate": 3,
-            "Almond": 3.8,
-            "Moistness": 4.1,
-            "Jam": 3.3,
-            "Color": 4.2,
-            "Overall": 3.2,
-            "Notes": "TKTK text here"
-        },
-        {
-            "Tester": "Ken",
-            "Chocolate": 3,
-            "Almond": 3,
-            "Moistness": 4,
-            "Jam": 3,
-            "Color": 4,
-            "Overall": 3.3,
-            "Notes": ""
-        },
-        {
-            "Tester": "Tracy",
-            "Chocolate": 2,
-            "Almond": 4,
-            "Moistness": 4,
-            "Jam": 3,
-            "Color": 4,
-            "Overall": 3,
-            "Notes": "instant taste of marzipan, too much jam"
-        },
-        {
-            "Tester": "Mattie",
-            "Chocolate": 4,
-            "Almond": 5,
-            "Moistness": 4,
-            "Jam": 3,
-            "Color": 5,
-            "Overall": 3,
-            "Notes": "Too tart, too much jam."
-        },
-        {
-            "Tester": "Rosie",
-            "Chocolate": 3,
-            "Almond": 4,
-            "Moistness": 4.5,
-            "Jam": 4.5,
-            "Color": 4,
-            "Overall": 3.5,
-            "Notes": ""
-        }]
-    },
-    {
-        "BakeryNumber": 10,
-        "Name": "Il Fornaio (29th Street)",
-        "Address": "29-14 30th Ave., Astoria, NY 11102",
-        "Weightg": 65.1,
-        "Cost": 2.65,
-        "Scores": [{
-            "Tester": "Overall",
-            "Chocolate": 4.2,
-            "Almond": 4,
-            "Moistness": 4.4,
-            "Jam": 4.4,
-            "Color": 5,
-            "Overall": 3.9,
-            "Notes": "TKTK text here"
-        },
-        {
-            "Tester": "Ken",
-            "Chocolate": 4,
-            "Almond": 5,
-            "Moistness": 4,
-            "Jam": 5,
-            "Color": 5,
-            "Overall": 4.7,
-            "Notes": "Yum"
-        },
-        {
-            "Tester": "Tracy",
-            "Chocolate": 5,
-            "Almond": 3,
-            "Moistness": 5,
-            "Jam": 4,
-            "Color": 5,
-            "Overall": 4,
-            "Notes": "Surprisingly like the chocolate thickness"
-        },
-        {
-            "Tester": "Mattie",
-            "Chocolate": 4,
-            "Almond": 3,
-            "Moistness": 5,
-            "Jam": 4,
-            "Color": 5,
-            "Overall": 3,
-            "Notes": "Overall it's fine. It doesnt deserve over a 3 though. Wouldn't take another."
-        },
-        {
-            "Tester": "Rosie",
-            "Chocolate": 4,
-            "Almond": 4,
-            "Moistness": 4,
-            "Jam": 4,
-            "Color": 5,
-            "Overall": 4,
-            "Notes": "Tastes almondy! Actually pretty good, but maybe too much chocolate"
-        }]
-    },
-    {
-        "BakeryNumber": 11,
-        "Name": "Omonia Cafe",
-        "Address": "32 16 Broadway, Long Island City, NY 11106",
-        "Weightg": 138.8,
-        "Cost": 8,
-        "Scores": [{
-            "Tester": "Overall",
-            "Chocolate": 2.8,
-            "Almond": 2.2,
-            "Moistness": 2.8,
-            "Jam": 3.6,
-            "Color": 1,
-            "Overall": 1.5,
-            "Notes": "TKTK text here"
-        },
-        {
-            "Tester": "Ken",
-            "Chocolate": 3,
-            "Almond": 3,
-            "Moistness": 4,
-            "Jam": 4,
-            "Color": 1,
-            "Overall": 2,
-            "Notes": ""
-        },
-        {
-            "Tester": "Tracy",
-            "Chocolate": 2,
-            "Almond": 1,
-            "Moistness": 2,
-            "Jam": 2,
-            "Color": 1,
-            "Overall": 1,
-            "Notes": "Sprinkles are a no! Chocolate is gross"
-        },
-        {
-            "Tester": "Mattie",
-            "Chocolate": 3,
-            "Almond": 1,
-            "Moistness": 1,
-            "Jam": 5,
-            "Color": 1,
-            "Overall": 1,
-            "Notes": "Good sprinkles but not for the cookie. Cake is a little dry"
-        },
-        {
-            "Tester": "Rosie",
-            "Chocolate": 3,
-            "Almond": 3,
-            "Moistness": 3,
-            "Jam": 3,
-            "Color": 1,
-            "Overall": 2,
-            "Notes": "Can really taste sprinkles, dryer than expectations"
-        }]
-    },
-    {
-        "BakeryNumber": 12,
-        "Name": "Martha's Country Bakery",
-        "Address": "36-21 Ditmars Blvd, Queens, NY 11105",
-        "Weightg": 53.8,
-        "Cost": 3,
-        "Scores": [{
-            "Tester": "Overall",
-            "Chocolate": 2.7,
-            "Almond": 3.2,
-            "Moistness": 4,
-            "Jam": 4.2,
-            "Color": 2,
-            "Overall": 2.5,
-            "Notes": "TKTK text here"
-        },
-        {
-            "Tester": "Ken",
-            "Chocolate": 3,
-            "Almond": 4,
-            "Moistness": 4,
-            "Jam": 3,
-            "Color": 1,
-            "Overall": 3,
-            "Notes": ""
-        },
-        {
-            "Tester": "Tracy",
-            "Chocolate": 1,
-            "Almond": 1,
-            "Moistness": 4,
-            "Jam": 5,
-            "Color": 1,
-            "Overall": 2,
-            "Notes": "Chocolate on one side?!"
-        },
-        {
-            "Tester": "Mattie",
-            "Chocolate": 3,
-            "Almond": 3,
-            "Moistness": 4,
-            "Jam": 5,
-            "Color": 4,
-            "Overall": 2,
-            "Notes": "Missing chocolate on the bottom. My favorite jam but missing chocolate and more almond."
-        },
-        {
-            "Tester": "Rosie",
-            "Chocolate": 3.5,
-            "Almond": 4,
-            "Moistness": 4,
-            "Jam": 5,
-            "Color": 3,
-            "Overall": 3,
-            "Notes": "Overall good but not amazing"
-        }]
-    },
-    {
-        "BakeryNumber": 13,
-        "Name": "La Guli Pastry Shop",
-        "Address": "29-15 Ditmars Blvd, Astoria, NY 11105",
-        "Weightg": 75.3,
-        "Cost": 3.5,
-        "Scores": [{
-            "Tester": "Overall",
-            "Chocolate": 3.5,
-            "Almond": 3.1,
-            "Moistness": 3.7,
-            "Jam": 3.6,
-            "Color": 3.2,
-            "Overall": 2.9,
-            "Notes": "TKTK text here"
-        },
-        {
-            "Tester": "Ken",
-            "Chocolate": 4,
-            "Almond": 4,
-            "Moistness": 4,
-            "Jam": 4,
-            "Color": 3,
-            "Overall": 3,
-            "Notes": "Would eat again"
-        },
-        {
-            "Tester": "Tracy",
-            "Chocolate": 3,
-            "Almond": 1,
-            "Moistness": 5,
-            "Jam": 3,
-            "Color": 5,
-            "Overall": 3.5,
-            "Notes": "Very cakey, thicker than the others"
-        },
-        {
-            "Tester": "Mattie",
-            "Chocolate": 3,
-            "Almond": 2,
-            "Moistness": 1,
-            "Jam": 3,
-            "Color": 2,
-            "Overall": 1,
-            "Notes": "Dont liket he grainy after taste of the cake"
-        },
-        {
-            "Tester": "Rosie",
-            "Chocolate": 3.5,
-            "Almond": 4.5,
-            "Moistness": 4.5,
-            "Jam": 4,
-            "Color": 3,
-            "Overall": 4,
-            "Notes": "actually pretty good"
-        }]
-    }
+  {
+    "BakeryNumber": 1,
+    "bakeryhed": "Gian Piero Bakery",
+    "bakeryaddress": "4417 30th Ave., Queens, NY 11103",
+    "Weightg": 28.5,
+    "price": 1.4,
+    "bakery-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, lorem nec ultrices cursus, metus odio porta lorem, eget interdum quam odio tempus nulla.",
+    "Scores": [
+      {
+        "Tester": "Overall",
+        "Chocolate": 3,
+        "Almond": 3.6,
+        "Moistness": 4.3,
+        "Jam": 3,
+        "Color": 5,
+        "Overall": 3.6,
+        "Notes": "TKTK text here"
+      },
+      {
+        "Tester": "Ken",
+        "Chocolate": 4,
+        "Almond": 5,
+        "Moistness": 4,
+        "Jam": 3,
+        "Color": 5,
+        "Overall": 4,
+        "Notes": "Not enough jam, almond punched me in the face"
+      },
+      {
+        "Tester": "Tracy",
+        "Chocolate": 2,
+        "Almond": 1,
+        "Moistness": 5,
+        "Jam": 5,
+        "Color": 5,
+        "Overall": 4.5,
+        "Notes": "Aesthetically perfect"
+      },
+      {
+        "Tester": "Mattie",
+        "Chocolate": 2,
+        "Almond": 3,
+        "Moistness": 4,
+        "Jam": 2,
+        "Color": 5,
+        "Overall": 2,
+        "Notes": "Has a bad aftertaste from the cake"
+      },
+      {
+        "Tester": "Rosie",
+        "Chocolate": 3,
+        "Almond": 4,
+        "Moistness": 4.5,
+        "Jam": 2,
+        "Color": 5,
+        "Overall": 4,
+        "Notes": "I wish there was more jam but overall great"
+      }
+    ]
+  },
+  {
+    "BakeryNumber": 2,
+    "bakeryhed": "Parisi Bakery",
+    "bakeryaddress": "30-17 Broadway, Queens, NY 11106",
+    "Weightg": 40,
+    "price": 1.6,
+    "bakery-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, lorem nec ultrices cursus, metus odio porta lorem, eget interdum quam odio tempus nulla.",
+    "Scores": [
+      {
+        "Tester": "Overall",
+        "Chocolate": 2.7,
+        "Almond": 3.3,
+        "Moistness": 4,
+        "Jam": 1.4,
+        "Color": 3.4,
+        "Overall": 2.5,
+        "Notes": "TKTK text here"
+      },
+      {
+        "Tester": "Ken",
+        "Chocolate": 3,
+        "Almond": 4,
+        "Moistness": 4,
+        "Jam": 1,
+        "Color": 5,
+        "Overall": 3,
+        "Notes": ""
+      },
+      {
+        "Tester": "Tracy",
+        "Chocolate": 2,
+        "Almond": 1,
+        "Moistness": 5,
+        "Jam": 1,
+        "Color": 1,
+        "Overall": 2,
+        "Notes": "Definitely has additives, notices no jam"
+      },
+      {
+        "Tester": "Mattie",
+        "Chocolate": 2,
+        "Almond": 3,
+        "Moistness": 3,
+        "Jam": 2,
+        "Color": 3,
+        "Overall": 2,
+        "Notes": "Color was off. No real taste of jam, too moist overall"
+      },
+      {
+        "Tester": "Rosie",
+        "Chocolate": 3.5,
+        "Almond": 4.5,
+        "Moistness": 4,
+        "Jam": 2,
+        "Color": 3,
+        "Overall": 3,
+        "Notes": "Sprinkles? Actual almond taste but not enough jam"
+      }
+    ]
+  },
+  {
+    "BakeryNumber": 3,
+    "bakeryhed": "Astoria Bakery",
+    "bakeryaddress": "4321 Ditmars Blvd, Queens, NY 11105",
+    "Weightg": 53.4,
+    "price": 2,
+    "bakery-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, lorem nec ultrices cursus, metus odio porta lorem, eget interdum quam odio tempus nulla.",
+    "Scores": [
+      {
+        "Tester": "Overall",
+        "Chocolate": 2.6,
+        "Almond": 2.4,
+        "Moistness": 3.8,
+        "Jam": 3.8,
+        "Color": 5,
+        "Overall": 2.8,
+        "Notes": "TKTK text here"
+      },
+      {
+        "Tester": "Ken",
+        "Chocolate": 3,
+        "Almond": 3,
+        "Moistness": 4,
+        "Jam": 4,
+        "Color": 5,
+        "Overall": 3,
+        "Notes": "Melted in the bag, might try again"
+      },
+      {
+        "Tester": "Tracy",
+        "Chocolate": 1,
+        "Almond": 1,
+        "Moistness": 4,
+        "Jam": 4,
+        "Color": 5,
+        "Overall": 3,
+        "Notes": "Bad quality, too much jam"
+      },
+      {
+        "Tester": "Mattie",
+        "Chocolate": 3,
+        "Almond": 3,
+        "Moistness": 4,
+        "Jam": 3,
+        "Color": 5,
+        "Overall": 2,
+        "Notes": "Didnt like the jam, but overall it wasnt great"
+      },
+      {
+        "Tester": "Rosie",
+        "Chocolate": 3,
+        "Almond": 2,
+        "Moistness": 3,
+        "Jam": 4,
+        "Color": 5,
+        "Overall": 3,
+        "Notes": "Very prominent jam"
+      }
+    ]
+  },
+  {
+    "BakeryNumber": 4,
+    "bakeryhed": "Paris Oven",
+    "bakeryaddress": "38-12 30th Ave., Queens, NY 11103",
+    "Weightg": 104.6,
+    "price": 3.5,
+    "bakery-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, lorem nec ultrices cursus, metus odio porta lorem, eget interdum quam odio tempus nulla.",
+    "Scores": [
+      {
+        "Tester": "Overall",
+        "Chocolate": 2.8,
+        "Almond": 1.6,
+        "Moistness": 2.8,
+        "Jam": 2.8,
+        "Color": 4.6,
+        "Overall": 2.2,
+        "Notes": "TKTK text here"
+      },
+      {
+        "Tester": "Ken",
+        "Chocolate": 3,
+        "Almond": 1,
+        "Moistness": 3,
+        "Jam": 3,
+        "Color": 5,
+        "Overall": 2.3,
+        "Notes": ""
+      },
+      {
+        "Tester": "Tracy",
+        "Chocolate": 3,
+        "Almond": 1,
+        "Moistness": 4,
+        "Jam": 4,
+        "Color": 4,
+        "Overall": 3.5,
+        "Notes": "Chocolate is supringly okay, but sprinkles, why?"
+      },
+      {
+        "Tester": "Mattie",
+        "Chocolate": 2,
+        "Almond": 3,
+        "Moistness": 2,
+        "Jam": 2,
+        "Color": 5,
+        "Overall": 1,
+        "Notes": "Has too much of a bite from the jam. Chocoalte is dry/crunchy on top. Shouldnt have sprinkles - made my eyes water"
+      },
+      {
+        "Tester": "Rosie",
+        "Chocolate": 3,
+        "Almond": 2,
+        "Moistness": 2,
+        "Jam": 2,
+        "Color": 4,
+        "Overall": 2,
+        "Notes": "Sprinkles noticeable and dry/almost hard"
+      }
+    ]
+  },
+  {
+    "BakeryNumber": 5,
+    "bakeryhed": "Il Fornaio (34th Street)",
+    "bakeryaddress": "33-14 30th Ave., Queens, NY 11103",
+    "Weightg": 56.9,
+    "price": 2.8,
+    "bakery-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, lorem nec ultrices cursus, metus odio porta lorem, eget interdum quam odio tempus nulla.",
+    "Scores": [
+      {
+        "Tester": "Overall",
+        "Chocolate": 5,
+        "Almond": 3.5,
+        "Moistness": 4.6,
+        "Jam": 4.4,
+        "Color": 5,
+        "Overall": 3.8,
+        "Notes": "TKTK text here"
+      },
+      {
+        "Tester": "Ken",
+        "Chocolate": 5,
+        "Almond": 4,
+        "Moistness": 5,
+        "Jam": 5,
+        "Color": 5,
+        "Overall": 4,
+        "Notes": "Could be sweeter"
+      },
+      {
+        "Tester": "Tracy",
+        "Chocolate": 5,
+        "Almond": 3,
+        "Moistness": 5,
+        "Jam": 4,
+        "Color": 5,
+        "Overall": 4,
+        "Notes": "A little messy but pretty classic"
+      },
+      {
+        "Tester": "Mattie",
+        "Chocolate": 5,
+        "Almond": 3,
+        "Moistness": 4,
+        "Jam": 4,
+        "Color": 5,
+        "Overall": 3,
+        "Notes": "Totally fine but not special."
+      },
+      {
+        "Tester": "Rosie",
+        "Chocolate": 5,
+        "Almond": 3.5,
+        "Moistness": 4,
+        "Jam": 4,
+        "Color": 5,
+        "Overall": 4,
+        "Notes": "Jam taste is noticeable and really good, also great chocolate"
+      }
+    ]
+  },
+  {
+    "BakeryNumber": 6,
+    "bakeryhed": "Leli's Bakery & Pastry Shop",
+    "bakeryaddress": "3514 30th Ave., Queens, NY 11103",
+    "Weightg": 45.7,
+    "price": 2,
+    "bakery-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, lorem nec ultrices cursus, metus odio porta lorem, eget interdum quam odio tempus nulla.",
+    "Scores": [
+      {
+        "Tester": "Overall",
+        "Chocolate": 2,
+        "Almond": 1.4,
+        "Moistness": 3.6,
+        "Jam": 2,
+        "Color": 3,
+        "Overall": 1.8,
+        "Notes": "TKTK text here"
+      },
+      {
+        "Tester": "Ken",
+        "Chocolate": 1,
+        "Almond": 2,
+        "Moistness": 4,
+        "Jam": 2,
+        "Color": 3,
+        "Overall": 2,
+        "Notes": "Too many layers. Not enough jam. Chocolate is butt."
+      },
+      {
+        "Tester": "Tracy",
+        "Chocolate": 4,
+        "Almond": 1,
+        "Moistness": 4,
+        "Jam": 3,
+        "Color": 1,
+        "Overall": 2,
+        "Notes": "5 layers?"
+      },
+      {
+        "Tester": "Mattie",
+        "Chocolate": 1,
+        "Almond": 1,
+        "Moistness": 3,
+        "Jam": 1,
+        "Color": 5,
+        "Overall": 1,
+        "Notes": "Terrible individual components, made a terrible cookie"
+      },
+      {
+        "Tester": "Rosie",
+        "Chocolate": 3,
+        "Almond": 1,
+        "Moistness": 3,
+        "Jam": 2,
+        "Color": 3,
+        "Overall": 2,
+        "Notes": "Cant taste marzipan, cake doesnt taste like anything and has 7 layers"
+      }
+    ]
+  },
+  {
+    "BakeryNumber": 7,
+    "bakeryhed": "Oasis Cafe",
+    "bakeryaddress": "30-92 31st St, Queens, NY 11102",
+    "Weightg": 46.7,
+    "price": 2.7,
+    "bakery-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, lorem nec ultrices cursus, metus odio porta lorem, eget interdum quam odio tempus nulla.",
+    "Scores": [
+      {
+        "Tester": "Overall",
+        "Chocolate": 2,
+        "Almond": 1.8,
+        "Moistness": 3.8,
+        "Jam": 2.8,
+        "Color": 1.8,
+        "Overall": 2.3,
+        "Notes": "TKTK text here"
+      },
+      {
+        "Tester": "Ken",
+        "Chocolate": 2,
+        "Almond": 2,
+        "Moistness": 4,
+        "Jam": 2,
+        "Color": 2,
+        "Overall": 3,
+        "Notes": "Entenmans vibes"
+      },
+      {
+        "Tester": "Tracy",
+        "Chocolate": 2,
+        "Almond": 1,
+        "Moistness": 3,
+        "Jam": 4,
+        "Color": 1,
+        "Overall": 3,
+        "Notes": "Terrible colors - sesame street?"
+      },
+      {
+        "Tester": "Mattie",
+        "Chocolate": 2,
+        "Almond": 1,
+        "Moistness": 4,
+        "Jam": 4,
+        "Color": 1,
+        "Overall": 1,
+        "Notes": "Overall dry and components are bad. Chocolate is bad."
+      },
+      {
+        "Tester": "Rosie",
+        "Chocolate": 2,
+        "Almond": 3,
+        "Moistness": 4,
+        "Jam": 2,
+        "Color": 3,
+        "Overall": 2,
+        "Notes": "Bad chalky chocolate with the wong colors"
+      }
+    ]
+  },
+  {
+    "BakeryNumber": 8,
+    "bakeryhed": "Rose & Joe's Italian Bakery",
+    "bakeryaddress": "22-40 31st St, Queens, NY 11105",
+    "Weightg": 29.5,
+    "price": 1.1,
+    "bakery-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, lorem nec ultrices cursus, metus odio porta lorem, eget interdum quam odio tempus nulla.",
+    "Scores": [
+      {
+        "Tester": "Overall",
+        "Chocolate": 3,
+        "Almond": 1.2,
+        "Moistness": 2.8,
+        "Jam": 1.8,
+        "Color": 4.2,
+        "Overall": 2,
+        "Notes": "TKTK text here"
+      },
+      {
+        "Tester": "Ken",
+        "Chocolate": 3,
+        "Almond": 1,
+        "Moistness": 3,
+        "Jam": 2,
+        "Color": 4,
+        "Overall": 2,
+        "Notes": "Dry, no marzipan. Choclate ratio was bad."
+      },
+      {
+        "Tester": "Tracy",
+        "Chocolate": 4,
+        "Almond": 1,
+        "Moistness": 2,
+        "Jam": 2,
+        "Color": 5,
+        "Overall": 3,
+        "Notes": "A little dry"
+      },
+      {
+        "Tester": "Mattie",
+        "Chocolate": 3,
+        "Almond": 1,
+        "Moistness": 4,
+        "Jam": 1,
+        "Color": 4,
+        "Overall": 1,
+        "Notes": "Overall not there. Needs more chocolate, needs better everything"
+      },
+      {
+        "Tester": "Rosie",
+        "Chocolate": 2,
+        "Almond": 2,
+        "Moistness": 2,
+        "Jam": 2,
+        "Color": 4,
+        "Overall": 2,
+        "Notes": "Too much extract and kinda dry"
+      }
+    ]
+  },
+  {
+    "BakeryNumber": 9,
+    "bakeryhed": "New York Bakery Café",
+    "bakeryaddress": "32-06 30th Ave., Astoria, NY 11102",
+    "Weightg": 69.5,
+    "price": 3.3,
+    "bakery-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, lorem nec ultrices cursus, metus odio porta lorem, eget interdum quam odio tempus nulla.",
+    "Scores": [
+      {
+        "Tester": "Overall",
+        "Chocolate": 3,
+        "Almond": 3.8,
+        "Moistness": 4.1,
+        "Jam": 3.3,
+        "Color": 4.2,
+        "Overall": 3.2,
+        "Notes": "TKTK text here"
+      },
+      {
+        "Tester": "Ken",
+        "Chocolate": 3,
+        "Almond": 3,
+        "Moistness": 4,
+        "Jam": 3,
+        "Color": 4,
+        "Overall": 3.3,
+        "Notes": ""
+      },
+      {
+        "Tester": "Tracy",
+        "Chocolate": 2,
+        "Almond": 4,
+        "Moistness": 4,
+        "Jam": 3,
+        "Color": 4,
+        "Overall": 3,
+        "Notes": "instant taste of marzipan, too much jam"
+      },
+      {
+        "Tester": "Mattie",
+        "Chocolate": 4,
+        "Almond": 5,
+        "Moistness": 4,
+        "Jam": 3,
+        "Color": 5,
+        "Overall": 3,
+        "Notes": "Too tart, too much jam."
+      },
+      {
+        "Tester": "Rosie",
+        "Chocolate": 3,
+        "Almond": 4,
+        "Moistness": 4.5,
+        "Jam": 4.5,
+        "Color": 4,
+        "Overall": 3.5,
+        "Notes": ""
+      }
+    ]
+  },
+  {
+    "BakeryNumber": 10,
+    "bakeryhed": "Il Fornaio (29th Street)",
+    "bakeryaddress": "29-14 30th Ave., Astoria, NY 11102",
+    "Weightg": 65.1,
+    "price": 2.65,
+    "bakery-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, lorem nec ultrices cursus, metus odio porta lorem, eget interdum quam odio tempus nulla.",
+    "Scores": [
+      {
+        "Tester": "Overall",
+        "Chocolate": 4.2,
+        "Almond": 4,
+        "Moistness": 4.4,
+        "Jam": 4.4,
+        "Color": 5,
+        "Overall": 3.9,
+        "Notes": "TKTK text here"
+      },
+      {
+        "Tester": "Ken",
+        "Chocolate": 4,
+        "Almond": 5,
+        "Moistness": 4,
+        "Jam": 5,
+        "Color": 5,
+        "Overall": 4.7,
+        "Notes": "Yum"
+      },
+      {
+        "Tester": "Tracy",
+        "Chocolate": 5,
+        "Almond": 3,
+        "Moistness": 5,
+        "Jam": 4,
+        "Color": 5,
+        "Overall": 4,
+        "Notes": "Surprisingly like the chocolate thickness"
+      },
+      {
+        "Tester": "Mattie",
+        "Chocolate": 4,
+        "Almond": 3,
+        "Moistness": 5,
+        "Jam": 4,
+        "Color": 5,
+        "Overall": 3,
+        "Notes": "Overall it's fine. It doesnt deserve over a 3 though. Wouldn't take another."
+      },
+      {
+        "Tester": "Rosie",
+        "Chocolate": 4,
+        "Almond": 4,
+        "Moistness": 4,
+        "Jam": 4,
+        "Color": 5,
+        "Overall": 4,
+        "Notes": "Tastes almondy! Actually pretty good, but maybe too much chocolate"
+      }
+    ]
+  },
+  {
+    "BakeryNumber": 11,
+    "bakeryhed": "Omonia Cafe",
+    "bakeryaddress": "32 16 Broadway, Long Island City, NY 11106",
+    "Weightg": 138.8,
+    "price": 8,
+    "bakery-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, lorem nec ultrices cursus, metus odio porta lorem, eget interdum quam odio tempus nulla.",
+    "Scores": [
+      {
+        "Tester": "Overall",
+        "Chocolate": 2.8,
+        "Almond": 2.2,
+        "Moistness": 2.8,
+        "Jam": 3.6,
+        "Color": 1,
+        "Overall": 1.5,
+        "Notes": "TKTK text here"
+      },
+      {
+        "Tester": "Ken",
+        "Chocolate": 3,
+        "Almond": 3,
+        "Moistness": 4,
+        "Jam": 4,
+        "Color": 1,
+        "Overall": 2,
+        "Notes": ""
+      },
+      {
+        "Tester": "Tracy",
+        "Chocolate": 2,
+        "Almond": 1,
+        "Moistness": 2,
+        "Jam": 2,
+        "Color": 1,
+        "Overall": 1,
+        "Notes": "Sprinkles are a no! Chocolate is gross"
+      },
+      {
+        "Tester": "Mattie",
+        "Chocolate": 3,
+        "Almond": 1,
+        "Moistness": 1,
+        "Jam": 5,
+        "Color": 1,
+        "Overall": 1,
+        "Notes": "Good sprinkles but not for the cookie. Cake is a little dry"
+      },
+      {
+        "Tester": "Rosie",
+        "Chocolate": 3,
+        "Almond": 3,
+        "Moistness": 3,
+        "Jam": 3,
+        "Color": 1,
+        "Overall": 2,
+        "Notes": "Can really taste sprinkles, dryer than expectations"
+      }
+    ]
+  },
+  {
+    "BakeryNumber": 12,
+    "bakeryhed": "Martha's Country Bakery",
+    "bakeryaddress": "36-21 Ditmars Blvd, Queens, NY 11105",
+    "Weightg": 53.8,
+    "price": 3,
+    "bakery-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, lorem nec ultrices cursus, metus odio porta lorem, eget interdum quam odio tempus nulla.",
+    "Scores": [
+      {
+        "Tester": "Overall",
+        "Chocolate": 2.7,
+        "Almond": 3.2,
+        "Moistness": 4,
+        "Jam": 4.2,
+        "Color": 2,
+        "Overall": 2.5,
+        "Notes": "TKTK text here"
+      },
+      {
+        "Tester": "Ken",
+        "Chocolate": 3,
+        "Almond": 4,
+        "Moistness": 4,
+        "Jam": 3,
+        "Color": 1,
+        "Overall": 3,
+        "Notes": ""
+      },
+      {
+        "Tester": "Tracy",
+        "Chocolate": 1,
+        "Almond": 1,
+        "Moistness": 4,
+        "Jam": 5,
+        "Color": 1,
+        "Overall": 2,
+        "Notes": "Chocolate on one side?!"
+      },
+      {
+        "Tester": "Mattie",
+        "Chocolate": 3,
+        "Almond": 3,
+        "Moistness": 4,
+        "Jam": 5,
+        "Color": 4,
+        "Overall": 2,
+        "Notes": "Missing chocolate on the bottom. My favorite jam but missing chocolate and more almond."
+      },
+      {
+        "Tester": "Rosie",
+        "Chocolate": 3.5,
+        "Almond": 4,
+        "Moistness": 4,
+        "Jam": 5,
+        "Color": 3,
+        "Overall": 3,
+        "Notes": "Overall good but not amazing"
+      }
+    ]
+  },
+  {
+    "BakeryNumber": 13,
+    "bakeryhed": "La Guli Pastry Shop",
+    "bakeryaddress": "29-15 Ditmars Blvd, Astoria, NY 11105",
+    "Weightg": 75.3,
+    "price": 3.5,
+    "bakery-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, lorem nec ultrices cursus, metus odio porta lorem, eget interdum quam odio tempus nulla.",
+    "Scores": [
+      {
+        "Tester": "Overall",
+        "Chocolate": 3.5,
+        "Almond": 3.1,
+        "Moistness": 3.7,
+        "Jam": 3.6,
+        "Color": 3.2,
+        "Overall": 2.9,
+        "Notes": "TKTK text here"
+      },
+      {
+        "Tester": "Ken",
+        "Chocolate": 4,
+        "Almond": 4,
+        "Moistness": 4,
+        "Jam": 4,
+        "Color": 3,
+        "Overall": 3,
+        "Notes": "Would eat again"
+      },
+      {
+        "Tester": "Tracy",
+        "Chocolate": 3,
+        "Almond": 1,
+        "Moistness": 5,
+        "Jam": 3,
+        "Color": 5,
+        "Overall": 3.5,
+        "Notes": "Very cakey, thicker than the others"
+      },
+      {
+        "Tester": "Mattie",
+        "Chocolate": 3,
+        "Almond": 2,
+        "Moistness": 1,
+        "Jam": 3,
+        "Color": 2,
+        "Overall": 1,
+        "Notes": "Dont liket he grainy after taste of the cake"
+      },
+      {
+        "Tester": "Rosie",
+        "Chocolate": 3.5,
+        "Almond": 4.5,
+        "Moistness": 4.5,
+        "Jam": 4,
+        "Color": 3,
+        "Overall": 4,
+        "Notes": "actually pretty good"
+      }
+    ]
+  }
 ]
