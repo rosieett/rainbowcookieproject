@@ -2,5 +2,4 @@
 
 In progress project
 
-Designs are in figma
-Porject is built using handlebars
+Designs are in figma and the project is built using handlebars
