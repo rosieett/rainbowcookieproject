@@ -93,22 +93,20 @@ button:hover {
 /* BAKERY PROFILE */
 
 .bakery-profile {
-  width: 1000px;
-  height: 1000px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-}
-
-.overall,
-.bakery-subhed {
-  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100vh;
 }
 
 .bakery-title {
-  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .bakery-hed {
@@ -128,15 +126,22 @@ button:hover {
   line-height: normal;
 }
 
+.bakery-subhed {
+  display: flex;
+
+}
+
 .bakery-callout {
-  width: 20%;
   background-color: blue;
 }
 
 .bakery-notes {
-  width: 50%;
+  width: 30%;
 }
 
-.section-scores {
+.bakery-overall,
+.section-scores,
+.bakery-subhed {
   display: flex;
+  justify-content: center;
 }

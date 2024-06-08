@@ -1,131 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Rainbow Cookie - Bakery Profile</title>
-    <link rel="stylesheet" href="../css/styles.css" />
 
-    <!-- Include Handlebars from a CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rainbow Cookie - Bakery Profile</title>
+  <link rel="stylesheet" href="../css/styles.css" />
 
-  <body>
-    <div id="bakery-page">
-      <div id="bakerypage-template">
-        <div class="bakery-profile">
-          <div class="bakery-title">
-            <h2 class="bakery-hed">Gian Piero Bakery</h2>
-            <p class="bakery-address">4417 30th Ave., Queens, NY 11103</p>
+  <!-- Include Handlebars from a CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+</head>
+
+<body>
+  <div id="bakery-page">
+    <div id="bakerypage-template">
+
+      <div class="bakery-profile">
+
+        <div class="bakery-title">
+          <h2 class="bakery-hed">Gian Piero Bakery</h2>
+          <p class="bakery-address">4417 30th Ave., Queens, NY 11103</p>
+        </div>
+        <hr />
+
+        <div class="bakery-subhed">
+          <div class="bakery-callout">
+            <h3 class="subhead">Overall Rank</h3>
+            <p class="callout">No. 3</p>
           </div>
-          <hr />
-
-          <div class="bakery-subhed">
-            <div class="bakery-callout">
-              <h3 class="subhead">Overall Rank</h3>
-              <p class="callout">No. 3</p>
-            </div>
-            <div class="bakery-callout">
-              <h3 class="subhead">Price for 2 cookies</h3>
-              <p class="callout">$1.40</p>
-            </div>
-            <div class="bakery-notes">
-              <h3 class="subhead">About the Bakery</h3>
-              <p class="para-text">
-                Gian Piero Bakery is family-owned, full-service bakery located
-                in Astoria, NY. The bakery opened for business in 1995 and have
-                been growing every year since.
-              </p>
-            </div>
+          <div class="bakery-callout">
+            <h3 class="subhead">Price for 2 cookies</h3>
+            <p class="callout">$1.40</p>
           </div>
-          <hr />
+          <div class="bakery-notes">
+            <h3 class="subhead">About the Bakery</h3>
+            <p class="para-text">
+              Gian Piero Bakery is family-owned, full-service bakery located
+              in Astoria, NY. The bakery opened for business in 1995 and have
+              been growing every year since.
+            </p>
+          </div>
+        </div>
+        <hr />
 
-          <div class="bakery-main">
-            <div class="overall">
-              <div class="bakery-scores">
-                <h3 class="area-hed">Average score</h3>
-                <div class="scores">
-                  <svg>
-                    <rect width="200px" height="150px" fill="#ccc"></rect>
-                  </svg>
-                </div>
-              </div>
-              <div class="bakery-imagenotes">
-                <svg>
-                  <rect width="100px" height="150px" fill="#ccc"></rect>
-                </svg>
-                <p class="img-notes">
-                  <svg>
-                    <rect width="200px" height="150px" fill="#ccc"></rect>
-                  </svg>
-                </p>
-              </div>
-              <div class="bakery-notes">
-                <h3 class="callout">The Cookie</h3>
-                <p class="para-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  vel tincidunt libero. Nullam lacus justo, tincidunt nec congue
-                  vel, auctor eu sem. Nullam semper luctus ipsum at volutpat.
-                  Morbi pretium dolor pellentesque, dignissim nulla id, lobortis
-                  ex.
-                </p>
-              </div>
-            </div>
-
-            <div class="section-scores">
-              <div class="scores">
-                <h4 class="area-hed">Rosie</h4>
-                <p class="taster-subhed">The Cookie Obsessed</p>
-                <div class="scores">
-                  <svg>
-                    <rect width="200px" height="150px" fill="#ccc"></rect>
-                  </svg>
-                </div>
-              </div>
-
-              <div class="scores">
-                <h4 class="area-hed">Mattie</h4>
-                <p class="taster-subhed">Almond Connoisseur</p>
-                <div class="scores">
-                  <svg>
-                    <rect width="200px" height="150px" fill="#ccc"></rect>
-                  </svg>
-                </div>
-              </div>
-
-              <div class="scores">
-                <h4 class="area-hed">Tracy</h4>
-                <p class="taster-subhed">Texture Aficianado</p>
-                <div class="scores">
-                  <svg>
-                    <rect width="200px" height="150px" fill="#ccc"></rect>
-                  </svg>
-                </div>
-              </div>
-
-              <div class="scores">
-                <h4 class="area-hed">Ken</h4>
-                <p class="taster-subhed">Chocolate Expert</p>
-                <div class="scores">
-                  <svg>
-                    <rect width="200px" height="150px" fill="#ccc"></rect>
-                  </svg>
-                </div>
-              </div>
+        <div class="bakery-overall">
+          <div class="bakery-scores">
+            <h3 class="area-hed">Average score</h3>
+            <div class="scores">
+              <svg>
+                <rect width="200px" height="150px" fill="#ccc"></rect>
+              </svg>
             </div>
           </div>
-
-          <div class="close-buttons">
-            <svg class="x-button" width="36px" height="36px">
-              <image xlink:href="svgs/circle-close-button.svg"></image>
+          <div class="bakery-imagenotes">
+            <svg>
+              <rect width="100px" height="150px" fill="#ccc"></rect>
             </svg>
-            <button class="button">Take me to the whole list</button>
+            <p class="img-notes">
+              <svg>
+                <rect width="200px" height="150px" fill="#ccc"></rect>
+              </svg>
+            </p>
+          </div>
+          <div class="bakery-notes">
+            <h3 class="callout">The Cookie</h3>
+            <p class="para-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              vel tincidunt libero. Nullam lacus justo, tincidunt nec congue
+              vel, auctor eu sem. Nullam semper luctus ipsum at volutpat.
+              Morbi pretium dolor pellentesque, dignissim nulla id, lobortis
+              ex.
+            </p>
+          </div>
+        </div>
+
+        <div class="section-scores">
+          <div class="scores">
+            <h4 class="area-hed">Rosie</h4>
+            <p class="taster-subhed">The Cookie Obsessed</p>
+            <div class="scores">
+              <svg>
+                <rect width="200px" height="150px" fill="#ccc"></rect>
+              </svg>
+            </div>
+          </div>
+
+          <div class="scores">
+            <h4 class="area-hed">Mattie</h4>
+            <p class="taster-subhed">Almond Connoisseur</p>
+            <div class="scores">
+              <svg>
+                <rect width="200px" height="150px" fill="#ccc"></rect>
+              </svg>
+            </div>
+          </div>
+
+          <div class="scores">
+            <h4 class="area-hed">Tracy</h4>
+            <p class="taster-subhed">Texture Aficianado</p>
+            <div class="scores">
+              <svg>
+                <rect width="200px" height="150px" fill="#ccc"></rect>
+              </svg>
+            </div>
+          </div>
+
+          <div class="scores">
+            <h4 class="area-hed">Ken</h4>
+            <p class="taster-subhed">Chocolate Expert</p>
+            <div class="scores">
+              <svg>
+                <rect width="200px" height="150px" fill="#ccc"></rect>
+              </svg>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <script type="module" src="app.js"></script>
-    <script type="module" src="bakeryprofile.js"></script>
-  </body>
+      <div class="close-buttons">
+        <svg class="x-button" width="36px" height="36px">
+          <image xlink:href="svgs/circle-close-button.svg"></image>
+        </svg>
+        <button class="button">Take me to the whole list</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+  <script type="module" src="bakeryprofile.js"></script>
+</body>
+
 </html>
