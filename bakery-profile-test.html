@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rainbow Cookie - Bakery Profile</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+
+  <!-- Include Handlebars from a CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+</head>
+
+<body>
+  <div id="bakery-page">
+    <div id="bakerypage-template">
+      <div class="bakery-profile">
+        <div class="bakery-hed">
+          <h2 class="bakeryhed">Gian Piero Bakery</h2>
+          <p class="bakeryaddress">4417 30th Ave., Queens, NY 11103</p>
+        </div>
+
+        <div class="bakery-subhed">
+          <div class="bakery-callout">
+            <h3 class="subhead"> Ranking</h3>
+            <p class="callout"> No. 3</p>
+          </div>
+          <div class="bakery-callout">
+            <h3 class="subhead">Price for 2 cookies</h3>
+            <p class="callout">$1.4</p>
+          </div>
+          <div class="bakery-notes">
+            <h3 class="subhead">About the Bakery</h3>
+            <p class="para-text"> Gian Piero Bakery is family-owned, full-service bakery located in Astoria, NY. The bakery opened for business in 1995 and have been growing every year since.</p>
+          </div>
+        </div>
+
+        <div class="bakery-main">
+          <div class="overall">
+            <div class="bakery-scores">
+              <h3 class="area-hed"> {{score-hed}}</h3>
+              <div class="scores">
+                <!-- chart with scores  -->
+                {{chart}}
+              </div>
+            </div>
+            <div class="bakery-imagenotes">
+              <img src="" alt="" class="img-cookie" />
+              <p class="img-notes">
+                <!-- annotations for the image -->
+              </p>
+            </div>
+            <div class="bakery-notes">
+              <h3 class="callout"> {{comment-hed}}</h3>
+              <p class="para-text"> {{cookie-notes}}</p>
+            </div>
+          </div>
+
+          <div class="section-scores">
+            <div class="scores">
+              <h4 class="area-hed"> {{taster-Mattie}}</h4>
+              <p class="taster-subhed"> {{taster-MB-title}}</p>
+              <div class="scores">
+                <!-- chart with scores  -->
+                {{chart}}
+              </div>
+            </div>
+
+            <div class="scores">
+              <h4 class="area-hed"> {{taster-Tracy}}</h4>
+              <p class="taster-subhed"> {{taster-TM-title}}</p>
+              <div class="scores">
+                <!-- chart with scores  -->
+                {{chart}}
+              </div>
+            </div>
+
+            <div class="scores">
+              <h4 class="area-hed"> {{taster-Ken}}</h4>
+              <p class="taster-subhed"> {{taster-JF-title}}</p>
+              <div class="scores">
+                <!-- chart with scores  -->
+                {{chart}}
+              </div>
+            </div>
+
+            <div class="scores">
+              <h4 class="area-hed"> {{taster-Rosie}}</h4>
+              <p class="taster-subhed"> {{taster-RE-title}}</p>
+              <div class="scores">
+                <!-- chart with scores  -->
+                {{chart}}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="close-buttons"></div>
+
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+  <script type="module" src="bakeryprofile.js"></script>
+</body>
+
+</html>
