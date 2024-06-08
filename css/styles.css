@@ -1,10 +1,6 @@
 body {
   background: #f2ebd7;
-  font-family: 'Gully';
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  font-family: "Gully";
 }
 
 button {
@@ -13,10 +9,15 @@ button {
 
 .main {
   width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  height: 100vh;
 }
 
 .landing-h1 {
-  color: #502A27;
+  color: #502a27;
   font-family: "ZT Bros Oskon 90s";
   font-size: 140px;
   font-style: normal;
@@ -34,7 +35,6 @@ button {
   line-height: normal;
   text-transform: uppercase;
   margin: 30px 0 30px 0;
-
 }
 
 .rainbowstack {
@@ -45,9 +45,9 @@ button {
 }
 
 hr {
-  border: 1px solid #502A27;
+  border: 1px solid #502a27;
   margin: 30px 0 0 0;
-  width: 950px
+  width: 950px;
 }
 
 .button-list {
@@ -55,7 +55,8 @@ hr {
   width: 950px;
 }
 
-.landing-button {
+.landing-button,
+button {
   border-radius: 30px;
   border: 2px solid #502a27;
   color: #502a27;
@@ -69,11 +70,68 @@ hr {
   flex-shrink: 0;
   padding: 1% 1.5% 1% 1.5%;
   margin: 5px 5px 5px 0;
-
 }
 
-.landing-button:hover {
+.x-button {
+  color: #502a27;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  background-color: #f2ebd7;
+  flex-shrink: 0;
+}
+
+.landing-button:hover,
+button:hover {
   border-radius: 30px;
   background: #502a27;
   color: #f2ebd7;
+}
+
+/* BAKERY PROFILE */
+
+.bakery-profile {
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.bakery-title {
+  width: 100%;
+}
+
+.bakery-hed {
+  color: #502a27;
+  font-family: "Anchor Jack";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bakery-address {
+  color: #502a27;
+  font-family: "Gully";
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.bakery-subhead {
+  flex-direction: row;
+  align-items: center;
+}
+
+.bakery-callout {
+  width: 20%;
+  background-color: blue;
+}
+
+.bakery-notes {
+  width: 50%;
 }
