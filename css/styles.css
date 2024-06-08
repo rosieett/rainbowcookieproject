@@ -1,0 +1,65 @@
+body {
+  background: #f2ebd7;
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+}
+
+.landing-h1 {
+  color: #502a27;
+  font-family: "ZT Bros Oskon 90s";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130px; /* 92.199% */
+  text-transform: uppercase;
+}
+
+.landing-subhead {
+  color: #502a27;
+  font-family: "Gully";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.rainbowstack {
+  width: 84.154px;
+  height: 82.303px;
+  flex-shrink: 0;
+}
+
+.landing-button {
+  border-radius: 30px;
+  border: 2px solid #502a27;
+  color: #502a27;
+  font-family: Gully;
+  font-size: 16px;
+  font-style: "regular";
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  background-color: #f2ebd7;
+  width: 307px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.landing-button:hover {
+  border-radius: 30px;
+  background: #502a27;
+  color: #f2ebd7;
+}
+
+@font-face {
+  font-family: Gully;
+  src: url("fonts/Gully-Regular.otf") format("");
+}
