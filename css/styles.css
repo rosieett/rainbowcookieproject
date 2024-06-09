@@ -3,6 +3,18 @@ body {
   font-family: "Gully";
 }
 
+
+@font-face {
+  font-family: 'AnchorJack';
+  src: url(".fonts/AnchorJack.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Intrigora Medium';
+  src: url('fonts/Intrigora Medium.otf') format("otf");
+}
+
 button {
   font-family: inherit;
 }
@@ -14,6 +26,8 @@ button {
   flex-wrap: wrap;
   align-content: center;
   height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .landing-h1 {
@@ -46,7 +60,7 @@ button {
 
 hr {
   border: 1px solid #502a27;
-  width: 950px;
+  width: 100%;
 }
 
 .button-list {
@@ -66,9 +80,9 @@ button {
   letter-spacing: 0.8px;
   text-transform: uppercase;
   background-color: #f2ebd7;
-  flex-shrink: 0;
   padding: 1% 1.5% 1% 1.5%;
   margin: 5px 5px 5px 0;
+  flex: none;
 }
 
 .x-button {
@@ -93,20 +107,17 @@ button:hover {
 /* BAKERY PROFILE */
 
 .bakery-profile {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.bakery-title {
   display: flex;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  height: 100vh;
-}
-
-.bakery-title {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-
 }
 
 .bakery-hed {
@@ -128,20 +139,95 @@ button:hover {
 
 .bakery-subhed {
   display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
 
+.subhead {
+  color: #502A27;
+  text-align: center;
+  font-family: 'Intrigora Medium';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin: 1%;
+}
+
+.bakery-notes>.subhead {
+  text-align: start;
+}
+
+.callout {
+  color: #A58567;
+  font-family: "Hina Mincho";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  margin: 1%;
+  text-align: center;
+}
+
+.overall-cookie-notes>.callout {
+  text-align: start;
 }
 
 .bakery-callout {
-  background-color: blue;
+  margin: 1%;
 }
 
 .bakery-notes {
+  width: 50%;
+  margin: 1%
+}
+
+.bakery-overall {
+  display: flex;
+  width: 100%;
+}
+
+.vline {
+  border-left: 3px solid #502A27;
+  margin: 0 1% 0 1%;
+}
+
+.bakery-scores {
+  width: 30%;
+  margin: 0 1% 0 1%;
+
+}
+
+.image-area {
+  border: 1px solid;
   width: 30%;
 }
 
-.bakery-overall,
-.section-scores,
-.bakery-subhed {
+.overall-cookie-notes {
+  width: 30%;
+  margin: 0 1% 0 1%;
+}
+
+.section-scores {
   display: flex;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+}
+
+.chart {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
 }

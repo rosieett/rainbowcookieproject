@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Rainbow Cookie - Bakery Profile</title>
   <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
 
   <!-- Include Handlebars from a CDN -->
   <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
@@ -28,10 +31,13 @@
             <h3 class="subhead">Overall Rank</h3>
             <p class="callout">No. 3</p>
           </div>
+          <div class="vline"></div>
           <div class="bakery-callout">
             <h3 class="subhead">Price for 2 cookies</h3>
             <p class="callout">$1.40</p>
           </div>
+          <div class="vline"></div>
+
           <div class="bakery-notes">
             <h3 class="subhead">About the Bakery</h3>
             <p class="para-text">
@@ -44,25 +50,21 @@
         <hr />
 
         <div class="bakery-overall">
+
           <div class="bakery-scores">
             <h3 class="area-hed">Average score</h3>
-            <div class="scores">
+            <div class="bakery-scores">
               <svg>
                 <rect width="200px" height="150px" fill="#ccc"></rect>
               </svg>
             </div>
           </div>
-          <div class="bakery-imagenotes">
-            <svg>
-              <rect width="100px" height="150px" fill="#ccc"></rect>
-            </svg>
-            <p class="img-notes">
-              <svg>
-                <rect width="200px" height="150px" fill="#ccc"></rect>
-              </svg>
-            </p>
+          <div class="vline"></div>
+          <div class="image-area">
           </div>
-          <div class="bakery-notes">
+          <div class="vline"></div>
+
+          <div class="overall-cookie-notes">
             <h3 class="callout">The Cookie</h3>
             <p class="para-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
@@ -74,57 +76,48 @@
           </div>
         </div>
 
+
+        <hr>
+
         <div class="section-scores">
           <div class="scores">
             <h4 class="area-hed">Rosie</h4>
-            <p class="taster-subhed">The Cookie Obsessed</p>
-            <div class="scores">
-              <svg>
-                <rect width="200px" height="150px" fill="#ccc"></rect>
-              </svg>
-            </div>
+            <p class="taster-subhed">The Obsessed</p>
+            <div class="chart"></div>
           </div>
+
+          <div class="vline"></div>
 
           <div class="scores">
             <h4 class="area-hed">Mattie</h4>
             <p class="taster-subhed">Almond Connoisseur</p>
-            <div class="scores">
-              <svg>
-                <rect width="200px" height="150px" fill="#ccc"></rect>
-              </svg>
-            </div>
+            <div class="chart"></div>
           </div>
+
+          <div class="vline"></div>
+
 
           <div class="scores">
             <h4 class="area-hed">Tracy</h4>
             <p class="taster-subhed">Texture Aficianado</p>
-            <div class="scores">
-              <svg>
-                <rect width="200px" height="150px" fill="#ccc"></rect>
-              </svg>
-            </div>
+            <div class="chart"></div>
           </div>
+
+          <div class="vline"></div>
+
 
           <div class="scores">
             <h4 class="area-hed">Ken</h4>
             <p class="taster-subhed">Chocolate Expert</p>
-            <div class="scores">
-              <svg>
-                <rect width="200px" height="150px" fill="#ccc"></rect>
-              </svg>
-            </div>
+            <div class="chart"></div>
           </div>
+
         </div>
       </div>
 
-      <div class="close-buttons">
-        <svg class="x-button" width="36px" height="36px">
-          <image xlink:href="svgs/circle-close-button.svg"></image>
-        </svg>
-        <button class="button">Take me to the whole list</button>
-      </div>
+
+
     </div>
-  </div>
   </div>
 
   <script type="module" src="app.js"></script>
