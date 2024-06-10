@@ -1,23 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rainbow Cookie - Bakery Profile</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rainbow Cookie - Bakery Profile</title>
-  <link rel="stylesheet" href="../css/styles.css" />
+  <body>
+    <div id="profile">
+      <script id="entry-template" type="text/x-handlebars-template">
+        <div class="entry">
+          <div class="bakery-profile">
+            <div class="bakery-hed">
+              <h2 class="bakery-hed">{{bakeryhed}}</h2>
+              <p class="bakery-address">{{bakeryaddress}}</p>
+            </div>
 
-  <!-- Include Handlebars from a CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-</head>
+            <div class="bakery-subhed">
+              <div class="bakery-callout">
+                <h3 class="subhead">Overall Rank</h3>
+                <p class="callout"> {{ranking}}</p>
+              </div>
+              <div class="bakery-callout">
+                <h3 class="subhead">Price per 2 cookies</h3>
+                <p class="callout"> {{price}}</p>
+              </div>
+              <div class="bakery-notes">
+                <h3 class="subhead">About the Bakery</h3>
+                <p class="para-text"> {{bakeryDescription}}</p>
+              </div>
+            </div>
 
-<body>
-  <div id="bakery-page">
+            <div class="bakery-main">
+              <div class="overall">
+                <div class="bakery-scores">
+                  <h3 class="area-hed">Average score</h3>
+                  <div class="scores">
+                    <!-- chart with scores  -->
+                    {{chart}}
+                  </div>
+                </div>
+                <div class="bakery-imagenotes">
+                  <img src="" alt="" class="img-cookie" />
+                  <p class="img-notes">
+                    <!-- annotations for the image -->
+                  </p>
+                </div>
+                <div class="bakery-notes">
+                  <h3 class="callout">The Cookie</h3>
+                  <p class="para-text"> {{cookie-notes}}</p>
+                </div>
+              </div>
 
-  </div>
+              <div class="section-scores">
+                <div class="scores">
+                  <h4 class="area-hed"> {{taster-Mattie}}</h4>
+                  <p class="taster-subhed"> {{taster-MB-title}}</p>
+                  <div class="scores">
+                    <!-- chart with scores  -->
+                    {{chart}}
+                  </div>
+                </div>
 
-  <script type="module" src="app.js"></script>
-  <script type="module" src="bakeryprofile.js"></script>
-</body>
+                <div class="scores">
+                  <h4 class="area-hed"> {{taster-Tracy}}</h4>
+                  <p class="taster-subhed"> {{taster-TM-title}}</p>
+                  <div class="scores">
+                    <!-- chart with scores  -->
+                    {{chart}}
+                  </div>
+                </div>
 
+                <div class="scores">
+                  <h4 class="area-hed"> {{taster-Ken}}</h4>
+                  <p class="taster-subhed"> {{taster-JF-title}}</p>
+                  <div class="scores">
+                    <!-- chart with scores  -->
+                    {{chart}}
+                  </div>
+                </div>
+
+                <div class="scores">
+                  <h4 class="area-hed"> {{taster-Rosie}}</h4>
+                  <p class="taster-subhed"> {{taster-RE-title}}</p>
+                  <div class="scores">
+                    <!-- chart with scores  -->
+                    {{chart}}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="close-buttons"></div>
+
+          </div>
+        </div>
+      </script>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"
+      integrity="sha512-E1dSFxg+wsfJ4HKjutk/WaCzK7S2wv1POn1RRPGh8ZK+ag9l244Vqxji3r6wgz9YBf6+vhQEYJZpSjqWFPg9gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="module" src="app.js"></script>
+
+    <!-- <script type="module" src="bakeryprofile.js"></script> -->
+  </body>
 </html>

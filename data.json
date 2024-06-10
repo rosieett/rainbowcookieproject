@@ -5,7 +5,8 @@
     "bakeryaddress": "4417 30th Ave., Queens, NY 11103",
     "Weightg": 28.5,
     "price": 1.4,
-    "bakery-desc": "Gian Piero Bakery is family-owned, full-service bakery located in Astoria, NY. The bakery opened for business in 1995 and have been growing every year since.",
+    "bakeryDescription": "Gian Piero Bakery is family-owned, full-service bakery located in Astoria, NY. The bakery opened for business in 1995 and have been growing every year since.",
+    "cookieDesciption": "",
     "Scores": [
       {
         "Tester": "Overall",
@@ -65,7 +66,8 @@
     "bakeryaddress": "30-17 Broadway, Queens, NY 11106",
     "Weightg": 40,
     "price": 1.6,
-    "bakery-desc": "Neighborhood bakery & cafe serving coffee, pastries, cookies, breads & desserts since 1969.",
+    "bakeryDescription": "Neighborhood bakery & cafe serving coffee, pastries, cookies, breads & desserts since 1969.",
+    "cookieDesciption": "",
     "Scores": [
       {
         "Tester": "Overall",
@@ -125,7 +127,8 @@
     "bakeryaddress": "4321 Ditmars Blvd, Queens, NY 11105",
     "Weightg": 53.4,
     "price": 2,
-    "bakery-desc": "Created in 1964, Astoria Bakery & Cafe is a specialty bakery & cafe, lifestyle and wellness brand based in Astoria, New York. With a extremely strong focus on hight quality products, innovative products and world hight class service.",
+    "bakeryDescription": "Created in 1964, Astoria Bakery & Cafe is a specialty bakery & cafe, lifestyle and wellness brand based in Astoria, New York. With a extremely strong focus on hight quality products, innovative products and world hight class service.",
+    "cookieDesciption": "",
     "Scores": [
       {
         "Tester": "Overall",
@@ -185,7 +188,8 @@
     "bakeryaddress": "38-12 30th Ave., Queens, NY 11103",
     "Weightg": 104.6,
     "price": 3.5,
-    "bakery-desc": "Cozy French Bakery that serves a variety of delicious Pastries, Coffee, Gelato and more.",
+    "bakeryDescription": "Cozy French Bakery that serves a variety of delicious Pastries, Coffee, Gelato and more.",
+    "cookieDesciption": "",
     "Scores": [
       {
         "Tester": "Overall",
@@ -245,7 +249,8 @@
     "bakeryaddress": "33-14 30th Ave., Queens, NY 11103",
     "Weightg": 56.9,
     "price": 2.8,
-    "bakery-desc": "Il Fornaio Bakery Bakery Cafe provides a classic bakery for breads & sweet treats, including special-occasion cakes, deli offerings, catering, and more to Astoria, NY.",
+    "bakeryDescription": "Il Fornaio Bakery Bakery Cafe provides a classic bakery for breads & sweet treats, including special-occasion cakes, deli offerings, catering, and more to Astoria, NY.",
+    "cookieDesciption": "",
     "Scores": [
       {
         "Tester": "Overall",
@@ -305,7 +310,8 @@
     "bakeryaddress": "3514 30th Ave., Queens, NY 11103",
     "Weightg": 45.7,
     "price": 2,
-    "bakery-desc": "Neighborhood bakery with a handful of tables whips up pastries & cakes, plus coffee & sandwiches.",
+    "bakeryDescription": "Neighborhood bakery with a handful of tables whips up pastries & cakes, plus coffee & sandwiches.",
+    "cookieDesciption": "",
     "Scores": [
       {
         "Tester": "Overall",
@@ -365,7 +371,8 @@
     "bakeryaddress": "30-92 31st St, Queens, NY 11102",
     "Weightg": 46.7,
     "price": 2.7,
-    "bakery-desc": "A cafe with a passion for craft, innovation & discovery comes to life in an ever-evolving menu of coffee, cocktails, food & desserts.",
+    "bakeryDescription": "A cafe with a passion for craft, innovation & discovery comes to life in an ever-evolving menu of coffee, cocktails, food & desserts.",
+    "cookieDesciption": "",
     "Scores": [
       {
         "Tester": "Overall",
@@ -425,7 +432,8 @@
     "bakeryaddress": "22-40 31st St, Queens, NY 11105",
     "Weightg": 29.5,
     "price": 1.1,
-    "bakery-desc": "Classic Italian bakery with a selection of specialty breads & pastries, plus a back pizza counter.",
+    "bakeryDescription": "Classic Italian bakery with a selection of specialty breads & pastries, plus a back pizza counter.",
+    "cookieDesciption": "",
     "Scores": [
       {
         "Tester": "Overall",
@@ -485,7 +493,8 @@
     "bakeryaddress": "32-06 30th Ave., Astoria, NY 11102",
     "Weightg": 69.5,
     "price": 3.3,
-    "bakery-desc": "An established bakery dating recipes back to the the 1800's. One of the the few in New York.",
+    "bakeryDescription": "An established bakery dating recipes back to the the 1800's. One of the the few in New York.",
+    "cookieDesciption": "",
     "Scores": [
       {
         "Tester": "Overall",
@@ -545,7 +554,8 @@
     "bakeryaddress": "29-14 30th Ave., Astoria, NY 11102",
     "Weightg": 65.1,
     "price": 2.65,
-    "bakery-desc": "Il Fornaio Bakery Bakery Cafe provides a classic bakery for breads & sweet treats, including special-occasion cakes, deli offerings, catering, and more to Astoria, NY.",
+    "bakeryDescription": "Il Fornaio Bakery Bakery Cafe provides a classic bakery for breads & sweet treats, including special-occasion cakes, deli offerings, catering, and more to Astoria, NY.",
+    "cookieDesciption": "",
     "Scores": [
       {
         "Tester": "Overall",
@@ -605,7 +615,8 @@
     "bakeryaddress": "32 16 Broadway, Long Island City, NY 11106",
     "Weightg": 138.8,
     "price": 8,
-    "bakery-desc": "Local Greek chain with a late-night scene doling out traditional sweets & savory dishes since 1977.",
+    "bakeryDescription": "Local Greek chain with a late-night scene doling out traditional sweets & savory dishes since 1977.",
+    "cookieDesciption": "",
     "Scores": [
       {
         "Tester": "Overall",
@@ -665,7 +676,8 @@
     "bakeryaddress": "36-21 Ditmars Blvd, Queens, NY 11105",
     "Weightg": 53.8,
     "price": 3,
-    "bakery-desc": "Bakeshop with a warm vibe serving old-fashioned cakes & pastries, plus gelato & an espresso bar.",
+    "bakeryDescription": "Bakeshop with a warm vibe serving old-fashioned cakes & pastries, plus gelato & an espresso bar.",
+    "cookieDesciption": "",
     "Scores": [
       {
         "Tester": "Overall",
@@ -725,7 +737,8 @@
     "bakeryaddress": "29-15 Ditmars Blvd, Astoria, NY 11105",
     "Weightg": 75.3,
     "price": 3.5,
-    "bakery-desc": "Long-running family-owned pastry shop crafting an array of Italian treats, cakes & baked goods.",
+    "bakeryDescription": "Long-running family-owned pastry shop crafting an array of Italian treats, cakes & baked goods.",
+    "cookieDesciption": "",
     "Scores": [
       {
         "Tester": "Overall",

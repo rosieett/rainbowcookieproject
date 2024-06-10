@@ -3,17 +3,23 @@ body {
   font-family: "Gully";
 }
 
-
-@font-face {
-  font-family: 'AnchorJack';
+/* @font-face {
+  font-family: "AnchorJack";
   src: url(".fonts/AnchorJack.ttf") format("ttf");
   font-weight: normal;
-}
+} */
 
 @font-face {
-  font-family: 'Intrigora Medium';
-  src: url('fonts/Intrigora Medium.otf') format("otf");
+  font-family: "Intrigora Medium";
+  src: url(".fonts/Intrigora Medium.otf") format("otf");
+  font-weight: normal;
 }
+/* 
+@font-face {
+  font-family: "ZTBrosOskon90s";
+  src: url(".fonts/ZTBrosOskon90s.otf") format("otf");
+  font-weight: normal;
+} */
 
 button {
   font-family: inherit;
@@ -32,9 +38,8 @@ button {
 
 .landing-h1 {
   color: #502a27;
-  font-family: "ZT Bros Oskon 90s";
+  font-family: "ZTBrosOskon90s";
   font-size: 140px;
-  font-style: normal;
   font-weight: 400;
   line-height: 90%;
   text-transform: uppercase;
@@ -144,9 +149,9 @@ button:hover {
 }
 
 .subhead {
-  color: #502A27;
+  color: #502a27;
   text-align: center;
-  font-family: 'Intrigora Medium';
+  font-family: "Intrigora Medium";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -156,12 +161,12 @@ button:hover {
   margin: 1%;
 }
 
-.bakery-notes>.subhead {
+.bakery-notes > .subhead {
   text-align: start;
 }
 
 .callout {
-  color: #A58567;
+  color: #a58567;
   font-family: "Hina Mincho";
   font-size: 32px;
   font-style: normal;
@@ -173,7 +178,7 @@ button:hover {
   text-align: center;
 }
 
-.overall-cookie-notes>.callout {
+.overall-cookie-notes > .callout {
   text-align: start;
 }
 
@@ -183,7 +188,7 @@ button:hover {
 
 .bakery-notes {
   width: 50%;
-  margin: 1%
+  margin: 1%;
 }
 
 .bakery-overall {
@@ -192,14 +197,13 @@ button:hover {
 }
 
 .vline {
-  border-left: 3px solid #502A27;
+  border-left: 3px solid #502a27;
   margin: 0 1% 0 1%;
 }
 
 .bakery-scores {
   width: 30%;
   margin: 0 1% 0 1%;
-
 }
 
 .image-area {
@@ -216,7 +220,6 @@ button:hover {
   display: flex;
   width: 100%;
   justify-content: space-between;
-
 }
 
 .scores {
@@ -230,4 +233,12 @@ button:hover {
   border: 1px solid;
   width: 100px;
   height: 100px;
+}
+
+.para-text {
+  color: #502a27;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
