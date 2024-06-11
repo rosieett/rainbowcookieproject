@@ -4,98 +4,87 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Rainbow Cookie - Bakery Profile</title>
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <div id="profile">
       <script id="entry-template" type="text/x-handlebars-template">
-        <div class="entry">
-          <div class="bakery-profile">
-            <div class="bakery-hed">
-              <h2 class="bakery-hed">{{bakeryhed}}</h2>
-              <p class="bakery-address">{{bakeryaddress}}</p>
-            </div>
+                <div class="entry">
+                  <div class="bakery-profile">
+                    <div class="bakery-title">
+                      <h2 class="bakery-hed">{{bakeryhed}}</h2>
+                      <p class="bakery-address">{{bakeryaddress}}</p>
+                    </div>
 
-            <div class="bakery-subhed">
-              <div class="bakery-callout">
-                <h3 class="subhead">Overall Rank</h3>
-                <p class="callout"> {{ranking}}</p>
-              </div>
-              <div class="bakery-callout">
-                <h3 class="subhead">Price per 2 cookies</h3>
-                <p class="callout"> {{price}}</p>
-              </div>
-              <div class="bakery-notes">
-                <h3 class="subhead">About the Bakery</h3>
-                <p class="para-text"> {{bakeryDescription}}</p>
-              </div>
-            </div>
+                    <div class="bakery-subhed">
+                      <div class="bakery-callout">
+                        <h3 class="subhead">Overall Rank</h3>
+                        <p class="callout"> {{ranking}}</p>
+                      </div>
+                      <div class="vline"></div>
+                      <div class="bakery-callout">
+                        <h3 class="subhead">Price per 2 cookies</h3>
+                        <p class="callout"> {{price}}</p>
+                      </div>
+                      <div class="vline"></div>
 
-            <div class="bakery-main">
-              <div class="overall">
-                <div class="bakery-scores">
-                  <h3 class="area-hed">Average score</h3>
-                  <div class="scores">
-                    <!-- chart with scores  -->
-                    {{chart}}
-                  </div>
-                </div>
-                <div class="bakery-imagenotes">
-                  <img src="" alt="" class="img-cookie" />
-                  <p class="img-notes">
-                    <!-- annotations for the image -->
-                  </p>
-                </div>
-                <div class="bakery-notes">
-                  <h3 class="callout">The Cookie</h3>
-                  <p class="para-text"> {{cookie-notes}}</p>
-                </div>
-              </div>
+                      <div class="bakery-notes">
+                        <h3 class="subhead">About the Bakery</h3>
+                        <p class="para-text"> {{bakeryDescription}}</p>
+                      </div>
+                    </div>
+                    <hr />
 
-              <div class="section-scores">
-                <div class="scores">
-                  <h4 class="area-hed"> {{taster-Mattie}}</h4>
-                  <p class="taster-subhed"> {{taster-MB-title}}</p>
-                  <div class="scores">
-                    <!-- chart with scores  -->
-                    {{chart}}
-                  </div>
-                </div>
+                    <div class="bakery-overall">
+                      <div class="bakery-scores">
+                        <h3 class="area-hed">Average score</h3>
+                        <div class="bakery-scores">
+                          <!-- chart with scores  -->
+                          {{chart}}
+                          <svg>
+                            <rect width="200px" height="150px" fill="#ccc"></rect>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="vline"></div>
+                      <div class="image-area"></div>
+                      <div class="vline"></div>
 
-                <div class="scores">
-                  <h4 class="area-hed"> {{taster-Tracy}}</h4>
-                  <p class="taster-subhed"> {{taster-TM-title}}</p>
-                  <div class="scores">
-                    <!-- chart with scores  -->
-                    {{chart}}
-                  </div>
-                </div>
+                      <div class="overall-cookie-notes">
+                        <h3 class="callout">The Cookie</h3>
+                        <p class="para-text"> {{cookieDescription}}</p>
+                      </div>
+                    </div>
 
-                <div class="scores">
-                  <h4 class="area-hed"> {{taster-Ken}}</h4>
-                  <p class="taster-subhed"> {{taster-JF-title}}</p>
-                  <div class="scores">
-                    <!-- chart with scores  -->
-                    {{chart}}
-                  </div>
-                </div>
+                    <hr />
 
-                <div class="scores">
-                  <h4 class="area-hed"> {{taster-Rosie}}</h4>
-                  <p class="taster-subhed"> {{taster-RE-title}}</p>
-                  <div class="scores">
-                    <!-- chart with scores  -->
-                    {{chart}}
-                  </div>
-                </div>
-              </div>
-            </div>
+                    <div class="cookie-tasters">
+                    {{#each person}}
+                      <div class="section-scores">
+                        <div class="scores">
+                        <h4 class="name">{{name}}</h4>
+                        <p class="title">{{title}}</p>
+                        <div class="chart"></div>
+                      </div>
+                    </div>
+                    {{/each}}
 
-            <div class="close-buttons"></div>
 
-          </div>
         </div>
+
+                    </div>
+
+                    <div class="close-buttons"></div>
+
+                  </div>
+                </div>
       </script>
     </div>
 

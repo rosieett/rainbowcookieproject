@@ -10,21 +10,26 @@ let bakeryID = params.get("bakeryNumber");
 let result = data.filter((b) => b.bakeryNumber == bakeryID)[0]
 console.log(result)
 
+
 var source = document.getElementById("entry-template").innerHTML;
 var template = Handlebars.compile(source);
 var context = { 
     'bakeryhed': result.bakeryhed, 
     'bakeryaddress': result.bakeryaddress,
-    'ranking': result.Scores[0].Overall,
+    'ranking': result.Overall,
     'price': result.price,
     'bakeryDescription': result.bakeryDescription,
-    
+    'cookieDescription': result.cookieDescription,
+    'person': result.scores[0].person,
+    'name': result.scores[0].person[0].name,
+    'title': result.scores[0].person[0].title,
 
 
 
 
 };
 
+console.log(result.scores[0].person)
 
 var html = template(context);
 

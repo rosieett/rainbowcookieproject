@@ -3,23 +3,21 @@ body {
   font-family: "Gully";
 }
 
-/* @font-face {
+@font-face {
   font-family: "AnchorJack";
-  src: url(".fonts/AnchorJack.ttf") format("ttf");
+  src: url("../fonts/AnchorJack.ttf") format("ttf");
   font-weight: normal;
-} */
+}
 
 @font-face {
   font-family: "Intrigora Medium";
-  src: url(".fonts/Intrigora Medium.otf") format("otf");
-  font-weight: normal;
+  src: url("../fonts/Intrigora Medium.otf") format("opentype");
 }
-/* 
+
 @font-face {
   font-family: "ZTBrosOskon90s";
-  src: url(".fonts/ZTBrosOskon90s.otf") format("otf");
-  font-weight: normal;
-} */
+  src: url("../fonts/ZTBrosOskon90s.otf") format("opentype");
+}
 
 button {
   font-family: inherit;
@@ -66,6 +64,7 @@ button {
 hr {
   border: 1px solid #502a27;
   width: 100%;
+  margin: 2% 0 2% 0;
 }
 
 .button-list {
@@ -132,6 +131,7 @@ button:hover {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 3% 0 0 0;
 }
 
 .bakery-address {
@@ -215,17 +215,20 @@ button:hover {
   width: 30%;
   margin: 0 1% 0 1%;
 }
+.cookie-tasters {
+  display: flex;
+  min-width: 100%;
+}
 
 .section-scores {
-  display: flex;
-  width: 100%;
+  width: 25%;
+  margin: 0 1% 0 1%;
   justify-content: space-between;
 }
 
 .scores {
   display: flex;
   flex-direction: column;
-  width: 25%;
   align-items: center;
 }
 
@@ -241,4 +244,27 @@ button:hover {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.name {
+  color: #a58567;
+  font-family: "Anchor Jack";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 1% 0 1% 0;
+}
+
+.title {
+  color: #a58567;
+  text-align: center;
+  font-family: Intrigora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  margin: 0;
 }
