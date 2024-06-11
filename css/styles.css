@@ -62,7 +62,7 @@ button {
 }
 
 hr {
-  border: 1px solid #502a27;
+  border: 0.75px solid #502a27;
   width: 100%;
   margin: 2% 0 2% 0;
 }
@@ -89,16 +89,13 @@ button {
   flex: none;
 }
 
-.x-button {
-  color: #502a27;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
-  background-color: #f2ebd7;
-  flex-shrink: 0;
+svg {
+  stroke: #502a27;
+}
+
+svg:hover {
+  fill: #502a27;
+  stroke: #f2ebd7;
 }
 
 .landing-button:hover,
@@ -131,7 +128,7 @@ button:hover {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 3% 0 0 0;
+  margin: 6% 0 0 0;
 }
 
 .bakery-address {
@@ -140,6 +137,7 @@ button:hover {
   font-size: 16px;
   font-style: normal;
   line-height: normal;
+  padding-top: 10px;
 }
 
 .bakery-subhed {
@@ -158,7 +156,7 @@ button:hover {
   line-height: normal;
   letter-spacing: 0.8px;
   text-transform: uppercase;
-  margin: 1%;
+  margin: 0;
 }
 
 .bakery-notes > .subhead {
@@ -174,8 +172,14 @@ button:hover {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
-  margin: 1%;
   text-align: center;
+  margin: 0;
+}
+
+.overall-cookie-notes {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
 }
 
 .overall-cookie-notes > .callout {
@@ -183,12 +187,13 @@ button:hover {
 }
 
 .bakery-callout {
-  margin: 1%;
+  margin: 0;
+  width: 25%;
 }
 
 .bakery-notes {
+  padding-left: 1%;
   width: 50%;
-  margin: 1%;
 }
 
 .bakery-overall {
@@ -197,22 +202,39 @@ button:hover {
 }
 
 .vline {
-  border-left: 3px solid #502a27;
+  border-left: 2px solid #502a27;
   margin: 0 1% 0 1%;
 }
 
 .bakery-scores {
-  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
   margin: 0 1% 0 1%;
+}
+
+.area-hed {
+  color: #502a27;
+  text-align: center;
+  font-family: "Anchor Jack";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .image-area {
   border: 1px solid;
-  width: 30%;
+  width: 33%;
 }
 
 .overall-cookie-notes {
-  width: 30%;
+  width: 33%;
   margin: 0 1% 0 1%;
 }
 .cookie-tasters {
@@ -234,8 +256,9 @@ button:hover {
 
 .chart {
   border: 1px solid;
-  width: 100px;
+  width: 80%;
   height: 100px;
+  margin: 3%;
 }
 
 .para-text {
@@ -244,16 +267,17 @@ button:hover {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 0;
 }
 
 .name {
-  color: #a58567;
+  color: #502a27;
   font-family: "Anchor Jack";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 1% 0 1% 0;
+  margin: 1% 0 2% 0;
 }
 
 .title {
@@ -267,4 +291,20 @@ button:hover {
   letter-spacing: 0.7px;
   text-transform: uppercase;
   margin: 0;
+}
+
+.vline:last-child {
+  border: none;
+}
+
+.close-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+}
+
+.close-buttons > .landing-button {
+  font-size: 12px;
+  margin-left: 10px;
 }

@@ -16,75 +16,97 @@
   <body>
     <div id="profile">
       <script id="entry-template" type="text/x-handlebars-template">
-                <div class="entry">
-                  <div class="bakery-profile">
-                    <div class="bakery-title">
-                      <h2 class="bakery-hed">{{bakeryhed}}</h2>
-                      <p class="bakery-address">{{bakeryaddress}}</p>
-                    </div>
+        <div class="entry">
+          <div class="bakery-profile">
+            <div class="bakery-title">
+              <h2 class="bakery-hed">{{bakeryhed}}</h2>
+              <p class="bakery-address">{{bakeryaddress}}</p>
+            </div>
+            <hr />
 
-                    <div class="bakery-subhed">
-                      <div class="bakery-callout">
-                        <h3 class="subhead">Overall Rank</h3>
-                        <p class="callout"> {{ranking}}</p>
-                      </div>
-                      <div class="vline"></div>
-                      <div class="bakery-callout">
-                        <h3 class="subhead">Price per 2 cookies</h3>
-                        <p class="callout"> {{price}}</p>
-                      </div>
-                      <div class="vline"></div>
+            <div class="bakery-subhed">
+              <div class="bakery-callout">
+                <h3 class="subhead">Overall Rank</h3>
+                <p class="callout"> {{ranking}}</p>
+              </div>
+              <div class="vline"></div>
+              <div class="bakery-callout">
+                <h3 class="subhead">Price for 2 cookies</h3>
+                <p class="callout"> {{price}}</p>
+              </div>
+              <div class="vline"></div>
 
-                      <div class="bakery-notes">
-                        <h3 class="subhead">About the Bakery</h3>
-                        <p class="para-text"> {{bakeryDescription}}</p>
-                      </div>
-                    </div>
-                    <hr />
+              <div class="bakery-notes">
+                <h3 class="subhead">About the Bakery</h3>
+                <p class="para-text"> {{bakeryDescription}}</p>
+              </div>
+            </div>
+            <hr />
 
-                    <div class="bakery-overall">
-                      <div class="bakery-scores">
-                        <h3 class="area-hed">Average score</h3>
-                        <div class="bakery-scores">
-                          <!-- chart with scores  -->
-                          {{chart}}
-                          <svg>
-                            <rect width="200px" height="150px" fill="#ccc"></rect>
-                          </svg>
-                        </div>
-                      </div>
-                      <div class="vline"></div>
-                      <div class="image-area"></div>
-                      <div class="vline"></div>
+            <div class="bakery-overall">
+              <div class="bakery-scores">
+                <h3 class="area-hed">Average score</h3>
+                <div class="chart"></div>
+              </div>
+              <div class="vline"></div>
+              <div class="image-area"></div>
+              <div class="vline"></div>
 
-                      <div class="overall-cookie-notes">
-                        <h3 class="callout">The Cookie</h3>
-                        <p class="para-text"> {{cookieDescription}}</p>
-                      </div>
-                    </div>
+              <div class="overall-cookie-notes">
+                <h3 class="callout">The Cookie</h3>
+                <p class="para-text"> {{cookieDescription}}</p>
+              </div>
+            </div>
 
-                    <hr />
+            <hr />
 
-                    <div class="cookie-tasters">
-                    {{#each person}}
-                      <div class="section-scores">
-                        <div class="scores">
-                        <h4 class="name">{{name}}</h4>
-                        <p class="title">{{title}}</p>
-                        <div class="chart"></div>
-                      </div>
-                    </div>
-                    {{/each}}
-
-
-        </div>
-
-                    </div>
-
-                    <div class="close-buttons"></div>
-
+            <div class="cookie-tasters">
+              {{#each person}}
+                <div class="section-scores">
+                  <div class="scores">
+                    <h4 class="name">{{name}}</h4>
+                    <p class="title">{{title}}</p>
+                    <div class="chart"></div>
                   </div>
                 </div>
+                <div class="vline"></div>
+
+              {{/each}}
+            </div>
+
+            <div class="close-buttons">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                viewBox="0 0 36 36"
+                fill="none"
+              >
+                <circle
+                  cx="18"
+                  cy="18"
+                  r="17"
+                  stroke="#502A27"
+                  stroke-width="2"
+                />
+                <path
+                  d="M13 13L18.5 18.5L13 24"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M23.5 24L18 18.5L23.5 13"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <button class="landing-button">Take me to the whole list</button>
+
+            </div>
+          </div>
+        </div>
       </script>
     </div>
 
