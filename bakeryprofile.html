@@ -27,7 +27,7 @@
             <div class="bakery-subhed">
               <div class="bakery-callout">
                 <h3 class="subhead">Overall Rank</h3>
-                <p class="callout"> {{ranking}}</p>
+                <p class="callout"> {{rank}}</p>
               </div>
               <div class="vline"></div>
               <div class="bakery-callout">
@@ -61,16 +61,17 @@
             <hr />
 
             <div class="cookie-tasters">
-              {{#each person}}
+              {{#each scores}}
                 <div class="section-scores">
-                  <div class="scores">
-                    <h4 class="name">{{name}}</h4>
-                    <p class="title">{{title}}</p>
-                    <div class="chart"></div>
-                  </div>
+                  {{#each person}}
+                    <div class="scores">
+                      <h4 class="name">{{name}}</h4>
+                      <p class="title">{{title}}</p>
+                      <div class="chart"></div>
+                    </div>
+                  {{/each}}
                 </div>
                 <div class="vline"></div>
-
               {{/each}}
             </div>
 

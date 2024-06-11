@@ -13,17 +13,7 @@ console.log(result)
 
 var source = document.getElementById("entry-template").innerHTML;
 var template = Handlebars.compile(source);
-var context = { 
-    'bakeryhed': result.bakeryhed, 
-    'bakeryaddress': result.bakeryaddress,
-    'ranking': result.rank,
-    'price': result.price,
-    'bakeryDescription': result.bakeryDescription,
-    'cookieDescription': result.cookieDescription,
-    'person': result.scores[0].person,
-    'name': result.scores[0].person[0].name,
-    'title': result.scores[0].person[0].title,
-};
+var context = result;
 
 var html = template(context);
 

@@ -30,14 +30,14 @@ button {
   flex-wrap: wrap;
   align-content: center;
   height: 100vh;
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .landing-h1 {
   color: #502a27;
   font-family: "ZTBrosOskon90s";
-  font-size: 140px;
+  font-size: 100px;
   font-weight: 400;
   line-height: 90%;
   text-transform: uppercase;
@@ -46,12 +46,12 @@ button {
 
 .landing-subhead {
   color: #502a27;
-  font-size: 22px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
   text-transform: uppercase;
-  margin: 30px 0 30px 0;
+  margin: 30px 0 0 0;
 }
 
 .rainbowstack {
@@ -68,7 +68,6 @@ hr {
 }
 
 .button-list {
-  margin: 30px 0 0 0;
   width: 950px;
 }
 
@@ -77,7 +76,7 @@ button {
   border-radius: 30px;
   border: 2px solid #502a27;
   color: #502a27;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-style: normal;
   line-height: normal;
@@ -107,9 +106,14 @@ button:hover {
 
 /* BAKERY PROFILE */
 
-.bakery-profile {
+.entry {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* align-content: center; */
+  max-width: 1000px;
   margin: 0 auto;
-  width: 1000px;
 }
 
 .bakery-title {
@@ -124,7 +128,7 @@ button:hover {
 .bakery-hed {
   color: #502a27;
   font-family: "AnchorJack";
-  font-size: 64px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -134,7 +138,7 @@ button:hover {
 .bakery-address {
   color: #502a27;
   font-family: "Gully";
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   line-height: normal;
   padding-top: 10px;
@@ -237,18 +241,21 @@ button:hover {
   width: 33%;
   margin: 0 1% 0 1%;
 }
+
 .cookie-tasters {
   display: flex;
-  min-width: 100%;
 }
 
 .section-scores {
-  width: 25%;
-  margin: 0 1% 0 1%;
   justify-content: space-between;
+  min-width: 100%;
+  display: flex;
+  margin: 0 1% 0 1%;
+  flex-direction: row;
 }
 
 .scores {
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -283,11 +290,10 @@ button:hover {
 .title {
   color: #a58567;
   text-align: center;
-  font-family: Intrigora;
+  font-family: "Intrigora";
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
   letter-spacing: 0.7px;
   text-transform: uppercase;
   margin: 0;

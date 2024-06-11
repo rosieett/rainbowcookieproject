@@ -4,7 +4,8 @@
     "bakeryhed": "Gian Piero Bakery",
     "bakeryaddress": "4417 30th Ave., Queens, NY 11103",
     "Weightg": 28.5,
-    "price": 1.4,
+    "price": "$1.40",
+    "rank": "No. TK",
     "bakeryDescription": "Gian Piero Bakery is family-owned, full-service bakery located in Astoria, NY. The bakery opened for business in 1995 and have been growing every year since.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     "Chocolate": 3,
@@ -17,26 +18,15 @@
       {
         "person": [
           {
-            "name": "Ken",
-            "title": "Chocolate Expert",
-            "Chocolate": 4,
-            "Almond": 5,
-            "Moistness": 4,
-            "Jam": 3,
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "Chocolate": 3,
+            "Almond": 4,
+            "Moistness": 4.5,
+            "Jam": 2,
             "Color": 5,
             "Overall": 4,
-            "Notes": "Not enough jam, almond punched me in the face"
-          },
-          {
-            "name": "Tracy",
-            "title": "Texture Aficianado",
-            "Chocolate": 2,
-            "Almond": 1,
-            "Moistness": 5,
-            "Jam": 5,
-            "Color": 5,
-            "Overall": 4.5,
-            "Notes": "Aesthetically perfect"
+            "Notes": "I wish there was more jam but overall great"
           },
           {
             "name": "Mattie",
@@ -50,15 +40,26 @@
             "Notes": "Has a bad aftertaste from the cake"
           },
           {
-            "name": "Rosie",
-            "title": "The Obsessed",
-            "Chocolate": 3,
-            "Almond": 4,
-            "Moistness": 4.5,
-            "Jam": 2,
+            "name": "Tracy",
+            "title": "Texture Aficianado",
+            "Chocolate": 2,
+            "Almond": 1,
+            "Moistness": 5,
+            "Jam": 5,
+            "Color": 5,
+            "Overall": 4.5,
+            "Notes": "Aesthetically perfect"
+          },
+          {
+            "name": "Ken",
+            "title": "Chocolate Expert",
+            "Chocolate": 4,
+            "Almond": 5,
+            "Moistness": 4,
+            "Jam": 3,
             "Color": 5,
             "Overall": 4,
-            "Notes": "I wish there was more jam but overall great"
+            "Notes": "Not enough jam, almond punched me in the face"
           }
         ]
       }
@@ -69,7 +70,8 @@
     "bakeryhed": "Parisi Bakery",
     "bakeryaddress": "30-17 Broadway, Queens, NY 11106",
     "Weightg": 40,
-    "price": 1.6,
+    "price": "$1.60",
+    "rank": "No. TK",
     "bakeryDescription": "Neighborhood bakery & cafe serving coffee, pastries, cookies, breads & desserts since 1969.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     "Chocolate": 2.7,
@@ -82,26 +84,15 @@
       {
         "person": [
           {
-            "name": "Ken",
-            "title": "Chocolate Expert",
-            "Chocolate": 3,
-            "Almond": 4,
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "Chocolate": 3.5,
+            "Almond": 4.5,
             "Moistness": 4,
-            "Jam": 1,
-            "Color": 5,
+            "Jam": 2,
+            "Color": 3,
             "Overall": 3,
-            "Notes": ""
-          },
-          {
-            "name": "Tracy",
-            "title": "Texture Aficianado",
-            "Chocolate": 2,
-            "Almond": 1,
-            "Moistness": 5,
-            "Jam": 1,
-            "Color": 1,
-            "Overall": 2,
-            "Notes": "Definitely has additives, notices no jam"
+            "Notes": "Sprinkles? Actual almond taste but not enough jam"
           },
           {
             "name": "Mattie",
@@ -115,15 +106,26 @@
             "Notes": "Color was off. No real taste of jam, too moist overall"
           },
           {
-            "name": "Rosie",
-            "title": "The Obsessed",
-            "Chocolate": 3.5,
-            "Almond": 4.5,
+            "name": "Tracy",
+            "title": "Texture Aficianado",
+            "Chocolate": 2,
+            "Almond": 1,
+            "Moistness": 5,
+            "Jam": 1,
+            "Color": 1,
+            "Overall": 2,
+            "Notes": "Definitely has additives, notices no jam"
+          },
+          {
+            "name": "Ken",
+            "title": "Chocolate Expert",
+            "Chocolate": 3,
+            "Almond": 4,
             "Moistness": 4,
-            "Jam": 2,
-            "Color": 3,
+            "Jam": 1,
+            "Color": 5,
             "Overall": 3,
-            "Notes": "Sprinkles? Actual almond taste but not enough jam"
+            "Notes": ""
           }
         ]
       }
@@ -134,8 +136,8 @@
     "bakeryhed": "Astoria Bakery",
     "bakeryaddress": "4321 Ditmars Blvd, Queens, NY 11105",
     "Weightg": 53.4,
-    "price": "~$2.00",
-    "rank": "No TK",
+    "price": "$2.00",
+    "rank": "No. TK",
     "bakeryDescription": "Created in 1964, Astoria Bakery & Cafe is a specialty bakery & cafe, lifestyle and wellness brand based in Astoria.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.n",
     "Chocolate": 2.6,
@@ -148,26 +150,15 @@
       {
         "person": [
           {
-            "name": "Ken",
-            "title": "Chocolate Expert",
+            "name": "Rosie",
+            "title": "The Obsessed",
             "Chocolate": 3,
-            "Almond": 3,
-            "Moistness": 4,
+            "Almond": 2,
+            "Moistness": 3,
             "Jam": 4,
             "Color": 5,
             "Overall": 3,
-            "Notes": "Melted in the bag, might try again"
-          },
-          {
-            "name": "Tracy",
-            "title": "Texture Aficianado",
-            "Chocolate": 1,
-            "Almond": 1,
-            "Moistness": 4,
-            "Jam": 4,
-            "Color": 5,
-            "Overall": 3,
-            "Notes": "Bad quality, too much jam"
+            "Notes": "Very prominent jam"
           },
           {
             "name": "Mattie",
@@ -181,15 +172,26 @@
             "Notes": "Didnt like the jam, but overall it wasnt great"
           },
           {
-            "name": "Rosie",
-            "title": "The Obsessed",
-            "Chocolate": 3,
-            "Almond": 2,
-            "Moistness": 3,
+            "name": "Tracy",
+            "title": "Texture Aficianado",
+            "Chocolate": 1,
+            "Almond": 1,
+            "Moistness": 4,
             "Jam": 4,
             "Color": 5,
             "Overall": 3,
-            "Notes": "Very prominent jam"
+            "Notes": "Bad quality, too much jam"
+          },
+          {
+            "name": "Ken",
+            "title": "Chocolate Expert",
+            "Chocolate": 3,
+            "Almond": 3,
+            "Moistness": 4,
+            "Jam": 4,
+            "Color": 5,
+            "Overall": 3,
+            "Notes": "Melted in the bag, might try again"
           }
         ]
       }
@@ -200,7 +202,8 @@
     "bakeryhed": "Paris Oven",
     "bakeryaddress": "38-12 30th Ave., Queens, NY 11103",
     "Weightg": 104.6,
-    "price": 3.5,
+    "price": "$3.50",
+    "rank": "No. TK",
     "bakeryDescription": "Cozy French Bakery that serves a variety of delicious Pastries, Coffee, Gelato and more.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     "Chocolate": 2.8,
@@ -213,26 +216,15 @@
       {
         "person": [
           {
-            "name": "Ken",
-            "title": "Chocolate Expert",
+            "name": "Rosie",
+            "title": "The Obsessed",
             "Chocolate": 3,
-            "Almond": 1,
-            "Moistness": 3,
-            "Jam": 3,
-            "Color": 5,
-            "Overall": 2.3,
-            "Notes": ""
-          },
-          {
-            "name": "Tracy",
-            "title": "Texture Aficianado",
-            "Chocolate": 3,
-            "Almond": 1,
-            "Moistness": 4,
-            "Jam": 4,
+            "Almond": 2,
+            "Moistness": 2,
+            "Jam": 2,
             "Color": 4,
-            "Overall": 3.5,
-            "Notes": "Chocolate is supringly okay, but sprinkles, why?"
+            "Overall": 2,
+            "Notes": "Sprinkles noticeable and dry/almost hard"
           },
           {
             "name": "Mattie",
@@ -246,15 +238,27 @@
             "Notes": "Has too much of a bite from the jam. Chocoalte is dry/crunchy on top. Shouldnt have sprinkles - made my eyes water"
           },
           {
-            "name": "Rosie",
-            "title": "The Obsessed",
+            "name": "Tracy",
+            "title": "Texture Aficianado",
             "Chocolate": 3,
-            "Almond": 2,
-            "Moistness": 2,
-            "Jam": 2,
+            "Almond": 1,
+            "Moistness": 4,
+            "Jam": 4,
             "Color": 4,
-            "Overall": 2,
-            "Notes": "Sprinkles noticeable and dry/almost hard"
+            "Overall": 3.5,
+            "Notes": "Chocolate is supringly okay, but sprinkles, why?"
+          },
+
+          {
+            "name": "Ken",
+            "title": "Chocolate Expert",
+            "Chocolate": 3,
+            "Almond": 1,
+            "Moistness": 3,
+            "Jam": 3,
+            "Color": 5,
+            "Overall": 2.3,
+            "Notes": ""
           }
         ]
       }
@@ -265,7 +269,8 @@
     "bakeryhed": "Il Fornaio (34th Street)",
     "bakeryaddress": "33-14 30th Ave., Queens, NY 11103",
     "Weightg": 56.9,
-    "price": 2.8,
+    "price": "$2.80",
+    "rank": "No. TK",
     "bakeryDescription": "Il Fornaio Bakery Bakery Cafe provides a classic bakery for breads & sweet treats, including special-occasion cakes, deli offerings, catering, and more to Astoria, NY.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     "Chocolate": 5,
@@ -278,15 +283,27 @@
       {
         "person": [
           {
-            "name": "Ken",
-            "title": "Chocolate Expert",
+            "name": "Rosie",
+            "title": "The Obsessed",
             "Chocolate": 5,
-            "Almond": 4,
-            "Moistness": 5,
-            "Jam": 5,
+            "Almond": 3.5,
+            "Moistness": 4,
+            "Jam": 4,
             "Color": 5,
             "Overall": 4,
-            "Notes": "Could be sweeter"
+            "Notes": "Jam taste is noticeable and really good, also great chocolate"
+          },
+
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "Chocolate": 5,
+            "Almond": 3,
+            "Moistness": 4,
+            "Jam": 4,
+            "Color": 5,
+            "Overall": 3,
+            "Notes": "Totally fine but not special."
           },
           {
             "name": "Tracy",
@@ -300,26 +317,15 @@
             "Notes": "A little messy but pretty classic"
           },
           {
-            "name": "Mattie",
-            "title": "Almond Connoisseur",
+            "name": "Ken",
+            "title": "Chocolate Expert",
             "Chocolate": 5,
-            "Almond": 3,
-            "Moistness": 4,
-            "Jam": 4,
-            "Color": 5,
-            "Overall": 3,
-            "Notes": "Totally fine but not special."
-          },
-          {
-            "name": "Rosie",
-            "title": "The Obsessed",
-            "Chocolate": 5,
-            "Almond": 3.5,
-            "Moistness": 4,
-            "Jam": 4,
+            "Almond": 4,
+            "Moistness": 5,
+            "Jam": 5,
             "Color": 5,
             "Overall": 4,
-            "Notes": "Jam taste is noticeable and really good, also great chocolate"
+            "Notes": "Could be sweeter"
           }
         ]
       }
@@ -330,7 +336,8 @@
     "bakeryhed": "Leli's Bakery & Pastry Shop",
     "bakeryaddress": "3514 30th Ave., Queens, NY 11103",
     "Weightg": 45.7,
-    "price": 2,
+    "price": "$2.00",
+    "rank": "No. TK",
     "bakeryDescription": "Neighborhood bakery with a handful of tables whips up pastries & cakes, plus coffee & sandwiches.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     "Chocolate": 2,
@@ -343,15 +350,27 @@
       {
         "person": [
           {
-            "name": "Ken",
-            "title": "Chocolate Expert",
-            "Chocolate": 1,
-            "Almond": 2,
-            "Moistness": 4,
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "Chocolate": 3,
+            "Almond": 1,
+            "Moistness": 3,
             "Jam": 2,
             "Color": 3,
             "Overall": 2,
-            "Notes": "Too many layers. Not enough jam. Chocolate is butt."
+            "Notes": "Cant taste marzipan, cake doesnt taste like anything and has 7 layers"
+          },
+
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "Chocolate": 1,
+            "Almond": 1,
+            "Moistness": 3,
+            "Jam": 1,
+            "Color": 5,
+            "Overall": 1,
+            "Notes": "Terrible individual components, made a terrible cookie"
           },
           {
             "name": "Tracy",
@@ -365,26 +384,15 @@
             "Notes": "5 layers?"
           },
           {
-            "name": "Mattie",
-            "title": "Almond Connoisseur",
+            "name": "Ken",
+            "title": "Chocolate Expert",
             "Chocolate": 1,
-            "Almond": 1,
-            "Moistness": 3,
-            "Jam": 1,
-            "Color": 5,
-            "Overall": 1,
-            "Notes": "Terrible individual components, made a terrible cookie"
-          },
-          {
-            "name": "Rosie",
-            "title": "The Obsessed",
-            "Chocolate": 3,
-            "Almond": 1,
-            "Moistness": 3,
+            "Almond": 2,
+            "Moistness": 4,
             "Jam": 2,
             "Color": 3,
             "Overall": 2,
-            "Notes": "Cant taste marzipan, cake doesnt taste like anything and has 7 layers"
+            "Notes": "Too many layers. Not enough jam. Chocolate is butt."
           }
         ]
       }
@@ -395,7 +403,8 @@
     "bakeryhed": "Oasis Cafe",
     "bakeryaddress": "30-92 31st St, Queens, NY 11102",
     "Weightg": 46.7,
-    "price": 2.7,
+    "price": "$2.70",
+    "rank": "No. TK",
     "bakeryDescription": "A cafe with a passion for craft, innovation & discovery comes to life in an ever-evolving menu of coffee, cocktails, food & desserts.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     "Chocolate": 2,
@@ -408,15 +417,27 @@
       {
         "person": [
           {
-            "name": "Ken",
-            "title": "Chocolate Expert",
+            "name": "Rosie",
+            "title": "The Obsessed",
             "Chocolate": 2,
-            "Almond": 2,
+            "Almond": 3,
             "Moistness": 4,
             "Jam": 2,
-            "Color": 2,
-            "Overall": 3,
-            "Notes": "Entenmans vibes"
+            "Color": 3,
+            "Overall": 2,
+            "Notes": "Bad chalky chocolate with the wong colors"
+          },
+
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "Chocolate": 2,
+            "Almond": 1,
+            "Moistness": 4,
+            "Jam": 4,
+            "Color": 1,
+            "Overall": 1,
+            "Notes": "Overall dry and components are bad. Chocolate is bad."
           },
           {
             "name": "Tracy",
@@ -430,26 +451,15 @@
             "Notes": "Terrible colors - sesame street?"
           },
           {
-            "name": "Mattie",
-            "title": "Almond Connoisseur",
+            "name": "Ken",
+            "title": "Chocolate Expert",
             "Chocolate": 2,
-            "Almond": 1,
-            "Moistness": 4,
-            "Jam": 4,
-            "Color": 1,
-            "Overall": 1,
-            "Notes": "Overall dry and components are bad. Chocolate is bad."
-          },
-          {
-            "name": "Rosie",
-            "title": "The Obsessed",
-            "Chocolate": 2,
-            "Almond": 3,
+            "Almond": 2,
             "Moistness": 4,
             "Jam": 2,
-            "Color": 3,
-            "Overall": 2,
-            "Notes": "Bad chalky chocolate with the wong colors"
+            "Color": 2,
+            "Overall": 3,
+            "Notes": "Entenmans vibes"
           }
         ]
       }
@@ -460,7 +470,8 @@
     "bakeryhed": "Rose & Joe's Italian Bakery",
     "bakeryaddress": "22-40 31st St, Queens, NY 11105",
     "Weightg": 29.5,
-    "price": 1.1,
+    "price": "$1.10",
+    "rank": "No. TK",
     "bakeryDescription": "Classic Italian bakery with a selection of specialty breads & pastries, plus a back pizza counter.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     "Chocolate": 3,
@@ -473,26 +484,15 @@
       {
         "person": [
           {
-            "name": "Ken",
-            "title": "Chocolate Expert",
-            "Chocolate": 3,
-            "Almond": 1,
-            "Moistness": 3,
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "Chocolate": 2,
+            "Almond": 2,
+            "Moistness": 2,
             "Jam": 2,
             "Color": 4,
             "Overall": 2,
-            "Notes": "Dry, no marzipan. Choclate ratio was bad."
-          },
-          {
-            "name": "Tracy",
-            "title": "Texture Aficianado",
-            "Chocolate": 4,
-            "Almond": 1,
-            "Moistness": 2,
-            "Jam": 2,
-            "Color": 5,
-            "Overall": 3,
-            "Notes": "A little dry"
+            "Notes": "Too much extract and kinda dry"
           },
           {
             "name": "Mattie",
@@ -506,15 +506,26 @@
             "Notes": "Overall not there. Needs more chocolate, needs better everything"
           },
           {
-            "name": "Rosie",
-            "title": "The Obsessed",
-            "Chocolate": 2,
-            "Almond": 2,
+            "name": "Tracy",
+            "title": "Texture Aficianado",
+            "Chocolate": 4,
+            "Almond": 1,
             "Moistness": 2,
+            "Jam": 2,
+            "Color": 5,
+            "Overall": 3,
+            "Notes": "A little dry"
+          },
+          {
+            "name": "Ken",
+            "title": "Chocolate Expert",
+            "Chocolate": 3,
+            "Almond": 1,
+            "Moistness": 3,
             "Jam": 2,
             "Color": 4,
             "Overall": 2,
-            "Notes": "Too much extract and kinda dry"
+            "Notes": "Dry, no marzipan. Choclate ratio was bad."
           }
         ]
       }
@@ -525,7 +536,8 @@
     "bakeryhed": "New York Bakery Café",
     "bakeryaddress": "32-06 30th Ave., Astoria, NY 11102",
     "Weightg": 69.5,
-    "price": 3.3,
+    "price": "$3.30",
+    "rank": "No. TK",
     "bakeryDescription": "An established bakery dating recipes back to the the 1800's. One of the the few in New York.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     "Chocolate": 3,
@@ -538,15 +550,27 @@
       {
         "person": [
           {
-            "name": "Ken",
-            "title": "Chocolate Expert",
+            "name": "Rosie",
+            "title": "The Obsessed",
             "Chocolate": 3,
-            "Almond": 3,
+            "Almond": 4,
+            "Moistness": 4.5,
+            "Jam": 4.5,
+            "Color": 4,
+            "Overall": 3.5,
+            "Notes": ""
+          },
+
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "Chocolate": 4,
+            "Almond": 5,
             "Moistness": 4,
             "Jam": 3,
-            "Color": 4,
-            "Overall": 3.3,
-            "Notes": ""
+            "Color": 5,
+            "Overall": 3,
+            "Notes": "Too tart, too much jam."
           },
           {
             "name": "Tracy",
@@ -560,25 +584,14 @@
             "Notes": "instant taste of marzipan, too much jam"
           },
           {
-            "name": "Mattie",
-            "title": "Almond Connoisseur",
-            "Chocolate": 4,
-            "Almond": 5,
+            "name": "Ken",
+            "title": "Chocolate Expert",
+            "Chocolate": 3,
+            "Almond": 3,
             "Moistness": 4,
             "Jam": 3,
-            "Color": 5,
-            "Overall": 3,
-            "Notes": "Too tart, too much jam."
-          },
-          {
-            "name": "Rosie",
-            "title": "The Obsessed",
-            "Chocolate": 3,
-            "Almond": 4,
-            "Moistness": 4.5,
-            "Jam": 4.5,
             "Color": 4,
-            "Overall": 3.5,
+            "Overall": 3.3,
             "Notes": ""
           }
         ]
@@ -590,7 +603,8 @@
     "bakeryhed": "Il Fornaio (29th Street)",
     "bakeryaddress": "29-14 30th Ave., Astoria, NY 11102",
     "Weightg": 65.1,
-    "price": 2.65,
+    "price": "$2.65",
+    "rank": "No. TK",
     "bakeryDescription": "Il Fornaio Bakery Bakery Cafe provides a classic bakery for breads & sweet treats, including special-occasion cakes, deli offerings, catering, and more to Astoria, NY.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     "Chocolate": 4.2,
@@ -603,15 +617,27 @@
       {
         "person": [
           {
-            "name": "Ken",
-            "title": "Chocolate Expert",
+            "name": "Rosie",
+            "title": "The Obsessed",
             "Chocolate": 4,
-            "Almond": 5,
+            "Almond": 4,
             "Moistness": 4,
-            "Jam": 5,
+            "Jam": 4,
             "Color": 5,
-            "Overall": 4.7,
-            "Notes": "Yum"
+            "Overall": 4,
+            "Notes": "Tastes almondy! Actually pretty good, but maybe too much chocolate"
+          },
+
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "Chocolate": 4,
+            "Almond": 3,
+            "Moistness": 5,
+            "Jam": 4,
+            "Color": 5,
+            "Overall": 3,
+            "Notes": "Overall it's fine. It doesnt deserve over a 3 though. Wouldn't take another."
           },
           {
             "name": "Tracy",
@@ -625,26 +651,15 @@
             "Notes": "Surprisingly like the chocolate thickness"
           },
           {
-            "name": "Mattie",
-            "title": "Almond Connoisseur",
+            "name": "Ken",
+            "title": "Chocolate Expert",
             "Chocolate": 4,
-            "Almond": 3,
-            "Moistness": 5,
-            "Jam": 4,
-            "Color": 5,
-            "Overall": 3,
-            "Notes": "Overall it's fine. It doesnt deserve over a 3 though. Wouldn't take another."
-          },
-          {
-            "name": "Rosie",
-            "title": "The Obsessed",
-            "Chocolate": 4,
-            "Almond": 4,
+            "Almond": 5,
             "Moistness": 4,
-            "Jam": 4,
+            "Jam": 5,
             "Color": 5,
-            "Overall": 4,
-            "Notes": "Tastes almondy! Actually pretty good, but maybe too much chocolate"
+            "Overall": 4.7,
+            "Notes": "Yum"
           }
         ]
       }
@@ -655,7 +670,8 @@
     "bakeryhed": "Omonia Cafe",
     "bakeryaddress": "32 16 Broadway, Long Island City, NY 11106",
     "Weightg": 138.8,
-    "price": 8,
+    "price": "8.00",
+    "rank": "No. TK",
     "bakeryDescription": "Local Greek chain with a late-night scene doling out traditional sweets & savory dishes since 1977.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     "Chocolate": 2.8,
@@ -668,15 +684,27 @@
       {
         "person": [
           {
-            "name": "Ken",
-            "title": "Chocolate Expert",
+            "name": "Rosie",
+            "title": "The Obsessed",
             "Chocolate": 3,
             "Almond": 3,
-            "Moistness": 4,
-            "Jam": 4,
+            "Moistness": 3,
+            "Jam": 3,
             "Color": 1,
             "Overall": 2,
-            "Notes": ""
+            "Notes": "Can really taste sprinkles, dryer than expectations"
+          },
+
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "Chocolate": 3,
+            "Almond": 1,
+            "Moistness": 1,
+            "Jam": 5,
+            "Color": 1,
+            "Overall": 1,
+            "Notes": "Good sprinkles but not for the cookie. Cake is a little dry"
           },
           {
             "name": "Tracy",
@@ -690,26 +718,15 @@
             "Notes": "Sprinkles are a no! Chocolate is gross"
           },
           {
-            "name": "Mattie",
-            "title": "Almond Connoisseur",
-            "Chocolate": 3,
-            "Almond": 1,
-            "Moistness": 1,
-            "Jam": 5,
-            "Color": 1,
-            "Overall": 1,
-            "Notes": "Good sprinkles but not for the cookie. Cake is a little dry"
-          },
-          {
-            "name": "Rosie",
-            "title": "The Obsessed",
+            "name": "Ken",
+            "title": "Chocolate Expert",
             "Chocolate": 3,
             "Almond": 3,
-            "Moistness": 3,
-            "Jam": 3,
+            "Moistness": 4,
+            "Jam": 4,
             "Color": 1,
             "Overall": 2,
-            "Notes": "Can really taste sprinkles, dryer than expectations"
+            "Notes": ""
           }
         ]
       }
@@ -720,7 +737,8 @@
     "bakeryhed": "Martha's Country Bakery",
     "bakeryaddress": "36-21 Ditmars Blvd, Queens, NY 11105",
     "Weightg": 53.8,
-    "price": 3,
+    "price": "$3.00",
+    "rank": "No. TK",
     "bakeryDescription": "Bakeshop with a warm vibe serving old-fashioned cakes & pastries, plus gelato & an espresso bar.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     "Chocolate": 2.7,
@@ -732,17 +750,6 @@
     "scores": [
       {
         "person": [
-          {
-            "name": "Ken",
-            "title": "Chocolate Expert",
-            "Chocolate": 3,
-            "Almond": 4,
-            "Moistness": 4,
-            "Jam": 3,
-            "Color": 1,
-            "Overall": 3,
-            "Notes": ""
-          },
           {
             "name": "Tracy",
             "title": "Texture Aficianado",
@@ -765,16 +772,17 @@
             "Overall": 2,
             "Notes": "Missing chocolate on the bottom. My favorite jam but missing chocolate and more almond."
           },
+
           {
-            "name": "Rosie",
-            "title": "The Obsessed",
-            "Chocolate": 3.5,
+            "name": "Ken",
+            "title": "Chocolate Expert",
+            "Chocolate": 3,
             "Almond": 4,
             "Moistness": 4,
-            "Jam": 5,
-            "Color": 3,
+            "Jam": 3,
+            "Color": 1,
             "Overall": 3,
-            "Notes": "Overall good but not amazing"
+            "Notes": ""
           }
         ]
       }
@@ -785,7 +793,8 @@
     "bakeryhed": "La Guli Pastry Shop",
     "bakeryaddress": "29-15 Ditmars Blvd, Astoria, NY 11105",
     "Weightg": 75.3,
-    "price": 3.5,
+    "price": "$3.50",
+    "rank": "No. TK",
     "bakeryDescription": "Long-running family-owned pastry shop crafting an array of Italian treats, cakes & baked goods.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     "Chocolate": 3.5,
@@ -798,26 +807,15 @@
       {
         "person": [
           {
-            "name": "Ken",
-            "title": "Chocolate Expert",
-            "Chocolate": 4,
-            "Almond": 4,
-            "Moistness": 4,
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "Chocolate": 3.5,
+            "Almond": 4.5,
+            "Moistness": 4.5,
             "Jam": 4,
             "Color": 3,
-            "Overall": 3,
-            "Notes": "Would eat again"
-          },
-          {
-            "name": "Tracy",
-            "title": "Texture Aficianado",
-            "Chocolate": 3,
-            "Almond": 1,
-            "Moistness": 5,
-            "Jam": 3,
-            "Color": 5,
-            "Overall": 3.5,
-            "Notes": "Very cakey, thicker than the others"
+            "Overall": 4,
+            "Notes": "actually pretty good"
           },
           {
             "name": "Mattie",
@@ -831,15 +829,26 @@
             "Notes": "Dont liket he grainy after taste of the cake"
           },
           {
-            "name": "Rosie",
-            "title": "The Obsessed",
-            "Chocolate": 3.5,
-            "Almond": 4.5,
-            "Moistness": 4.5,
+            "name": "Tracy",
+            "title": "Texture Aficianado",
+            "Chocolate": 3,
+            "Almond": 1,
+            "Moistness": 5,
+            "Jam": 3,
+            "Color": 5,
+            "Overall": 3.5,
+            "Notes": "Very cakey, thicker than the others"
+          },
+          {
+            "name": "Ken",
+            "title": "Chocolate Expert",
+            "Chocolate": 4,
+            "Almond": 4,
+            "Moistness": 4,
             "Jam": 4,
             "Color": 3,
-            "Overall": 4,
-            "Notes": "actually pretty good"
+            "Overall": 3,
+            "Notes": "Would eat again"
           }
         ]
       }
