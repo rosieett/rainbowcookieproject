@@ -8,12 +8,16 @@
     "rank": "No. TK",
     "bakeryDescription": "Gian Piero Bakery is family-owned, full-service bakery located in Astoria, NY. The bakery opened for business in 1995 and have been growing every year since.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "Chocolate": 3,
-    "Almond": 3.6,
-    "Moistness": 4.3,
-    "Jam": 3,
-    "Color": 5,
     "Overall": 3.6,
+    "avgScores": [
+      {
+        "Chocolate": 3,
+        "Almond": 3.6,
+        "Moistness": 4.3,
+        "Jam": 3,
+        "Color": 5
+      }
+    ],
     "scores": [
       {
         "person": [

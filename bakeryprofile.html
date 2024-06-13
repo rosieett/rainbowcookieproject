@@ -17,6 +17,7 @@
     <div id="profile">
       <script id="entry-template" type="text/x-handlebars-template">
         <div class="entry">
+
           <div class="bakery-profile">
             <div class="bakery-title">
               <h2 class="bakery-hed">{{bakeryhed}}</h2>
@@ -46,7 +47,9 @@
             <div class="bakery-overall">
               <div class="bakery-scores">
                 <h3 class="area-hed">Average score</h3>
-                <div class="chart"></div>
+                <div id="chart-average">
+
+                </div>
               </div>
               <div class="vline"></div>
               <div class="image-area"></div>
@@ -114,6 +117,12 @@
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"
       integrity="sha512-E1dSFxg+wsfJ4HKjutk/WaCzK7S2wv1POn1RRPGh8ZK+ag9l244Vqxji3r6wgz9YBf6+vhQEYJZpSjqWFPg9gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"
+      integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
