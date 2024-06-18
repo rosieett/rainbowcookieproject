@@ -12,7 +12,6 @@ let bakeryID = params.get("bakeryNumber");
 
 //set up a filter to filter the array for objects whos bakeryID matches the bakeryNumber then grab the first object from that filtered set
 let result = data.filter((b) => b.bakeryNumber == bakeryID)[0]
-console.log(result)
 
 
 var source = document.getElementById("entry-template").innerHTML;
@@ -21,52 +20,101 @@ var source = document.getElementById("entry-template").innerHTML;
 var template = Handlebars.compile(source);
 var context = result;
 
+
 var html = template(context);
 
 document.getElementById("profile").innerHTML = html;
 
 
 //CHART AVERAGE AREA IN d3
-// let width = document.getElementById("chart-average").offsetWidth
+let width = document.getElementById("chart-average").offsetWidth
+let height = document.getElementById("chart-average").offsetHeight
 
-// let height = document.getElementById("chart-average").offsetHeight
+// console.log(Object.keys(result.avgScores[0]))
 
-// var svg = d3.select('#chart-average')
-//     .append('svg')
-//         .attr("width", width)
-//         .attr("height", height)
-//     .append('g')
 
-// var rows = result.avgScores;
-// var value = [0, 1, 2, 3, 4, 5]
+let boxes = new Array(5).fill(null)
+let colors = ['#502A27', '#E86663', '#EDB834', '#923F3D', '#99C983']
 
-// const x = d3.scaleBand()
-//     .range([0, width])
-//     .domain(rows)
-//     .padding(0.01)
-// svg.append("g")
-//     .attr("transform", "translate(0," + height + ")")
-//     .call(d3.axisBottom(x))
 
-// const y = d3.scaleBand()
-//     .range([height, 0])
-//     .domain([0,5])
-//     .padding(0.01)
-// svg.append("g")
-//     .call(d3.axisLeft(y))
+let avgScoreRow = d3.select('#chart-average')
+    .selectAll('div')
+    .data(Object.keys(result.avgScores[0]))
+    .join(
+        (enter) => enter
+            .append("div")
+            .classed('avgScoreRow', true)
+            .style("color", (d, i) => colors[i])
+        ,(update) => update
+        ,(exit) => exit.remove()
+    )
 
-// svg.selectAll()
-//     .data(data, function(d) {
-//         return d.row+':'+d.value
-//     })
-//     .enter()
-//     .append("rect")
-//     .attr("x", function(d) {
-//         return x(d.value)
-//     })
-//     .attr("y", function(d) {
-//         return y(d.row)
-//     })
-//     .attr("width", x.bandwidth())
-//     .attr("height", y.bandwidth())
-//     .style("fill", "#dddddd")
+
+// let labels = d3.selectAll('.avgScoreRow')
+// const label = Object.keys(result.avgScores[0])
+//     console.log(label)
+//         .append('div')
+//         .classed('catLabel', true)
+//         .selectAll('div')
+//         .data(label)
+//         .join(
+//             (enter) => enter
+//                 .append('p')
+//                 .text((d) => label[i])
+//             ,(update) => update
+//             ,(exit) => exit.remove()
+//         )
+
+
+
+
+avgScoreRow.each(function(category, i) {
+const label = Object.keys(result.avgScores[0])
+    d3.select(this)
+        .append('div')
+        .text((category))
+const score = result.avgScores[0][category]
+    d3.select(this)
+        .append('div')
+        .classed('scoreBoxDiv', true)
+        .selectAll('div')
+        .data(boxes)
+        .join(
+            (enter) => enter
+                .append('div')
+                .classed('scoreBoxes', true)
+                .style('border', '1px solid currentcolor')
+                .style('background', (d, i) => `linear-gradient(to right, currentcolor 0%, currentcolor ${Math.max(score - (i),0)*100}%, transparent  ${Math.min(score - (i),1)*100}%, transparent 100%`)
+            ,(update) => update
+            ,(exit) => exit.remove()
+        )
+ })   
+
+
+
+
+
+//  avgScoreRow.each(function(category, i){
+//     const label = Object(result.avgScores[0][category])
+//     console.log(label)
+//     d3.select(this)
+//         .append('div')
+//         .classed('catLabel', true)
+//         .selectAll('div')
+//         .data(boxes)
+//         .join(
+//             (enter) => enter
+//                 .append('p')
+//                 .text((d, i) => label)
+//             ,(update) => update
+//             ,(exit) => exit.remove()
+//         )
+//         console.log(label)
+
+// })
+
+
+
+
+
+
