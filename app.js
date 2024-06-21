@@ -25,18 +25,13 @@ var html = template(context);
 
 document.getElementById("profile").innerHTML = html;
 
+// AVERAGE SCORE AREA //
 
-//CHART AVERAGE AREA IN d3
-let width = document.getElementById("chart-average").offsetWidth
-let height = document.getElementById("chart-average").offsetHeight
-
-// console.log(Object.keys(result.avgScores[0]))
-
-
+//creating the array for the 5 boxes so it's always a score of 5
 let boxes = new Array(5).fill(null)
 let colors = ['#502A27', '#E86663', '#EDB834', '#923F3D', '#99C983']
 
-
+//creating the div for the chart to live in and linking the 5 categories of data so there are 5 rows of 5 boxes
 let avgScoreRow = d3.select('#chart-average')
     .selectAll('div')
     .data(Object.keys(result.avgScores[0]))
@@ -49,72 +44,82 @@ let avgScoreRow = d3.select('#chart-average')
         ,(exit) => exit.remove()
     )
 
-
-// let labels = d3.selectAll('.avgScoreRow')
-// const label = Object.keys(result.avgScores[0])
-//     console.log(label)
-//         .append('div')
-//         .classed('catLabel', true)
-//         .selectAll('div')
-//         .data(label)
-//         .join(
-//             (enter) => enter
-//                 .append('p')
-//                 .text((d) => label[i])
-//             ,(update) => update
-//             ,(exit) => exit.remove()
-//         )
-
-
-
-
+//each "loop" so that for each row, for each 5 boxes, it finds the data and loops for each category
 avgScoreRow.each(function(category, i) {
-const label = Object.keys(result.avgScores[0])
-    d3.select(this)
-        .append('div')
-        .text((category))
-const score = result.avgScores[0][category]
-    d3.select(this)
-        .append('div')
-        .classed('scoreBoxDiv', true)
-        .selectAll('div')
-        .data(boxes)
+    // label to live within the same div but similar each idea so it reads one label for each row
+    const catLabel = Object.keys(result.avgScores[0])
+        d3.select(this)
+            .append('div')
+            .classed('catLabel', true)
+            .text(category)
+            .style('color', '#502A27')
+    //finding the data for how much of each row to fill 
+    const score = result.avgScores[0][category]
+        d3.select(this)
+            .append('div')
+            .classed('scoreBoxDiv', true)
+            .selectAll('div')
+            .data(boxes)
+            .join(
+                (enter) => enter
+                    .append('div')
+                    .classed('scoreBoxes', true)
+                    .style('border', '1px solid currentcolor')
+                    .style('background', (category, i) => `linear-gradient(to right, currentcolor 0%, currentcolor ${Math.max(score - (i),0)*100}%, transparent  ${Math.min(score - (i),1)*100}%, transparent 100%`)
+                ,(update) => update
+                ,(exit) => exit.remove()
+            )
+    //value label for each row
+    const valueLabel = result.avgScores[0][category]
+        d3.select(this)
+            .append('div')
+            .classed('valueLabel', true)
+            .text(valueLabel)
+            .style('color', '#502A27')
+     }
+    )   
+
+// TASTERS SCORE AREA //
+
+let tasterBars = new Array(1).fill(null)
+
+let tasterScore = d3.selectAll('.chart')
+    .selectAll('div')
+    .data(Object.keys(result.scores[0].person[0].votes[0]))
         .join(
-            (enter) => enter
-                .append('div')
-                .classed('scoreBoxes', true)
-                .style('border', '1px solid currentcolor')
-                .style('background', (d, i) => `linear-gradient(to right, currentcolor 0%, currentcolor ${Math.max(score - (i),0)*100}%, transparent  ${Math.min(score - (i),1)*100}%, transparent 100%`)
-            ,(update) => update
-            ,(exit) => exit.remove()
-        )
- })   
+        (enter) => enter
+            .append('div')
+            .classed('tastedScoreRow', true)
+            .style("color", (d, i) => colors[i])
+        ,(update) => update
+        ,(exit) => exit.remove()
+    )
 
 
+tasterScore.each(function(category, i) {
+    const catLabel = Object.keys(result.scores[0].person[0].votes[0])
+        d3.select(this)
+            .append('div')
+            .classed('catLabel-taster', true)
+            .text(category)
+            .style('color', '#a58567')
+    const score = result.scores[0].person[0].votes[0][category]
+    console.log(score)
+        // console.log(catLabel)
+        d3.select(this)
+            .append('div')
+            .classed('scoreBarDiv', true)
+            .selectAll('div')
+            .data(tasterBars)
+            .join(
+                (enter) => enter
+                    .append('div')
+                    .classed('scoreBars', true)
+                    .style('border', '1px solid currentcolor')
+                    .style('background', (category, i) => `linear-gradient(to right, currentcolor 0%, currentcolor ${(score -i)*20}%, transparent ${(score -i)*20}%, transparent 100%`)
+                ,(update) => update
+                ,(exit) => exit.remove()
+            )
 
-
-
-//  avgScoreRow.each(function(category, i){
-//     const label = Object(result.avgScores[0][category])
-//     console.log(label)
-//     d3.select(this)
-//         .append('div')
-//         .classed('catLabel', true)
-//         .selectAll('div')
-//         .data(boxes)
-//         .join(
-//             (enter) => enter
-//                 .append('p')
-//                 .text((d, i) => label)
-//             ,(update) => update
-//             ,(exit) => exit.remove()
-//         )
-//         console.log(label)
-
-// })
-
-
-
-
-
+})
 

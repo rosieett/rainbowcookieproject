@@ -24,44 +24,60 @@
           {
             "name": "Rosie",
             "title": "The Obsessed",
-            "Chocolate": 3,
-            "Almond": 4,
-            "Moistness": 4.5,
-            "Jam": 2,
-            "Color": 5,
+            "votes": [
+              {
+                "Chocolate": 3,
+                "Almond": 4,
+                "Moistness": 4.5,
+                "Jam": 2,
+                "Color": 5
+              }
+            ],
             "Overall": 4,
             "Notes": "I wish there was more jam but overall great"
           },
           {
             "name": "Mattie",
             "title": "Almond Connoisseur",
-            "Chocolate": 2,
-            "Almond": 3,
-            "Moistness": 4,
-            "Jam": 2,
-            "Color": 5,
+            "votes": [
+              {
+                "Chocolate": 2,
+                "Almond": 3,
+                "Moistness": 4,
+                "Jam": 2,
+                "Color": 5
+              }
+            ],
             "Overall": 2,
             "Notes": "Has a bad aftertaste from the cake"
           },
           {
             "name": "Tracy",
             "title": "Texture Aficianado",
-            "Chocolate": 2,
-            "Almond": 1,
-            "Moistness": 5,
-            "Jam": 5,
-            "Color": 5,
+            "votes": [
+              {
+                "Chocolate": 2,
+                "Almond": 1,
+                "Moistness": 5,
+                "Jam": 5,
+                "Color": 5
+              }
+            ],
             "Overall": 4.5,
             "Notes": "Aesthetically perfect"
           },
           {
             "name": "Ken",
             "title": "Chocolate Expert",
-            "Chocolate": 4,
-            "Almond": 5,
-            "Moistness": 4,
-            "Jam": 3,
-            "Color": 5,
+            "votes": [
+              {
+                "Chocolate": 4,
+                "Almond": 5,
+                "Moistness": 4,
+                "Jam": 3,
+                "Color": 5
+              }
+            ],
             "Overall": 4,
             "Notes": "Not enough jam, almond punched me in the face"
           }
@@ -78,11 +94,15 @@
     "rank": "No. TK",
     "bakeryDescription": "Neighborhood bakery & cafe serving coffee, pastries, cookies, breads & desserts since 1969.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "Chocolate": 2.7,
-    "Almond": 3.3,
-    "Moistness": 4,
-    "Jam": 1.4,
-    "Color": 3.4,
+    "avgScores": [
+      {
+        "Chocolate": 2.7,
+        "Almond": 3.3,
+        "Moistness": 4,
+        "Jam": 1.4,
+        "Color": 3.4
+      }
+    ],
     "Overall": 2.5,
     "scores": [
       {
@@ -143,12 +163,16 @@
     "price": "$2.00",
     "rank": "No. TK",
     "bakeryDescription": "Created in 1964, Astoria Bakery & Cafe is a specialty bakery & cafe, lifestyle and wellness brand based in Astoria.",
-    "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.n",
-    "Chocolate": 2.6,
-    "Almond": 2.4,
-    "Moistness": 3.8,
-    "Jam": 3.8,
-    "Color": 5,
+    "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "avgScores": [
+      {
+        "Chocolate": 2.6,
+        "Almond": 2.4,
+        "Moistness": 3.8,
+        "Jam": 3.8,
+        "Color": 5
+      }
+    ],
     "Overall": 2.8,
     "scores": [
       {
@@ -210,11 +234,15 @@
     "rank": "No. TK",
     "bakeryDescription": "Cozy French Bakery that serves a variety of delicious Pastries, Coffee, Gelato and more.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "Chocolate": 2.8,
-    "Almond": 1.6,
-    "Moistness": 2.8,
-    "Jam": 2.8,
-    "Color": 4.6,
+    "avgScores": [
+      {
+        "Chocolate": 2.8,
+        "Almond": 1.6,
+        "Moistness": 2.8,
+        "Jam": 2.8,
+        "Color": 4.6
+      }
+    ],
     "Overall": 2.2,
     "scores": [
       {
@@ -277,11 +305,15 @@
     "rank": "No. TK",
     "bakeryDescription": "Il Fornaio Bakery Bakery Cafe provides a classic bakery for breads & sweet treats, including special-occasion cakes, deli offerings, catering, and more to Astoria, NY.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "Chocolate": 5,
-    "Almond": 3.5,
-    "Moistness": 4.6,
-    "Jam": 4.4,
-    "Color": 5,
+    "avgScores": [
+      {
+        "Chocolate": 5,
+        "Almond": 3.5,
+        "Moistness": 4.6,
+        "Jam": 4.4,
+        "Color": 5
+      }
+    ],
     "Overall": 3.8,
     "scores": [
       {
@@ -344,11 +376,15 @@
     "rank": "No. TK",
     "bakeryDescription": "Neighborhood bakery with a handful of tables whips up pastries & cakes, plus coffee & sandwiches.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "Chocolate": 2,
-    "Almond": 1.4,
-    "Moistness": 3.6,
-    "Jam": 2,
-    "Color": 3,
+    "avgScores": [
+      {
+        "Chocolate": 2,
+        "Almond": 1.4,
+        "Moistness": 3.6,
+        "Jam": 2,
+        "Color": 3
+      }
+    ],
     "Overall": 1.8,
     "scores": [
       {
@@ -411,11 +447,15 @@
     "rank": "No. TK",
     "bakeryDescription": "A cafe with a passion for craft, innovation & discovery comes to life in an ever-evolving menu of coffee, cocktails, food & desserts.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "Chocolate": 2,
-    "Almond": 1.8,
-    "Moistness": 3.8,
-    "Jam": 2.8,
-    "Color": 1.8,
+    "avgScores": [
+      {
+        "Chocolate": 2,
+        "Almond": 1.8,
+        "Moistness": 3.8,
+        "Jam": 2.8,
+        "Color": 1.8
+      }
+    ],
     "Overall": 2.3,
     "scores": [
       {
@@ -478,11 +518,15 @@
     "rank": "No. TK",
     "bakeryDescription": "Classic Italian bakery with a selection of specialty breads & pastries, plus a back pizza counter.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "Chocolate": 3,
-    "Almond": 1.2,
-    "Moistness": 2.8,
-    "Jam": 1.8,
-    "Color": 4.2,
+    "avgScores": [
+      {
+        "Chocolate": 3,
+        "Almond": 1.2,
+        "Moistness": 2.8,
+        "Jam": 1.8,
+        "Color": 4.2
+      }
+    ],
     "Overall": 2,
     "scores": [
       {
@@ -544,11 +588,15 @@
     "rank": "No. TK",
     "bakeryDescription": "An established bakery dating recipes back to the the 1800's. One of the the few in New York.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "Chocolate": 3,
-    "Almond": 3.8,
-    "Moistness": 4.1,
-    "Jam": 3.3,
-    "Color": 4.2,
+    "avgScores": [
+      {
+        "Chocolate": 3,
+        "Almond": 3.8,
+        "Moistness": 4.1,
+        "Jam": 3.3,
+        "Color": 4.2
+      }
+    ],
     "Overall": 3.2,
     "scores": [
       {
@@ -611,11 +659,15 @@
     "rank": "No. TK",
     "bakeryDescription": "Il Fornaio Bakery Bakery Cafe provides a classic bakery for breads & sweet treats, including special-occasion cakes, deli offerings, catering, and more to Astoria, NY.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "Chocolate": 4.2,
-    "Almond": 4,
-    "Moistness": 4.4,
-    "Jam": 4.4,
-    "Color": 5,
+    "avgScores": [
+      {
+        "Chocolate": 4.2,
+        "Almond": 4,
+        "Moistness": 4.4,
+        "Jam": 4.4,
+        "Color": 5
+      }
+    ],
     "Overall": 3.9,
     "scores": [
       {
@@ -678,11 +730,15 @@
     "rank": "No. TK",
     "bakeryDescription": "Local Greek chain with a late-night scene doling out traditional sweets & savory dishes since 1977.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "Chocolate": 2.8,
-    "Almond": 2.2,
-    "Moistness": 2.8,
-    "Jam": 3.6,
-    "Color": 1,
+    "avgScores": [
+      {
+        "Chocolate": 2.8,
+        "Almond": 2.2,
+        "Moistness": 2.8,
+        "Jam": 3.6,
+        "Color": 1
+      }
+    ],
     "Overall": 1.5,
     "scores": [
       {
@@ -745,11 +801,15 @@
     "rank": "No. TK",
     "bakeryDescription": "Bakeshop with a warm vibe serving old-fashioned cakes & pastries, plus gelato & an espresso bar.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "Chocolate": 2.7,
-    "Almond": 3.2,
-    "Moistness": 4,
-    "Jam": 4.2,
-    "Color": 2,
+    "avgScores": [
+      {
+        "Chocolate": 2.7,
+        "Almond": 3.2,
+        "Moistness": 4,
+        "Jam": 4.2,
+        "Color": 2
+      }
+    ],
     "Overall": 2.5,
     "scores": [
       {
@@ -801,11 +861,15 @@
     "rank": "No. TK",
     "bakeryDescription": "Long-running family-owned pastry shop crafting an array of Italian treats, cakes & baked goods.",
     "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "Chocolate": 3.5,
-    "Almond": 3.1,
-    "Moistness": 3.7,
-    "Jam": 3.6,
-    "Color": 3.2,
+    "avgScores": [
+      {
+        "Chocolate": 3.5,
+        "Almond": 3.1,
+        "Moistness": 3.7,
+        "Jam": 3.6,
+        "Color": 3.2
+      }
+    ],
     "Overall": 2.9,
     "scores": [
       {

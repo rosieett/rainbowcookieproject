@@ -64,17 +64,22 @@
             <hr />
 
             <div class="cookie-tasters">
+
               {{#each scores}}
                 <div class="section-scores">
+
                   {{#each person}}
+
                     <div class="scores">
                       <h4 class="name">{{name}}</h4>
                       <p class="title">{{title}}</p>
                       <div class="chart"></div>
                     </div>
+                    <div class="vline"></div>
+
                   {{/each}}
+
                 </div>
-                <div class="vline"></div>
               {{/each}}
             </div>
 
