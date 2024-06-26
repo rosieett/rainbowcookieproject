@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rainbow Cookie - Bakery Profile</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="profile">
+      <script id="entry-template" type="text/x-handlebars-template">
+        <div class="results">
+
+            <div class="navbar-top">
+                <div class="buttonBar">
+                    <ul>
+                        <li class="buttonBar-button">Explore the list</li>
+                        <li class="buttonBar-button">Find me a Cookie Quiz</li>
+                        <li class="buttonBar-button">Methodolody</li>
+                        <li class="buttonBar-button">Recommend a Bakery</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="results-title">
+              <div class="result-hed">Meet the contenders for</div>
+              <div class="result-subead">Best Rainbow Cookie</div>
+            </div>
+
+            <hr>
+
+            <div class="filter-bar">
+
+                <div class="filter">
+                  <label class="label" for="filter-options">Sort by</label>
+                  <select class="filter-dropdown" name="filter-options" id="filter-options">
+                    <option class="filter-label" value="Ranking - Highest to lowest">Ranking - Highest to lowest</option>
+                    <option class="filter-label" value="Ranking - Lowest to Highest">Ranking - Lowest to Highest</option>
+                    <option class="filter-label" value="Cost - $$$ to $">Cost - $$$ to $</option>
+                    <option class="filter-label" value="Cost - $ to $$$">Cost - $ to $$$</option>
+                  </select>
+                </div>
+
+                <div class="vline"></div>
+
+               <div class="awards">
+                <p class="label">Awards</p>
+                <ul class="award-ul">
+                    <li class="award-button">Best Chocolate</li>
+                    <li class="award-button">Best Almond</li>
+                                        <li class="award-button">Best Value</li>
+
+                    <li class="award-button">Best Texture</li>
+                    <li class="award-button">Best Jam</li>
+                  </ul>
+               </div>
+
+            </div>
+
+              <hr>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </script>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"
+      integrity="sha512-E1dSFxg+wsfJ4HKjutk/WaCzK7S2wv1POn1RRPGh8ZK+ag9l244Vqxji3r6wgz9YBf6+vhQEYJZpSjqWFPg9gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"
+      integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="module" src="app.js"></script>
+
+    <!-- <script type="module" src="bakeryprofile.js"></script> -->
+  </body>
+</html>
