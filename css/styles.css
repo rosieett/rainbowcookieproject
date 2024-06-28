@@ -433,6 +433,7 @@ button:hover {
   width: 100%;
   height: 100%;
   border-radius: 20px;
+  margin: 2px 0 2px 0;
 }
 
 /* RESULTS PAGE */
@@ -443,7 +444,7 @@ button:hover {
   flex-direction: column;
   flex-wrap: wrap;
   /* align-content: center; */
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   padding-top: 100px;
 }
@@ -557,13 +558,12 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 60%;
+  width: 50%;
 }
 
 .award-ul {
   padding: 0;
   margin: 0;
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -583,5 +583,100 @@ button:hover {
   text-transform: uppercase;
   list-style: none;
   padding-left: 0;
-  width: 30%;
+  width: 33%;
+}
+
+.view {
+  width: 20%;
+}
+
+.bestArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.best-visuals {
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+}
+.best-superlative > .label {
+  margin: 0;
+}
+
+.label-hed {
+  color: #502a27;
+  font-family: "ZTBrosOskon90s";
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0;
+}
+
+.label-asof {
+  color: #502a27;
+  font-family: "Gully";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.best-visuals > svg {
+  align-self: end;
+  padding-right: 5px;
+}
+
+.best-row {
+  display: flex;
+  width: 100%;
+}
+
+#best-chart {
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+}
+.best-hed {
+  display: flex;
+  flex-direction: wrap;
+  width: 40%;
+}
+
+.best-ratings {
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+}
+
+#best-hedbakery {
+  color: #502a27;
+  font-family: "Anchor Jack";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.restOfBest {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bakery-restOf {
+  width: 100%;
+  border-radius: 10px;
+  background: #eae0c6;
+}
+
+.bakery-restOf ~ .bakery-restOf {
+  flex-basis: calc(100% / 3 - 10px);
+}
+
+#chart-restOf > .avgScoreRow > .scoreBoxDiv > .scoreBoxes {
+  max-height: 20px;
 }

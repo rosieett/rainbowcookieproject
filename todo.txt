@@ -1,0 +1,4 @@
+Bakery Profile Pages
+- finish writing the bakery text
+- format the photos for each bakery page
+- center the rank and price (should I set a height for the bakerysubhead?)

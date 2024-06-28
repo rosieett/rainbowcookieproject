@@ -13,7 +13,6 @@ let bakeryID = params.get("bakeryNumber");
 //set up a filter to filter the array for objects whos bakeryID matches the bakeryNumber then grab the first object from that filtered set
 let result = data.filter((b) => b.bakeryNumber == bakeryID)[0]
 
-
 var source = document.getElementById("entry-template").innerHTML;
 // Handlebars.registerPartial('bakeryprofile', bakeryprofile);
 // console.log(bakeryprofile)
@@ -31,6 +30,7 @@ document.getElementById("profile").innerHTML = html;
 let boxes = new Array(5).fill(null)
 let colors = ['#502A27', '#E86663', '#EDB834', '#923F3D', '#99C983']
 
+console.log(Object.keys(result.avgScores[0]))
 //creating the div for the chart to live in and linking the 5 categories of data so there are 5 rows of 5 boxes
 let avgScoreRow = d3.select('#chart-average')
     .selectAll('div')
@@ -81,9 +81,8 @@ avgScoreRow.each(function(category, i) {
 
 // TASTERS SCORE AREA //
 
-let tasterBars = new Array(1).fill(null)
-
 let outerloop = result.scores
+console.log(outerloop)
 
 outerloop.forEach(function(d, i){
     let people = d.person
@@ -120,63 +119,3 @@ outerloop.forEach(function(d, i){
         }
        })
     })
-
-                // .selectAll('div')
-                // .style('border', '1px solid currentcolor')
-                // .style('background', (d, i) => `linear-gradient(to right, currentcolor 0%, currentcolor ${(categories[categorie])*20}%, transparent ${(categories[categorie])*20}%, transparent 100%`)
-
-            //     .data(categorie)
-            //     .join(
-            //         (enter) => enter
-            //         .append('div')
-            //         .classed('scoreBars', true)
-            //         .style('border', '1px solid currentcolor')
-            //         .style('background', (d, i) => `linear-gradient(to right, currentcolor 0%, currentcolor ${(categories[categorie])*20}%, transparent ${(categories[categorie])*20}%, transparent 100%`)
-            //     ,(update) => update
-            //     ,(exit) => exit.remove()
-            // )
-
-// let tasterScore = d3.selectAll('.chart')
-//     .selectAll('div')
-//     .data(Object.keys(result.scores[0].person[0].votes[0]))
-//         .join(
-//         (enter) => enter
-//             .append('div')
-//             .classed('tastedScoreRow', true)
-//             .style("color", (d, i) => colors[i])
-//         ,(update) => update
-//         ,(exit) => exit.remove()
-//     )
-
-
-// tasterScore.each(function(category, i) {
-//     const catLabel = Object.keys(result.scores[0].person[0].votes[0])
-//         d3.select(this)
-//             .append('div')
-//             .classed('catLabel-taster', true)
-//             .text(category)
-//             .style('color', '#a58567')
-
-//     const people = result.scores[0].person
-//     people.forEach((person) => {
-//         console.log(person)
-//         const score = person.person.votes[category]
-//         // console.log(person)
-//         // console.log(catLabel)
-//         d3.select(this)
-//             .append('div')
-//             .classed('scoreBarDiv', true)
-//             .selectAll('div')
-//             .data(tasterBars)
-//             .join(
-//                 (enter) => enter
-//                     .append('div')
-//                     .classed('scoreBars', true)
-//                     .style('border', '1px solid currentcolor')
-//                     .style('background', (category, i) => `linear-gradient(to right, currentcolor 0%, currentcolor ${(score -i)*20}%, transparent ${(score -i)*20}%, transparent 100%`)
-//                 ,(update) => update
-//                 ,(exit) => exit.remove()
-//             )
-// })
-// })
-

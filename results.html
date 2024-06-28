@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Rainbow Cookie - Bakery Profile</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div id="profile">
-      <script id="entry-template" type="text/x-handlebars-template">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rainbow Cookie - Bakery Profile</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="profile">
+    <script id="entry-template" type="text/x-handlebars-template">
         <div class="results">
 
             <div class="navbar-top">
@@ -54,41 +52,72 @@
                 <p class="label">Awards</p>
                 <ul class="award-ul">
                     <li class="award-button">Best Chocolate</li>
-                    <li class="award-button">Best Almond</li>
-                                        <li class="award-button">Best Value</li>
-
                     <li class="award-button">Best Texture</li>
+                    <li class="award-button">Best Value</li>
+                    <li class="award-button">Best Almond</li>
                     <li class="award-button">Best Jam</li>
                   </ul>
                </div>
 
+                <div class="vline"></div>
+
+                <div class="view"></div>
             </div>
 
               <hr>
 
+            <div class="bestArea">
+              <div class="best-row">
+                  <div class="best-visuals">
+                    <svg class="rainbowstack-large" width="130px" height="100px">
+                      <image xlink:href="svgs/Rainbowcookie-singleLarge.svg"></image>
+                    </svg>
+                  </div>
+                <div class="best-text">
+                  <div class="best-superlative">
+                    <p class="label">She's the One</p>
+                    <p class="label-hed">Best Overall</p>
+                    <p class="label-asof">As of June 2024</p>
+                  </div>
+                </div>
+              </div>
 
+                <div class="best-row">
+                  <div id="best-chart">
+                  </div>
+                <div class="best-hed">
+                  <p id="best-hedbakery"></p>
+                </div>
               </div>
             </div>
-          </div>
+
+            <div class="restOfBest">
+              {{#each []}}
+              <div class="bakery-restOf">
+              <p id="bakery-item-rank">{{rank}}</p>
+              <p id="bakery-item-name">{{bakeryhed}}</p>
+              <div id="chart-restOf"></div>
+              <p class="bakery-item-cost">{{price}}</p>
+              <p class="bakery-item-sub">For two cookies</p>
+              </div>
+              {{/each}}
+            </div>
+
         </div>
+      </div>
       </script>
-    </div>
+  </div>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"
-      integrity="sha512-E1dSFxg+wsfJ4HKjutk/WaCzK7S2wv1POn1RRPGh8ZK+ag9l244Vqxji3r6wgz9YBf6+vhQEYJZpSjqWFPg9gg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"
-      integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"
+    integrity="sha512-E1dSFxg+wsfJ4HKjutk/WaCzK7S2wv1POn1RRPGh8ZK+ag9l244Vqxji3r6wgz9YBf6+vhQEYJZpSjqWFPg9gg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"
+    integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script type="module" src="app.js"></script>
+  <script type="module" src="app_results.js"></script>
 
-    <!-- <script type="module" src="bakeryprofile.js"></script> -->
-  </body>
+  <!-- <script type="module" src="bakeryprofile.js"></script> -->
+</body>
+
 </html>
