@@ -37,38 +37,96 @@ let avgScoreRow = d3.selectAll('#chart-restOf')
         (enter) => enter
             .append("div")
             .classed('avgScoreRow', true)
-            .style("color", (d, i) => colors[i])
+            .style('color', '#502A27')
         ,(update) => update
         ,(exit) => exit.remove()
     )
 
 let boxes = new Array(1).fill(null)
+    // console.log(sortedHighArray)
 
-//each "loop" so that for each row, for each 5 boxes, it finds the data and loops for each category
 avgScoreRow.each(function(category, i) {
-    // label to live within the same div but similar each idea so it reads one label for each row
     const catLabel = Object.keys(sortedHighArray[0].avgScores[0])
         d3.select(this)
             .append('div')
             .classed('catLabel', true)
             .text(category)
             .style('color', '#502A27')
-    //finding the data for how much of each row to fill 
-        d3.select(this)
-            .append('div')
-            .classed('scoreBoxDiv', true)
-            .selectAll('div')
-            .data(boxes)
-            .join(
-                (enter) => enter
-                  .append('div')
-                    .classed('scoreBoxes', true)
-                    .style('border', '1px solid #502A27')
-                    .style('background', `linear-gradient(to right, #502A27 0%, #502A27 50%, transparent 50%, transparent 100%`)
-                ,(update) => update
-             ,(exit) => exit.remove()
-            )
-          
 
+    const score = sortedHighArray[i].avgScores[0][category]
+    console.log(score)
+    d3.select(this)
+        .append('div')
+        .classed('scoreBoxDiv', true)
+        .selectAll('div')
+        .data(boxes)
+        .join(
+            (enter) => enter
+                .append('div')
+                .classed('scoreBoxes', true)
+                .style('border', '1px solid #502A27')
+                .style('background', `linear-gradient(to right, #502A27 0%, #502A27 ${score*20}%, transparent ${score*20}%, transparent 100%`)
+            ,(update) => update
+            ,(exit) => exit.remove()
 
+        )
 })
+
+    // for (let i = 0; i < sortedHighArray.length; i++){
+    //     const score = sortedHighArray[i].avgScores[0]
+    //     console.log(score)
+    //     let bakery = d3.selectAll('.avgScoreRow')
+    //             .append('div')
+    //             .classed('scoreBoxDiv', true)
+    //             .selectAll('div')
+    //             .data(boxes)
+    //             .join(
+    //                 (enter) => enter
+    //                 .append('div')
+    //                     .classed('scoreBoxes', true)
+    //                     .style('border', '1px solid #502A27')
+    //                     .style('background', `linear-gradient(to right, #502A27 0%, #502A27 50%, transparent  50%, transparent 100%`)
+    //                 ,(update) => update
+    //             ,(exit) => exit.remove()
+    //             )
+    //       }
+
+// let outerloop = result.scores
+// let bakery = sortedHighArray
+// console.log(bakery)
+
+// // outerloop.forEach(function(d, i){
+// //     let people = d.person
+
+//  bakery.forEach(function(d, i){
+//        let categories = bakery;
+//        console.log(categories)
+//        let personsChart = d3.selectAll('.scores').filter((dd, ii) => ii == person_i)
+
+//         let labelsDiv = personsChart.select('.chart')
+//                 .append('div')
+//                 .classed('labels', true)
+//         let scoreBarDivs = personsChart.select('.chart')
+//                 .append('div')
+//                 .classed('scoreBarDivs', true)
+
+//         let cat_i = 0;
+//         for (let categorie in categories) {
+//             // console.log(`${categories[categorie]}`)
+//             let rowsLabels = personsChart.selectAll('.labels')
+//                 .append('div')
+//                 .classed('catLabel-taster', true)
+//                 .text(categorie)
+
+//             let scoreBars = personsChart.selectAll('.scoreBarDivs')
+//                 .append('div')
+//                 .style('color', colors[cat_i])
+//                 .classed('scoreBars', true)
+//                 .style('border', '1px solid currentcolor')
+//                 .style('background', (dd, ii) => `linear-gradient(to right, currentcolor 0%, currentcolor ${(categories[categorie])*20}%, transparent ${(categories[categorie])*20}%, transparent 100%`)
+
+//                 cat_i++;
+
+//         }
+//        })
+    // })

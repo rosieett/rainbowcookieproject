@@ -30,7 +30,7 @@ document.getElementById("profile").innerHTML = html;
 let boxes = new Array(5).fill(null)
 let colors = ['#502A27', '#E86663', '#EDB834', '#923F3D', '#99C983']
 
-console.log(Object.keys(result.avgScores[0]))
+// console.log(Object.keys(result.avgScores[0]))
 //creating the div for the chart to live in and linking the 5 categories of data so there are 5 rows of 5 boxes
 let avgScoreRow = d3.select('#chart-average')
     .selectAll('div')
@@ -82,15 +82,17 @@ avgScoreRow.each(function(category, i) {
 // TASTERS SCORE AREA //
 
 let outerloop = result.scores
-console.log(outerloop)
+
 
 outerloop.forEach(function(d, i){
     let people = d.person
+    console.log('d = ', d, 'i = ', i, 'people ', people)
+
 
  people.forEach(function(person_d, person_i){
        let categories = person_d.votes[0];
-       console.log(categories)
        let personsChart = d3.selectAll('.scores').filter((dd, ii) => ii == person_i)
+
 
         let labelsDiv = personsChart.select('.chart')
                 .append('div')
