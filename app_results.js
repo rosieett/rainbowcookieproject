@@ -17,116 +17,84 @@ var html = template(context);
 document.getElementById("profile").innerHTML = html;
 
 //find the highest overall
-let highestOverall = sortedHighArray[0]
-let highestOverallHed = sortedHighArray[0].bakeryhed
-document.getElementById("best-hedbakery").innerHTML = highestOverallHed;
+// let highestOverall = sortedHighArray[0]
+// let highestOverallHed = sortedHighArray[0].bakeryhed
+// document.getElementById("best-hedbakery").innerHTML = highestOverallHed;
 
-//get the highest overall chart
-// let restOfHighArray = sortedHighArray.slice(1)
-// let restOfHighArrayHed = restOfHighArray
-// document.getElementById("bakery-item").innerHTML = restOfHighArrayHed;
 
-let colors = ['#502A27', '#E86663', '#EDB834', '#923F3D', '#99C983']
+sortedHighArray.forEach(function(d, i){
+    let categories = d.avgScores[0]
+    let bakeryData = d.avgScores
 
-// Other bakeries area //
+    let bakeryChart = d3.selectAll('.bakery-restOf').filter((dd, ii) => ii == i)
 
-let avgScoreRow = d3.selectAll('#chart-restOf')
-    .selectAll('div')
-    .data(Object.keys(sortedHighArray[0].avgScores[0]))
-    .join(
-        (enter) => enter
-            .append("div")
-            .classed('avgScoreRow', true)
-            .style('color', '#502A27')
-        ,(update) => update
-        ,(exit) => exit.remove()
-    )
-
-let boxes = new Array(1).fill(null)
-    // console.log(sortedHighArray)
-
-avgScoreRow.each(function(category, i) {
-    const catLabel = Object.keys(sortedHighArray[0].avgScores[0])
-        d3.select(this)
+    if (i !== 0) {
+        let labelsDiv = bakeryChart.select('.chart-restOf')
             .append('div')
-            .classed('catLabel', true)
-            .text(category)
-            .style('color', '#502A27')
+            .classed('labels', true)
+        let scoreBarDivs = bakeryChart.select('.chart-restOf')
+            .append('div')
+            .classed('scoreBarDivs', true)
 
-    const score = sortedHighArray[i].avgScores[0][category]
-    console.log(score)
-    d3.select(this)
-        .append('div')
-        .classed('scoreBoxDiv', true)
-        .selectAll('div')
-        .data(boxes)
-        .join(
-            (enter) => enter
+        let cat_i = 0
+        for (let categorie in categories) {
+            let rowsLabels = bakeryChart.selectAll('.labels')
                 .append('div')
-                .classed('scoreBoxes', true)
-                .style('border', '1px solid #502A27')
-                .style('background', `linear-gradient(to right, #502A27 0%, #502A27 ${score*20}%, transparent ${score*20}%, transparent 100%`)
-            ,(update) => update
-            ,(exit) => exit.remove()
+                .classed('catLabel-result', true)
+                .text(categorie)
 
-        )
+            let scoreBars = bakeryChart.selectAll('.scoreBarDivs')
+                .append('div')
+                .style('color', '#A58567')
+                .classed('scoreBars', true)
+                .style('border', '1px solid #A58567')
+                .style('background', (dd, ii) => `linear-gradient(to right, #A58567 0%, #A58567 ${(categories[categorie])*20}%, transparent ${(categories[categorie])*20}%, transparent 100%`)
+
+                cat_i++;
+        }
+    } 
+    
+    else {
+       let colors = ['#502A27', '#E86663', '#EDB834', '#923F3D', '#99C983']
+       let boxes = new Array(5).fill(null)
+
+        let avgScoreRow = bakeryChart.select('.chart-restOf')
+            .selectAll('div')
+            .data(Object.keys(categories))
+            .join(        
+                (enter) => enter
+                    .append("div")
+                    .classed('avgScoreRow', true)
+                    .style("color", (d, i) => colors[i])
+                ,(update) => update
+                ,(exit) => exit.remove()
+                )
+
+        avgScoreRow.each(function(d, i) {
+            let catLabel = Object.keys(categories)
+                d3.select(this)
+                    .append('div')
+                    .classed('catLabel', true)
+                    .style('color', '#502A27')
+                    .text(catLabel[i])
+            let score = categories[d]
+                d3.select(this)
+                    .append('div')
+                    .classed('scoreBoxDiv', true)
+                    .selectAll('div')
+                    .data(boxes)
+                    .join(
+                        (enter) => enter
+                        .append('div')
+                        .classed('scoreBoxes', true)
+                        .style('border', '1px solid currentcolor')
+                        .style('background', (category, i) => `linear-gradient(to right, currentcolor 0%, currentcolor ${Math.max(score - (i),0)*100}%, transparent  ${Math.min(score - (i),1)*100}%, transparent 100%`)
+                    ,(update) => update
+                    ,(exit) => exit.remove()    
+                    )
+        })
+    }
 })
 
-    // for (let i = 0; i < sortedHighArray.length; i++){
-    //     const score = sortedHighArray[i].avgScores[0]
-    //     console.log(score)
-    //     let bakery = d3.selectAll('.avgScoreRow')
-    //             .append('div')
-    //             .classed('scoreBoxDiv', true)
-    //             .selectAll('div')
-    //             .data(boxes)
-    //             .join(
-    //                 (enter) => enter
-    //                 .append('div')
-    //                     .classed('scoreBoxes', true)
-    //                     .style('border', '1px solid #502A27')
-    //                     .style('background', `linear-gradient(to right, #502A27 0%, #502A27 50%, transparent  50%, transparent 100%`)
-    //                 ,(update) => update
-    //             ,(exit) => exit.remove()
-    //             )
-    //       }
 
-// let outerloop = result.scores
-// let bakery = sortedHighArray
-// console.log(bakery)
 
-// // outerloop.forEach(function(d, i){
-// //     let people = d.person
-
-//  bakery.forEach(function(d, i){
-//        let categories = bakery;
-//        console.log(categories)
-//        let personsChart = d3.selectAll('.scores').filter((dd, ii) => ii == person_i)
-
-//         let labelsDiv = personsChart.select('.chart')
-//                 .append('div')
-//                 .classed('labels', true)
-//         let scoreBarDivs = personsChart.select('.chart')
-//                 .append('div')
-//                 .classed('scoreBarDivs', true)
-
-//         let cat_i = 0;
-//         for (let categorie in categories) {
-//             // console.log(`${categories[categorie]}`)
-//             let rowsLabels = personsChart.selectAll('.labels')
-//                 .append('div')
-//                 .classed('catLabel-taster', true)
-//                 .text(categorie)
-
-//             let scoreBars = personsChart.selectAll('.scoreBarDivs')
-//                 .append('div')
-//                 .style('color', colors[cat_i])
-//                 .classed('scoreBars', true)
-//                 .style('border', '1px solid currentcolor')
-//                 .style('background', (dd, ii) => `linear-gradient(to right, currentcolor 0%, currentcolor ${(categories[categorie])*20}%, transparent ${(categories[categorie])*20}%, transparent 100%`)
-
-//                 cat_i++;
-
-//         }
-//        })
-    // })

@@ -86,13 +86,10 @@ let outerloop = result.scores
 
 outerloop.forEach(function(d, i){
     let people = d.person
-    console.log('d = ', d, 'i = ', i, 'people ', people)
 
-
- people.forEach(function(person_d, person_i){
-       let categories = person_d.votes[0];
-       let personsChart = d3.selectAll('.scores').filter((dd, ii) => ii == person_i)
-
+ people.forEach(function(d, i){
+       let categories = d.votes[0];
+       let personsChart = d3.selectAll('.scores').filter((dd, ii) => ii == i)
 
         let labelsDiv = personsChart.select('.chart')
                 .append('div')

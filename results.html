@@ -63,8 +63,7 @@
 
                 <div class="view"></div>
             </div>
-
-              <hr>
+<hr>
 
             <div class="bestArea">
               <div class="best-row">
@@ -82,28 +81,40 @@
                 </div>
               </div>
 
-                <div class="best-row">
+                <!-- <div class="best-row">
                   <div id="best-chart">
                   </div>
                 <div class="best-hed">
                   <p id="best-hedbakery"></p>
                 </div>
-              </div>
+              </div> -->
             </div>
 
             <div class="restOfBest">
               {{#each []}}
               <div class="bakery-restOf">
-              <p id="bakery-item-rank">{{rank}}</p>
-              <p id="bakery-item-name">{{bakeryhed}}</p>
-              <div id="chart-restOf"></div>
-              <p class="bakery-item-cost">{{price}}</p>
-              <p class="bakery-item-sub">For two cookies</p>
+                <p class="bakery-item-rank">{{rank}}</p>
+                <p class="bakery-item-name">{{bakeryhed}}</p>
+                <div class="chart-restOf"></div>
+                <p class="bakery-item-cost">{{price}}</p>
+                <p class="bakery-item-sub">For two cookies</p>
+              
+                <div class="resultbuttonArea">
+                  <div class="roundbutton">See the full review ></div>
+                </div>
+              
               </div>
+
+             
+
+               <hr class="resultLine">
+               
+
               {{/each}}
             </div>
+            
 
-        </div>
+
       </div>
       </script>
   </div>
