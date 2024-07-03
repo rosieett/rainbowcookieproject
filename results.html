@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -36,28 +37,48 @@
 
             <div class="filter-bar">
 
-                <div class="filter">
-                  <label class="label" for="filter-options">Sort by</label>
-                  <select class="filter-dropdown" name="filter-options" id="filter-options">
-                    <option class="filter-label" value="Ranking - Highest to lowest">Ranking - Highest to lowest</option>
-                    <option class="filter-label" value="Ranking - Lowest to Highest">Ranking - Lowest to Highest</option>
-                    <option class="filter-label" value="Cost - $$$ to $">Cost - $$$ to $</option>
-                    <option class="filter-label" value="Cost - $ to $$$">Cost - $ to $$$</option>
-                  </select>
+              <div class="container" id="ctn">
+                              <div class="label">Sort by</div>
+
+                <button class="btn" id="btn">
+                    Ranking - Highest to lowest
+                  <i class="bx bx-chevron-down" id="arrow"></i>
+                </button>
+                <div class="dropdown" id="dropdown">
+                  <a href="" id="sortedHighArray">Ranking - Highest to lowest</a>
+                  <a href="" id="sortedLowArray">Ranking - Lowest to Highest</a>
+                  <!-- <a href="" id="sortedCostHigh">Cost - $$$ to $</a>
+                  <a href="" id="sortedCostLow">Cost - $ to $$$</a> -->
                 </div>
+              </div>
+
+  
 
                 <div class="vline"></div>
-
-               <div class="awards">
-                <p class="label">Awards</p>
-                <ul class="award-ul">
-                    <li class="award-button">Best Chocolate</li>
-                    <li class="award-button">Best Texture</li>
-                    <li class="award-button">Best Value</li>
-                    <li class="award-button">Best Almond</li>
-                    <li class="award-button">Best Jam</li>
-                  </ul>
-               </div>
+                  <div class="awards">
+                    <p class="label">Awards</p>
+                    <ul class="award-ul">
+                      <li class="award-button">
+                        <input class="awardbtn" type="radio" id="bestChocolate" name="bestOf" value="chocolate" />
+                        <label for="bestChocolate">Best Chocolate</label>
+                      </li>
+                      <li class="award-button">
+                        <input class="awardbtn" type="radio" id="bestTexture" name="bestOf" value="texture" />
+                        <label for="bestTexture">Best Texture</label>
+                      </li>
+                      <li class="award-button">
+                        <input class="awardbtn" type="radio" id="bestAlmond" name="bestOf" value="almond" />
+                        <label for="bestAlmond">Best Almond</label>
+                      <li class="award-button">
+                        <input class="awardbtn" type="radio" id="bestJam" name="bestOf" value="jam" />
+                        <label for="bestJam">Best Jam</label>
+                      </li>
+                      <li class="award-button">
+                        <input class="awardbtn" type="radio" id="bestColor" name="bestOf" value="color" />
+                        <label for="bestColor">Best Color</label>
+                      </li>
+                    </ul>
+                  </div>
 
                 <div class="vline"></div>
 
@@ -96,7 +117,7 @@
                 <p class="bakery-item-rank">{{rank}}</p>
                 <p class="bakery-item-name">{{bakeryhed}}</p>
                 <div class="chart-restOf"></div>
-                <p class="bakery-item-cost">{{price}}</p>
+                <p class="bakery-item-cost">${{price}}</p>
                 <p class="bakery-item-sub">For two cookies</p>
               
                 <div class="resultbuttonArea">

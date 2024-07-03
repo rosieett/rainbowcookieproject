@@ -80,9 +80,8 @@ hr {
   width: 950px;
 }
 
-.landing-button,
-button {
-  border-radius: 30px;
+.landing-button {
+  border-radius: 10px;
   border: 2px solid #502a27;
   color: #502a27;
   font-size: 14px;
@@ -106,9 +105,8 @@ svg:hover {
   stroke: #f2ebd7;
 }
 
-.landing-button:hover,
-button:hover {
-  border-radius: 30px;
+.landing-button:hover {
+  border-radius: 10px;
   background: #502a27;
   color: #f2ebd7;
 }
@@ -587,6 +585,20 @@ button:hover {
   width: 33%;
 }
 
+.awardbtn {
+  color: #502a27;
+  font-family: "Gully";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  list-style: none;
+  padding-left: 0;
+  width: 33%;
+}
+
 .view {
   width: 20%;
 }
@@ -728,7 +740,7 @@ button:hover {
   text-transform: uppercase;
 }
 
-.roundbutton:hover {
+.bakery-restOf:first-child > .resultbuttonArea > .roundbutton:hover {
   background-color: #502a27;
   color: #f2ebd7;
 }
@@ -830,4 +842,89 @@ button:hover {
 
 .resultLine ~ .resultLine {
   display: none;
+}
+
+.filter-bar > .container {
+  width: 30%;
+  flex-direction: column;
+  flex: none;
+}
+
+.btn {
+  padding: 3% 6%;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #502a27;
+  box-shadow: var(--shadow);
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  color: #502a27;
+  background-color: #f2ebd7;
+  width: 100%;
+  position: relative;
+  display: flex;
+  text-align: start;
+}
+
+.bx {
+  font-size: 1.1rem;
+}
+
+.dropdown {
+  position: absolute;
+  box-shadow: var(--shadow);
+  margin-top: 0.3rem;
+  background: #f2ebd7;
+  transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
+  transform: translateY(0.5rem);
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 10px;
+  border: 2px solid #502a27;
+}
+
+.dropdown a {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  color: #502a27;
+  display: flex;
+  align-items: center;
+  column-gap: var(--gap);
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  color: #502a27;
+}
+
+.dropdown a:hover {
+  background: #502a27;
+  color: #f2ebd7;
+}
+
+.show {
+  transform: translateY(0rem);
+  visibility: visible;
+  opacity: 1;
+  border-radius: 10px;
+  color: #f2ebd7;
+}
+
+.arrow {
+  transform: rotate(180deg);
+  transition: 0.2s ease;
+}
+
+input[type="radio"] {
+  visibility: hidden;
+  display: none;
+}
+
+[name="bestOf"]:checked + label {
+  font-family: "Gully-bold";
+  font-weight: bold;
 }
