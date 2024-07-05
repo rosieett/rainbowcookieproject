@@ -1,10 +1,49 @@
 import data from "/data.json" with { type: "json" };
 
-var source = document.getElementById("entry-template").innerHTML;
+var source = document.getElementById("mainContainer").innerHTML;
 var template = Handlebars.compile(source);
+d3.selectAll('input[name="bestOf"]').on('input', (e) => { 
+    // sort(e.currentTarget.value)
+    let clicked = e.currentTarget.value;
+    console.log(clicked)
+    let clickedValue = clicked.charAt(0).toUpperCase()
+    let restofValue = clicked.slice(1)
+    clickedValue = clickedValue + restofValue
+    console.log(clickedValue)
+    sort(clickedValue)
+})
 
-function sort(by="Overall") {
-    
+// const dropdownBtn = document.getElementById('btn')
+// const dropdownMenu = document.getElementById("dropdown");
+// const toggleArrow = document.getElementById("arrow");
+
+// const toggleDropdown = function () {
+//     dropdownMenu.classList.toggle("show");
+//     toggleArrow.classList.toggle("arrow");
+// };
+
+// dropdownBtn.addEventListener("click", function (e) {
+//     e.stopPropagation();
+//     toggleDropdown();
+// });
+
+// document.documentElement.addEventListener("click", function () {
+//     if (dropdownMenu.classList.contains("show")) {
+//         toggleDropdown();
+//     }
+// });
+
+d3.selectAll('input[name="sortbyLow"]').on('input', (e) => { 
+    // console.log(e.currentTarget.value)
+    sort(e.currentTarget.value)
+    sort(isReversed = true)
+})
+
+d3.selectAll('input[name="dropdownfilterLow"]').on('input', (e) => { 
+})
+
+function sort(by="Overall", isReversed = false) {
+
     let sortedHighArray = data.sort((a, b) => {
         if (by in a) {
             return b[by] - a[by];
@@ -12,8 +51,12 @@ function sort(by="Overall") {
             return b.avgScores[0][by] - a.avgScores[0][by];
         }})
 
+    if(isReversed) {
+        sortedHighArray.reverse();
+    }
+
     var html = template(sortedHighArray);
-    document.getElementById("profile").innerHTML = html;
+    document.getElementById("mainContainer").innerHTML = html;
 
     sortedHighArray.forEach(function(d, i){
         let categories = d.avgScores[0]
@@ -90,35 +133,6 @@ function sort(by="Overall") {
     })
 
 
-
-
-    const dropdownBtn = document.getElementById('btn')
-    const dropdownMenu = document.getElementById("dropdown");
-    const toggleArrow = document.getElementById("arrow");
-
-    const toggleDropdown = function () {
-        dropdownMenu.classList.toggle("show");
-        toggleArrow.classList.toggle("arrow");
-    };
-
-    dropdownBtn.addEventListener("click", function (e) {
-        e.stopPropagation();
-        toggleDropdown();
-    });
-
-    document.documentElement.addEventListener("click", function () {
-        if (dropdownMenu.classList.contains("show")) {
-            toggleDropdown();
-        }
-    });
-
-    const sortedLowArray = document.getElementById('sortedLowArray');
-    sortedLowArray.addEventListener('click', function(e){
-    })
-
-    d3.selectAll('input[name="bestOf"]').on('input', (e) => { 
-        console.log(sort(e.currentTarget.value))
-    })
 
 
 }

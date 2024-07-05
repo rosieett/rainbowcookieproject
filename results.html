@@ -14,130 +14,125 @@
 
 <body>
   <div id="profile">
-    <script id="entry-template" type="text/x-handlebars-template">
-        <div class="results">
+    <!-- <script id="entry-template" type="text/x-handlebars-template"> -->
+    <div class="results">
 
-            <div class="navbar-top">
-                <div class="buttonBar">
-                    <ul>
-                        <li class="buttonBar-button">Explore the list</li>
-                        <li class="buttonBar-button">Find me a Cookie Quiz</li>
-                        <li class="buttonBar-button">Methodolody</li>
-                        <li class="buttonBar-button">Recommend a Bakery</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="results-title">
-              <div class="result-hed">Meet the contenders for</div>
-              <div class="result-subead">Best Rainbow Cookie</div>
-            </div>
-
-            <hr>
-
-            <div class="filter-bar">
-
-              <div class="container" id="ctn">
-                              <div class="label">Sort by</div>
-
-                <button class="btn" id="btn">
-                    Ranking - Highest to lowest
-                  <i class="bx bx-chevron-down" id="arrow"></i>
-                </button>
-                <div class="dropdown" id="dropdown">
-                  <a href="" id="sortedHighArray">Ranking - Highest to lowest</a>
-                  <a href="" id="sortedLowArray">Ranking - Lowest to Highest</a>
-                  <!-- <a href="" id="sortedCostHigh">Cost - $$$ to $</a>
-                  <a href="" id="sortedCostLow">Cost - $ to $$$</a> -->
-                </div>
-              </div>
-
-  
-
-                <div class="vline"></div>
-                  <div class="awards">
-                    <p class="label">Awards</p>
-                    <ul class="award-ul">
-                      <li class="award-button">
-                        <input class="awardbtn" type="radio" id="bestChocolate" name="bestOf" value="chocolate" />
-                        <label for="bestChocolate">Best Chocolate</label>
-                      </li>
-                      <li class="award-button">
-                        <input class="awardbtn" type="radio" id="bestTexture" name="bestOf" value="texture" />
-                        <label for="bestTexture">Best Texture</label>
-                      </li>
-                      <li class="award-button">
-                        <input class="awardbtn" type="radio" id="bestAlmond" name="bestOf" value="almond" />
-                        <label for="bestAlmond">Best Almond</label>
-                      <li class="award-button">
-                        <input class="awardbtn" type="radio" id="bestJam" name="bestOf" value="jam" />
-                        <label for="bestJam">Best Jam</label>
-                      </li>
-                      <li class="award-button">
-                        <input class="awardbtn" type="radio" id="bestColor" name="bestOf" value="color" />
-                        <label for="bestColor">Best Color</label>
-                      </li>
-                    </ul>
-                  </div>
-
-                <div class="vline"></div>
-
-                <div class="view"></div>
-            </div>
-<hr>
-
-            <div class="bestArea">
-              <div class="best-row">
-                  <div class="best-visuals">
-                    <svg class="rainbowstack-large" width="130px" height="100px">
-                      <image xlink:href="svgs/Rainbowcookie-singleLarge.svg"></image>
-                    </svg>
-                  </div>
-                <div class="best-text">
-                  <div class="best-superlative">
-                    <p class="label">She's the One</p>
-                    <p class="label-hed">Best Overall</p>
-                    <p class="label-asof">As of June 2024</p>
-                  </div>
-                </div>
-              </div>
-
-                <!-- <div class="best-row">
-                  <div id="best-chart">
-                  </div>
-                <div class="best-hed">
-                  <p id="best-hedbakery"></p>
-                </div>
-              </div> -->
-            </div>
-
-            <div class="restOfBest">
-              {{#each []}}
-              <div class="bakery-restOf">
-                <p class="bakery-item-rank">{{rank}}</p>
-                <p class="bakery-item-name">{{bakeryhed}}</p>
-                <div class="chart-restOf"></div>
-                <p class="bakery-item-cost">${{price}}</p>
-                <p class="bakery-item-sub">For two cookies</p>
-              
-                <div class="resultbuttonArea">
-                  <div class="roundbutton">See the full review ></div>
-                </div>
-              
-              </div>
-
-             
-
-               <hr class="resultLine">
-               
-
-              {{/each}}
-            </div>
-            
-
-
+      <div class="navbar-top">
+        <div class="buttonBar">
+          <ul>
+            <li class="buttonBar-button">Explore the list</li>
+            <li class="buttonBar-button">Find me a Cookie Quiz</li>
+            <li class="buttonBar-button">Methodolody</li>
+            <li class="buttonBar-button">Recommend a Bakery</li>
+          </ul>
+        </div>
       </div>
-      </script>
+
+      <div class="results-title">
+        <div class="result-hed">Meet the contenders for</div>
+        <div class="result-subead">Best Rainbow Cookie</div>
+      </div>
+
+      <hr>
+
+      <div class="filter-bar">
+
+        <div class="sort">
+          <p class="label">Sort by</p>
+          <div class="sort-ul">
+            <div class="sort-button">
+              <input class="awardbtn" type="radio" id="sortedHigh" name="sortbyHigh" value="Overall" />
+              <label for="sortedHigh">Highest to lowest</label>
+            </div>
+            <div class="sort-button">
+              <input class="awardbtn" type="radio" id="sortedLow" name="sortbyLow" value="Overall" />
+              <label for="sortedLow">Lowest to highest</label>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="vline"></div>
+
+        <div class="awards">
+          <p class="label">Awards</p>
+          <div class="award-ul">
+            <div class="award-button">
+              <input class="awardbtn" type="radio" id="bestOverall" name="bestOf" value="overall" />
+              <label for="bestOverall">Best Overall</label>
+            </div>
+            <div class="award-button">
+              <input class="awardbtn" type="radio" id="bestAlmond" name="bestOf" value="almond" />
+              <label for="bestAlmond">Best Almond</label>
+            </div>
+            <div class="award-button">
+              <input class="awardbtn" type="radio" id="bestJam" name="bestOf" value="jam" />
+              <label for="bestJam">Best Jam</label>
+            </div>
+            <div class="award-button">
+              <input class="awardbtn" type="radio" id="bestChocolate" name="bestOf" value="chocolate" />
+              <label for="bestChocolate">Best Chocolate</label>
+            </div>
+            <div class="award-button">
+              <input class="awardbtn" type="radio" id="bestTexture" name="bestOf" value="texture" />
+              <label for="bestTexture">Best Texture</label>
+            </div>
+            <div class="award-button">
+              <input class="awardbtn" type="radio" id="bestColor" name="bestOf" value="color" />
+              <label for="bestColor">Best Color</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="vline"></div>
+
+        <div class="view"></div>
+      </div>
+
+      <hr>
+
+      <div id="mainContainer">
+        <div class="bestArea">
+          <div class="best-row">
+            <div class="best-visuals">
+              <svg class="rainbowstack-large" width="130px" height="100px">
+                <image xlink:href="svgs/Rainbowcookie-singleLarge.svg"></image>
+              </svg>
+            </div>
+            <div class="best-text">
+              <div class="best-superlative">
+                <p class="label">She's the One</p>
+                <p class="label-hed">Best Overall</p>
+                <p class="label-asof">As of June 2024</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="restOfBest">
+          {{#each []}}
+          <div class="bakery-restOf">
+            <p class="bakery-item-rank">{{rank}}</p>
+            <p class="bakery-item-name">{{bakeryhed}}</p>
+            <div class="chart-restOf"></div>
+            <p class="bakery-item-cost">${{price}}</p>
+            <p class="bakery-item-sub">For two cookies</p>
+
+            <div class="resultbuttonArea">
+              <div class="roundbutton">Reset</div>
+              <div class="roundbutton">Full review ></div>
+            </div>
+
+          </div>
+
+          <hr class="resultLine">
+
+          {{/each}}
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"
@@ -149,7 +144,6 @@
 
   <script type="module" src="app_results.js"></script>
 
-  <!-- <script type="module" src="bakeryprofile.js"></script> -->
 </body>
 
 </html>

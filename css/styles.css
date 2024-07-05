@@ -528,7 +528,8 @@ svg:hover {
   line-height: normal;
   letter-spacing: 0.8px;
   text-transform: uppercase;
-  margin-bottom: 2%;
+  margin-bottom: 8px;
+  margin-top: 0;
 }
 
 .filter-dropdown {
@@ -553,11 +554,53 @@ svg:hover {
   padding-left: 0;
 }
 
+.sort {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
+}
+
+.sort-ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sort-button {
+  color: #502a27;
+  font-family: "Gully";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  list-style: none;
+  padding-left: 0;
+}
+
+.sort-button {
+  color: #502a27;
+  font-family: "Gully";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  list-style: none;
+  padding-left: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
 .awards {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 50%;
+  width: 60%;
 }
 
 .award-ul {
@@ -565,10 +608,6 @@ svg:hover {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-}
-
-.awards > .label {
-  margin-top: 0;
 }
 
 .award-button {
@@ -582,6 +621,8 @@ svg:hover {
   text-transform: uppercase;
   list-style: none;
   padding-left: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
   width: 33%;
 }
 
@@ -721,7 +762,9 @@ svg:hover {
   order: 2;
   width: 20%;
   display: flex;
+  flex-direction: column;
   align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .bakery-restOf:first-child > .resultbuttonArea > .roundbutton {
@@ -738,6 +781,8 @@ svg:hover {
   line-height: normal;
   letter-spacing: 0.8px;
   text-transform: uppercase;
+  align-self: flex-start;
+  margin: 2%;
 }
 
 .bakery-restOf:first-child > .resultbuttonArea > .roundbutton:hover {
@@ -844,12 +889,6 @@ svg:hover {
   display: none;
 }
 
-.filter-bar > .container {
-  width: 30%;
-  flex-direction: column;
-  flex: none;
-}
-
 .btn {
   padding: 3% 6%;
   cursor: pointer;
@@ -871,52 +910,6 @@ svg:hover {
 
 .bx {
   font-size: 1.1rem;
-}
-
-.dropdown {
-  position: absolute;
-  box-shadow: var(--shadow);
-  margin-top: 0.3rem;
-  background: #f2ebd7;
-  transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
-  transform: translateY(0.5rem);
-  visibility: hidden;
-  opacity: 0;
-  border-radius: 10px;
-  border: 2px solid #502a27;
-}
-
-.dropdown a {
-  font-size: 14px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.8px;
-  color: #502a27;
-  display: flex;
-  align-items: center;
-  column-gap: var(--gap);
-  padding: 0.8rem 1rem;
-  text-decoration: none;
-  color: #502a27;
-}
-
-.dropdown a:hover {
-  background: #502a27;
-  color: #f2ebd7;
-}
-
-.show {
-  transform: translateY(0rem);
-  visibility: visible;
-  opacity: 1;
-  border-radius: 10px;
-  color: #f2ebd7;
-}
-
-.arrow {
-  transform: rotate(180deg);
-  transition: 0.2s ease;
 }
 
 input[type="radio"] {
