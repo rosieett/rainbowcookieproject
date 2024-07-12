@@ -921,3 +921,43 @@ input[type="radio"] {
   font-family: "Gully-bold";
   font-weight: bold;
 }
+
+/* METHODOLOGY PAGE */
+
+.topNav {
+  display: flex;
+  height: 40px;
+}
+
+.buttonDiv {
+  display: flex;
+  align-items: center;
+}
+
+.pageButton {
+  color: #502a27;
+  text-align: center;
+  font-family: Gully;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-decoration: inherit;
+  cursor: pointer;
+  align-items: center;
+}
+
+.pageButton:hover {
+  font-family: "Gully-bold";
+}
+
+.rainbowstack-xlarge {
+  width: 20%;
+}
+
+[name="sortDirection"]:checked + label {
+  font-family: "Gully-bold";
+  font-weight: bold;
+}
