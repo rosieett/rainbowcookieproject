@@ -29,6 +29,8 @@ function sort(by="Overall", isReversed = false) {
     var html = template(sortedHighArray);
     document.getElementById("mainContainer").innerHTML = html;
 
+
+
     sortedHighArray.forEach(function(d, i){
         let categories = d.avgScores[0]
         let bakeryData = d.avgScores
@@ -36,6 +38,9 @@ function sort(by="Overall", isReversed = false) {
         let bakeryChart = d3.selectAll('.bakery-restOf').filter((dd, ii) => ii == i)
 
         if (i !== 0) {
+
+            let colors = ['#502A27', '#E86663', '#EDB834', '#923F3D', '#99C983']
+
             let labelsDiv = bakeryChart.select('.chart-restOf')
                 .append('div')
                 .classed('labels', true)
@@ -52,10 +57,10 @@ function sort(by="Overall", isReversed = false) {
 
                 let scoreBars = bakeryChart.selectAll('.scoreBarDivs')
                     .append('div')
-                    .style('color', '#A58567')
+                    .style('color', (d, i) => colors[cat_i])
                     .classed('scoreBars', true)
                     .style('border', '1px solid #A58567')
-                    .style('background', (dd, ii) => `linear-gradient(to right, #A58567 0%, #A58567 ${(categories[categorie])*20}%, transparent ${(categories[categorie])*20}%, transparent 100%`)
+                    .style('background', (dd, ii) => `linear-gradient(to right, currentcolor 0%, currentcolor ${(categories[categorie])*20}%, transparent ${(categories[categorie])*20}%, transparent 100%`)
 
                     cat_i++;
             }
