@@ -726,6 +726,7 @@ svg:hover {
   width: 100%;
   border-radius: 10px;
   margin: 10px 0 10px 0;
+  border: 2px solid rgba(0, 0, 0, 0);
 }
 
 .bakery-restOf:first-child {
@@ -742,15 +743,15 @@ svg:hover {
   order: 1;
   color: #502a27;
   font-family: "Anchor Jack";
-  font-size: 48px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   flex-wrap: wrap;
   width: 50%;
+  font-size: calc(3vw + 1vh);
   text-align: start;
   margin-left: 0;
-  align-self: flex-end;
+  margin: 0;
 }
 
 .bakery-restOf:first-child > .chart-restOf {
@@ -802,7 +803,7 @@ svg:hover {
 }
 
 .bakery-item-rank {
-  color: #a58567;
+  color: #502a27;
   text-align: center;
   font-family: "Gully";
   font-size: 14px;
@@ -816,7 +817,7 @@ svg:hover {
 }
 
 .bakery-item-name {
-  color: #a58567;
+  color: #3c2415;
   text-align: center;
   font-family: "Anchor Jack";
   font-size: 16px;
@@ -829,7 +830,7 @@ svg:hover {
 }
 
 .bakery-item-cost {
-  color: #a58567;
+  color: #502a27;
   text-align: center;
   font-family: "Hina Mincho";
   font-size: 28px;
@@ -842,7 +843,7 @@ svg:hover {
 }
 
 .bakery-item-sub {
-  color: #a58567;
+  color: #502a27;
   text-align: center;
   font-family: "Gully";
   font-size: 12px;
@@ -960,4 +961,9 @@ input[type="radio"] {
 [name="sortDirection"]:checked + label {
   font-family: "Gully-bold";
   font-weight: bold;
+}
+
+.bakery-restOf:hover:not(:first-child) {
+  border-radius: 10px;
+  border: 2px solid #502a27;
 }

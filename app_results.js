@@ -11,8 +11,6 @@ d3.selectAll('input[name="bestOf"],input[name="sortDirection"]').on('input', (e)
 })
 
 
-
-
 function sort(by="Overall", isReversed = false) {
 
     let sortedHighArray = data.sort((a, b) => {
@@ -59,7 +57,7 @@ function sort(by="Overall", isReversed = false) {
                     .append('div')
                     .style('color', (d, i) => colors[cat_i])
                     .classed('scoreBars', true)
-                    .style('border', '1px solid #A58567')
+                    .style('border', '1px solid currentcolor')
                     .style('background', (dd, ii) => `linear-gradient(to right, currentcolor 0%, currentcolor ${(categories[categorie])*20}%, transparent ${(categories[categorie])*20}%, transparent 100%`)
 
                     cat_i++;
