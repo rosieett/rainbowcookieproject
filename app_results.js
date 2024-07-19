@@ -24,10 +24,21 @@ function sort(by="Overall", isReversed = false) {
         sortedHighArray.reverse();
     }
     
-    var html = template(sortedHighArray);
+    let html = template(sortedHighArray);
     document.getElementById("mainContainer").innerHTML = html;
 
 
+    if(isReversed == false){
+        let labelHed = d3.selectAll('.label-hed')
+        let byUpperCase = by.charAt(0).toUpperCase() + by.slice(1);
+        let labelHedFromClick = `Best ${byUpperCase}`
+        document.getElementById('label-hed').innerHTML = labelHedFromClick;
+    } else {
+        let labelHed = d3.selectAll('.label-hed')
+        let byUpperCase = by.charAt(0).toUpperCase() + by.slice(1);
+        let labelHedFromClick = `Worst ${byUpperCase}`
+        document.getElementById('label-hed').innerHTML = labelHedFromClick;
+    }
 
     sortedHighArray.forEach(function(d, i){
         let categories = d.avgScores[0]

@@ -748,7 +748,7 @@ svg:hover {
   line-height: normal;
   flex-wrap: wrap;
   width: 50%;
-  font-size: calc(3vw + 1vh);
+  font-size: calc(2vw + 1vh);
   text-align: start;
   margin-left: 0;
   margin: 0;
@@ -923,6 +923,16 @@ input[type="radio"] {
   font-weight: bold;
 }
 
+[name="sortDirection"]:checked + label {
+  font-family: "Gully-bold";
+  font-weight: bold;
+}
+
+.bakery-restOf:hover:not(:first-child) {
+  border-radius: 10px;
+  border: 2px solid #502a27;
+}
+
 /* METHODOLOGY PAGE */
 
 .topNav {
@@ -932,14 +942,16 @@ input[type="radio"] {
 
 .buttonDiv {
   display: flex;
+  flex-basis: calc(100% / 5);
+  justify-content: center;
   align-items: center;
 }
 
 .pageButton {
   color: #502a27;
   text-align: center;
-  font-family: Gully;
-  font-size: 16px;
+  font-family: "Gully";
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -954,16 +966,31 @@ input[type="radio"] {
   font-family: "Gully-bold";
 }
 
-.rainbowstack-xlarge {
-  width: 20%;
+.intro {
+  display: flex;
 }
 
-[name="sortDirection"]:checked + label {
-  font-family: "Gully-bold";
-  font-weight: bold;
+.rainbowstack-intro {
+  width: 100%;
+  padding: 2% 2% 0 2%;
 }
 
-.bakery-restOf:hover:not(:first-child) {
-  border-radius: 10px;
-  border: 2px solid #502a27;
+.intro-title {
+  color: #502a27;
+  font-family: "ZTBrosOskon90s";
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 20px 0 20px 0;
+}
+
+.intro-text {
+  color: #502a27;
+  font-family: Gully;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
