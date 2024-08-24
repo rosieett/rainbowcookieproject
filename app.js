@@ -10,17 +10,19 @@ let url = new URL(document.location);
 let params = url.searchParams;
 let bakeryID = params.get("bakeryNumber");
 
+
+
 //set up a filter to filter the array for objects whos bakeryID matches the bakeryNumber then grab the first object from that filtered set
 let result = data.filter((b) => b.bakeryNumber == bakeryID)[0]
 
-var source = document.getElementById("entry-template").innerHTML;
+let source = document.getElementById("entry-template").innerHTML;
 // Handlebars.registerPartial('bakeryprofile', bakeryprofile);
 // console.log(bakeryprofile)
-var template = Handlebars.compile(source);
-var context = result;
+let template = Handlebars.compile(source);
+let context = result;
 
 
-var html = template(context);
+let html = template(context);
 
 document.getElementById("profile").innerHTML = html;
 
@@ -118,3 +120,16 @@ outerloop.forEach(function(d, i){
         }
        })
     })
+
+
+//set up next button in footer
+let nextBakeryID = Number.parseInt(bakeryID);
+console.log(nextBakeryID)
+nextBakeryID = nextBakeryID+1;
+let currentURL = window.location.href
+currentURL = currentURL.slice(0,currentURL.length-1) +  nextBakeryID
+
+let nextButton = document.getElementById('next')
+nextButton.addEventListener('click', (e) => {
+   window.location.href = currentURL;
+})

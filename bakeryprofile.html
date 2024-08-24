@@ -26,7 +26,7 @@
             </li>
             <li class="buttonBar-button">Find me a Cookie Quiz</li>
             <li class="buttonBar-button">
-              <a href="methodology.html">Methodolody</a>
+              <a href="methodology.html">Methodology</a>
             </li>
             <li class="buttonBar-button">Recommend a Bakery</li>
           </ul>
@@ -48,7 +48,7 @@
               <div class="vline"></div>
               <div class="bakery-callout">
                 <h3 class="subhead">Price for 2 cookies</h3>
-                <p class="callout"> {{price}}</p>
+                <p class="callout"> ${{price}}</p>
               </div>
               <div class="vline"></div>
 
@@ -63,11 +63,12 @@
               <div class="bakery-scores">
                 <h3 class="area-hed">Average score</h3>
                 <div id="chart-average">
-
                 </div>
               </div>
               <div class="vline"></div>
-              <div class="image-area"></div>
+              <div class="image-area">
+                <img class="images" src="{{image}}">
+              </div>
               <div class="vline"></div>
 
               <div class="overall-cookie-notes">
@@ -128,12 +129,25 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <button class="landing-button">Take me to the whole list</button>
+              <a href="results.html" class="footer-buttonGroup">
+                <button class="footer-button">Take me to the whole list</button>
+              </a>
+            
+
+              <div class="footer-buttonGroup">
+                <input class="footer-button" type="radio" id="next" name="next" />
+                <label for="next">Next</label>
+              </div>
+
 
             </div>
           </div>
+              <footer>
+                <p>Copyright © Dingus and Doofus (Rosie and Adrienne)</p>
+              </footer>
         </div>
       </script>
+
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"
