@@ -1304,4 +1304,12 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #502a27;
+}
+
+footer a {
+  text-transform: uppercase;
+  padding: 0 5px 0 5px;
 }

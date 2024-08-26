@@ -11,7 +11,6 @@ d3.selectAll('input[name="bestOf"],input[name="sortDirection"]').on('input', (e)
 })
 
 
-
 function sort(by="Overall", isReversed = false) {
 
     let sortedHighArray = data.sort((a, b) => {
@@ -42,9 +41,21 @@ function sort(by="Overall", isReversed = false) {
     }
 
     sortedHighArray.forEach(function(d, i){
+
         let categories = d.avgScores[0]
         let bakeryData = d.avgScores
 
+        //giving each bakery an ID for selecting it to it's profile page
+        let bakeryID = document.getElementsByClassName('bakeryHiddenInfo');
+        let bakeryIDdata = eval(bakeryID[i].innerHTML)
+        console.log(bakeryIDdata)
+
+        //FIGURE OUT CLICKING ON A DIV 
+        let clickedBakery = document.getElementsByClassName('bakery-restOf')
+        clickedBakery[i].addEventListener('click', (e) => {
+            window.location.href = 'bakeryprofile.html?bakeryNumber=' + bakeryIDdata
+        })
+        
         let bakeryChart = d3.selectAll('.bakery-restOf').filter((dd, ii) => ii == i)
 
         if (i !== 0) {
