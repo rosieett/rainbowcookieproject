@@ -11,6 +11,7 @@ d3.selectAll('input[name="bestOf"],input[name="sortDirection"]').on('input', (e)
 })
 
 
+
 function sort(by="Overall", isReversed = false) {
 
     let sortedHighArray = data.sort((a, b) => {

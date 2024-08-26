@@ -8,7 +8,7 @@ import data from "/data.json" with { type: "json" };
 //get the bakery number for the profile that was selected
 let url = new URL(document.location);
 let params = url.searchParams;
-let bakeryID = params.get("bakeryNumber");
+let bakeryID = parseInt(params.get("bakeryNumber"))
 
 
 
@@ -21,10 +21,30 @@ let source = document.getElementById("entry-template").innerHTML;
 let template = Handlebars.compile(source);
 let context = result;
 
-
 let html = template(context);
-
 document.getElementById("profile").innerHTML = html;
+
+//NEXT BUTTON
+//find the main part of the url that wont change
+let mainURL = window.location.href.split('=')[0];
+
+//find the button
+let nextButton = document.getElementById('next')
+
+//add one to the bakeryId that it's currently on
+let nextBakery = bakeryID+1
+
+//when you click the next button, take the part of the url that doesnt change, and add in an = then next bakery number
+nextButton.addEventListener('click', (e) => {
+    window.location.href = mainURL + '=' + nextBakery;
+})
+
+//when you hit the end of the data set, hide the next button
+if (bakeryID === data.length){
+    let hidden = d3.select('#nextLabel')
+        .style('display', 'none')
+}
+
 
 // AVERAGE SCORE AREA //
 
@@ -44,6 +64,8 @@ let avgScoreRow = d3.select('#chart-average')
             .style("color", (d, i) => colors[i])
         ,(update) => update
         ,(exit) => exit.remove()
+
+        
     )
 
 //each "loop" so that for each row, for each 5 boxes, it finds the data and loops for each category
@@ -85,7 +107,6 @@ avgScoreRow.each(function(category, i) {
 
 let outerloop = result.scores
 
-
 outerloop.forEach(function(d, i){
     let people = d.person
 
@@ -121,15 +142,3 @@ outerloop.forEach(function(d, i){
        })
     })
 
-
-//set up next button in footer
-let nextBakeryID = Number.parseInt(bakeryID);
-console.log(nextBakeryID)
-nextBakeryID = nextBakeryID+1;
-let currentURL = window.location.href
-currentURL = currentURL.slice(0,currentURL.length-1) +  nextBakeryID
-
-let nextButton = document.getElementById('next')
-nextButton.addEventListener('click', (e) => {
-   window.location.href = currentURL;
-})
