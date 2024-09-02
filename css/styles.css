@@ -928,7 +928,7 @@ svg:hover {
 
 .btn {
   padding: 3% 6%;
-  cursor: pointer;
+  cursor: default;
   border-radius: 10px;
   border: 2px solid #502a27;
   box-shadow: var(--shadow);
@@ -1300,6 +1300,7 @@ a {
 hr:last-of-type {
   margin-top: 30px;
 }
+
 footer {
   width: 100%;
   display: flex;
@@ -1312,4 +1313,204 @@ footer {
 footer a {
   text-transform: uppercase;
   padding: 0 5px 0 5px;
+}
+
+.modal {
+  position: fixed;
+  height: 600px;
+  top: calc(50vh - 300px);
+  z-index: 100;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-close {
+  justify-content: center;
+  padding: 0;
+  background-color: #f2ebd780;
+  padding-bottom: 20px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #f2ebd7cc;
+  backdrop-filter: blur(9px);
+  z-index: 1;
+}
+
+.modal {
+  z-index: 2;
+}
+
+.hidden {
+  display: none;
+}
+
+.modalBtn {
+  text-transform: uppercase;
+  padding: 0 5px 0 5px;
+  text-decoration: none;
+  color: #502a27;
+  cursor: default;
+}
+
+.modal > p {
+  color: #502a27;
+  font-family: "Gully";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.modal > h3 {
+  color: #502a27;
+  font-family: "ZTBrosOskon90s";
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+  margin: 0px;
+}
+
+.modal > div {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.modal > div > .roundbutton:first-of-type {
+  border-radius: 30px;
+  border: 2px solid #502a27;
+  padding: 3% 3%;
+  color: #502a27;
+  text-align: center;
+  font-family: "Gully";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+
+.modal > div > .roundbutton:last-of-type {
+  border-radius: 30px;
+  border: 2px solid #502a27;
+  padding: 3% 3%;
+  color: #502a27;
+  text-align: center;
+  font-family: "Gully";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+
+.mainRec {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rec-h1 {
+  color: #502a27;
+  font-family: "Anchor Jack";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.rec-subhead {
+  color: #502a27;
+  font-family: "Gully";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-self: center;
+}
+
+form > p,
+form > label {
+  color: #502a27;
+  font-family: "ZT Bros Oskon 90s";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 187.5% */
+}
+
+.form {
+  width: 90%;
+  align-self: center;
+  background-color: #f2ebd7;
+}
+
+form > div > .roundbutton {
+  border-radius: 30px;
+  border: 2px solid #502a27;
+  padding: 1.5% 1.5%;
+  color: #502a27;
+  text-align: center;
+  font-family: "Gully";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-right: 5px;
+  background-color: #f2ebd7;
+  width: 150px;
+}
+
+form > div > .roundbutton:hover {
+  background-color: #3c2415;
+  color: #f2ebd7;
+}
+
+input[type="text"],
+input[type="email"] {
+  border-radius: 7px;
+  border: 1px solid #a58567;
+  background: #eae0c6;
+  height: 36px;
+  transform: translateY(-5px);
+}
+
+#email,
+#bakery,
+#formname {
+  color: #a58567;
+  font-family: "Gully";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

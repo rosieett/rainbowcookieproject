@@ -6,3 +6,5 @@ category.on('input', (e) => {
     let cat = document.querySelector("input[name='awardCat']:checked").value;
     window.document.location = 'results.html' + "?defaultSort=" + cat;
 })
+
+
