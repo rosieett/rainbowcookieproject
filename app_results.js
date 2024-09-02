@@ -3,16 +3,34 @@ import data from "/data.json" with { type: "json" };
 var source = document.getElementById("mainContainer").innerHTML;
 var template = Handlebars.compile(source);
 
+let url = new URL(document.location);
+let params = url.searchParams;
+let catData = params.get('defaultSort')
+console.log(catData)
 
-d3.selectAll('input[name="bestOf"],input[name="sortDirection"]').on('input', (e) => { 
+//make list of categories to pull from
+let catList = data[0].avgScores[0]
+catList = Object.keys(catList)
+console.log(catList)
+
+//if the button that's clicked on on the homepage isn't in the catList, then default to overall
+if (!catList.includes(catData)){
+    catData = 'Overall'   
+}
+
+
+
+
+let awardbtns = d3.selectAll('input[name="bestOf"],input[name="sortDirection"]');
+awardbtns.on('input', (e) => { 
     let sortLow = (document.querySelector("input[name='sortDirection']:checked").value == 'ascending');
     let category = (document.querySelector("input[name='bestOf']:checked").value)
     sort(category, sortLow);
 })
 
 
-function sort(by="Overall", isReversed = false) {
-
+function sort(by=catData, isReversed = false) {
+    
     let sortedHighArray = data.sort((a, b) => {
         if (by in a) {
             return b[by] - a[by];
@@ -27,7 +45,6 @@ function sort(by="Overall", isReversed = false) {
     let html = template(sortedHighArray);
     document.getElementById("mainContainer").innerHTML = html;
 
-
     if(isReversed == false){
         let labelHed = d3.selectAll('.label-hed')
         let byUpperCase = by.charAt(0).toUpperCase() + by.slice(1);
@@ -40,6 +57,7 @@ function sort(by="Overall", isReversed = false) {
         document.getElementById('label-hed').innerHTML = labelHedFromClick;
     }
 
+
     sortedHighArray.forEach(function(d, i){
 
         let categories = d.avgScores[0]
@@ -48,7 +66,6 @@ function sort(by="Overall", isReversed = false) {
         //giving each bakery an ID for selecting it to it's profile page
         let bakeryID = document.getElementsByClassName('bakeryHiddenInfo');
         let bakeryIDdata = eval(bakeryID[i].innerHTML)
-        console.log(bakeryIDdata)
 
         //FIGURE OUT CLICKING ON A DIV 
         let clickedBakery = document.getElementsByClassName('bakery-restOf')
@@ -134,6 +151,6 @@ function sort(by="Overall", isReversed = false) {
 
 }
 
-sort();
+sort(catData);
 
 

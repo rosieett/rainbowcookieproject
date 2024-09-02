@@ -9,7 +9,7 @@ import data from "/data.json" with { type: "json" };
 let url = new URL(document.location);
 let params = url.searchParams;
 let bakeryID = parseInt(params.get("bakeryNumber"))
-
+console.log(url, params)
 
 
 //set up a filter to filter the array for objects whos bakeryID matches the bakeryNumber then grab the first object from that filtered set
