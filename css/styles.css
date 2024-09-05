@@ -96,7 +96,8 @@ hr {
   flex: none;
 }
 
-.footer-button {
+.footer-button,
+#nextLabel {
   border-radius: 30px;
   width: 100%;
   border: 2px solid #502a27;
@@ -114,6 +115,7 @@ hr {
 .footer-buttonGroup {
   margin: 0px 5px;
 }
+
 svg {
   stroke: #502a27;
 }
@@ -1506,7 +1508,7 @@ input[type="email"] {
 
 #email,
 #bakery,
-#formname {
+#name {
   color: #a58567;
   font-family: "Gully";
   font-size: 16px;

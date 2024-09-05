@@ -28,7 +28,6 @@
                         </li>
                         <li class="buttonBar-button">
                             <a href="recommend.html">Recommend a Bakery</a>
-
                         </li>
                     </ul>
                 </div>
@@ -39,26 +38,27 @@
                 <h2 class="rec-subhead">Look, dude, I’m just one guy, I’m gonna forget some</h2>
                 <hr>
 
-                <form action="" method="get" class="form" id="form">
+                <form action="https://formspree.io/f/mjkbzgey" method="POST" class="form" id="form">
 
 
 
                     <p>Hi Rosie,</p>
 
-                    <p>It's me, <label for="name"></label><input type="text" name="name" id="formname"
-                            placeholder="name" required /> I just
-                        wanted you to know I'm really personally offended that you did not include the rainbow
-                        cookie from<label for="email"> </label><input type="text" name="email" id="bakery"
-                            placeholder="my favorite bakery" /> .
-                        I hope
-                        you are willing and able to rectify this ASAP. Please let me know when
-                        you've updated
+                    <p>
+                        <label for="name">It's me,</label>
+                        <input type="text" name="name" id="name" placeholder="name"></input>
+                        I just wanted you to know I'm really personally offended that you did not include the rainbow
+                        cookie
+                        <label for="bakery">from </label>
+                        <input name="bakery" type="text" id="bakery" placeholder="my favorite bakery"></input>
+                        . I hope you are willing and able to rectify this ASAP. Please let me know when you've updated
                         your ranking after including it by telling me how much you love it at <label for="email">
                         </label><input type="email" name="email" id="email" placeholder="email@address.com" />
                         and I will consider forgiveness. Thanks!
                     </p>
-                    <div class="form-example">
-                        <input type="submit" value="Send!" class="roundbutton" id="sendButton" />
+                    <div class="form">
+                        <input type="submit" value="Send!" class="roundbutton" id="sendButton"
+                            onclick="target = '_blank'" />
                     </div>
                 </form>
 
