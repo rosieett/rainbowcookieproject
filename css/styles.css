@@ -132,44 +132,6 @@ svg:hover {
   color: #f2ebd7;
 }
 
-@media (max-width: 500px) {
-  .main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-  }
-
-  .landing-h1 {
-    font-size: 50px;
-    margin-top: 20px;
-  }
-
-  .landing-subhead {
-    font-size: 14px;
-    margin-top: 10px;
-  }
-
-  hr {
-    margin: 20px 0 20px 0 !important;
-  }
-
-  .landing-button {
-    border-radius: 10px;
-    border: 1px solid #502a27;
-    color: #502a27;
-    font-size: 12px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-    background-color: #f2ebd7;
-    padding: 2% 2% 2% 2%;
-    margin: 5px 5px 5px 0;
-  }
-}
-
 /* BAKERY PROFILE */
 
 .entry {
@@ -1529,4 +1491,120 @@ input[type="email"] {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.mobileLine {
+  visibility: hidden;
+}
+
+@media (max-width: 700px) {
+  .mobileLine {
+    border: 0.75px solid #502a27;
+    width: 100%;
+    margin: 2% 0 2% 0;
+    visibility: visible;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .landing-h1 {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  .landing-subhead {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  hr {
+    margin: 20px 0 20px 0 !important;
+  }
+
+  .landing-button {
+    border-radius: 10px;
+    border: 1px solid #502a27;
+    color: #502a27;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    background-color: #f2ebd7;
+    padding: 2% 2% 2% 2%;
+    margin: 5px 5px 5px 0;
+  }
+
+  .navbar-top {
+    display: none;
+  }
+
+  .bakery-profile {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 0 10px;
+  }
+  .bakery-hed {
+    font-size: 30px;
+    text-align: center;
+  }
+  .subhead {
+    font-size: 10px;
+  }
+  .bakery-subhed {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .bakery-callout {
+    width: 45%;
+  }
+
+  .bakery-callout:first-of-type {
+    border-right: 2px solid black;
+  }
+
+  .bakery-notes {
+    width: 90%;
+    padding: 20px 0 0 20px;
+  }
+
+  .bakery-overall {
+    flex-direction: column;
+    min-height: 500px;
+    margin-bottom: 20px;
+  }
+
+  .bakery-scores {
+    width: 100%;
+  }
+  .image-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 150px;
+  }
+  .images {
+    max-width: 300px;
+  }
+
+  .overall-cookie-notes {
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 200px;
+  }
+
+  hr {
+    border: 0.5px solid #502a27 !important;
+  }
+
+  .cookie-tasters {
+    height: 200px;
+  }
 }
