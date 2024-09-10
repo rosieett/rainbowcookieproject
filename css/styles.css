@@ -77,7 +77,9 @@ hr {
 }
 
 .button-list {
-  width: 950px;
+  max-width: 950px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .landing-button {
@@ -92,8 +94,7 @@ hr {
   text-transform: uppercase;
   background-color: #f2ebd7;
   padding: 1% 1.5% 1% 1.5%;
-  margin: 15px 5px 15px 0;
-  flex: none;
+  margin: 5px 5px 15px 0;
 }
 
 .footer-button,
@@ -136,8 +137,7 @@ svg:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 90vh;
-    margin: 0 auto;
+    height: 100vh;
   }
 
   .landing-h1 {
@@ -147,12 +147,26 @@ svg:hover {
 
   .landing-subhead {
     font-size: 14px;
+    margin-top: 10px;
   }
 
   hr {
-    border: 0.75px solid #502a27;
-    width: 100%;
-    margin: 2% 0 2% 0;
+    margin: 20px 0 20px 0 !important;
+  }
+
+  .landing-button {
+    border-radius: 10px;
+    border: 1px solid #502a27;
+    color: #502a27;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    background-color: #f2ebd7;
+    padding: 2% 2% 2% 2%;
+    margin: 5px 5px 5px 0;
   }
 }
 
