@@ -1499,7 +1499,7 @@ input[type="email"] {
 
 @media (max-width: 700px) {
   .mobileLine {
-    border: 0.75px solid #502a27;
+    border-top: 2px solid #502a27;
     width: 100%;
     margin: 2% 0 2% 0;
     visibility: visible;
@@ -1560,6 +1560,7 @@ input[type="email"] {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+    min-height: 160px;
   }
 
   .bakery-callout {
@@ -1576,28 +1577,47 @@ input[type="email"] {
   }
 
   .bakery-overall {
-    flex-direction: column;
-    min-height: 500px;
+    min-height: 520px;
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 
   .bakery-scores {
     width: 100%;
+    min-height: 250px;
+  }
+
+  #chart-average {
+    height: 200px;
+  }
+
+  .avgScoreRow {
+    align-self: center;
+    height: 38px;
+    width: 428px;
   }
   .image-area {
-    width: 100%;
     display: flex;
     justify-content: center;
-    min-height: 150px;
+    width: 50%;
+    background-color: rgb(222, 210, 181, 0.75);
   }
+
   .images {
-    max-width: 300px;
+    height: 165px;
+    width: 250px;
+    align-self: center;
   }
 
   .overall-cookie-notes {
-    width: 100%;
-    min-height: 500px;
-    margin-bottom: 200px;
+    width: 45%;
+    margin-left: 4%;
+  }
+
+  .overall-cookie-notes > .callout {
+    font-size: 28px;
   }
 
   hr {
@@ -1607,4 +1627,10 @@ input[type="email"] {
   .cookie-tasters {
     height: 200px;
   }
+
+  .vline {
+    display: none;
+  }
+
+  
 }
