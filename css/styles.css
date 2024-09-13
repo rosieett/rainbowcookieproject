@@ -267,10 +267,14 @@ svg:hover {
 
 .image-area {
   width: 25%;
+  background-color: rgba(222, 210, 180, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .images {
-  width: 100%;
+  width: 80%;
   max-height: 164px;
 }
 
@@ -1495,7 +1499,17 @@ input[type="email"] {
   display: none;
 }
 
-@media (max-width: 700px) {
+/* 
+//////
+//////
+//////
+MEDIA SIZES
+//////
+//////
+//////
+*/
+
+@media (max-width: 600px) {
   .main {
     display: flex;
     justify-content: center;
@@ -1566,7 +1580,7 @@ input[type="email"] {
   }
 
   .bakery-subhed > .vline:nth-last-of-type(2),
-  .bakery-overall > .vline,
+  .bakery-overall > .vline:nth-of-type(2),
   .section-scores > .vline {
     display: none;
   }
@@ -1586,23 +1600,27 @@ input[type="email"] {
     width: 100%;
   }
 
-  #chart-average {
-    height: 200px;
-  }
-
   .avgScoreRow {
     align-self: center;
-    height: 38px;
-    width: 100%;
-    max-width: 400px;
+    max-height: 25px;
+    width: 330px;
   }
 
   .image-area {
-    display: none;
+    width: 30%;
+    background-color: rgba(222, 210, 180, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin-left: 1%;
+    margin-right: 3%;
+    border-radius: 5px;
   }
 
   .overall-cookie-notes {
-    width: 100%;
+    width: 54%;
+    margin-left: 3%;
   }
 
   .overall-cookie-notes > .callout {
@@ -1700,5 +1718,48 @@ input[type="email"] {
     align-self: center;
     margin: 10px 0px;
     border-radius: 10px;
+  }
+}
+
+@media (600px < width < 900px) {
+  .bakery-overall {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .bakery-scores {
+    width: 60%;
+    max-width: 400px;
+  }
+
+  .avgScoreRow {
+    max-height: 25px;
+    width: 300px;
+  }
+
+  .image-area {
+    width: 30%;
+    margin: 0 2% !important;
+  }
+
+  .images {
+    max-width: 180px;
+  }
+
+  .overall-cookie-notes {
+    display: flex;
+    align-self: center;
+    width: 100%;
+    margin-left: 3%;
+  }
+
+  .overall-cookie-notes > .callout {
+    font-size: 20px;
+  }
+
+  .bakery-overall > .vline:nth-last-of-type(2) {
+    display: none;
   }
 }
