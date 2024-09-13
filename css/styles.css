@@ -99,7 +99,7 @@ hr {
 
 .footer-button,
 #nextLabel {
-  border-radius: 30px;
+  border-radius: 10px;
   width: 100%;
   border: 2px solid #502a27;
   color: #502a27;
@@ -180,7 +180,6 @@ svg:hover {
 .bakery-subhed {
   display: flex;
   justify-content: center;
-  justify-content: space-between;
 }
 
 .subhead {
@@ -238,7 +237,6 @@ svg:hover {
 .bakery-overall {
   display: flex;
   width: 100%;
-  max-height: 165px;
 }
 
 .vline {
@@ -1493,17 +1491,11 @@ input[type="email"] {
   line-height: normal;
 }
 
-.mobileLine {
-  visibility: hidden;
+#mobileLine {
+  display: none;
 }
 
 @media (max-width: 700px) {
-  .mobileLine {
-    border-top: 2px solid #502a27;
-    width: 100%;
-    margin: 2% 0 2% 0;
-    visibility: visible;
-  }
   .main {
     display: flex;
     justify-content: center;
@@ -1540,6 +1532,13 @@ input[type="email"] {
     margin: 5px 5px 5px 0;
   }
 
+  /* BAKERY PROFILE */
+
+  .entry {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
   .navbar-top {
     display: none;
   }
@@ -1547,7 +1546,7 @@ input[type="email"] {
   .bakery-profile {
     display: flex;
     flex-direction: column;
-    padding: 0px 10px 0 10px;
+    width: 100%;
   }
   .bakery-hed {
     font-size: 30px;
@@ -1557,28 +1556,27 @@ input[type="email"] {
     font-size: 10px;
   }
   .bakery-subhed {
-    flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
-    min-height: 160px;
+    width: 100%;
+    justify-content: left;
   }
 
   .bakery-callout {
-    width: 45%;
+    width: 48%;
   }
 
-  .bakery-callout:first-of-type {
-    border-right: 2px solid black;
+  .bakery-subhed > .vline:nth-last-of-type(2),
+  .bakery-overall > .vline,
+  .section-scores > .vline {
+    display: none;
   }
 
   .bakery-notes {
-    width: 90%;
-    padding: 20px 0 0 20px;
+    width: 100%;
+    padding-top: 20px;
   }
 
   .bakery-overall {
-    min-height: 520px;
-    margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -1586,7 +1584,6 @@ input[type="email"] {
 
   .bakery-scores {
     width: 100%;
-    min-height: 250px;
   }
 
   #chart-average {
@@ -1596,41 +1593,112 @@ input[type="email"] {
   .avgScoreRow {
     align-self: center;
     height: 38px;
-    width: 428px;
+    width: 100%;
+    max-width: 400px;
   }
+
   .image-area {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    background-color: rgb(222, 210, 181, 0.75);
-  }
-
-  .images {
-    height: 165px;
-    width: 250px;
-    align-self: center;
-  }
-
-  .overall-cookie-notes {
-    width: 45%;
-    margin-left: 4%;
-  }
-
-  .overall-cookie-notes > .callout {
-    font-size: 28px;
-  }
-
-  hr {
-    border: 0.5px solid #502a27 !important;
-  }
-
-  .cookie-tasters {
-    height: 200px;
-  }
-
-  .vline {
     display: none;
   }
 
-  
+  .overall-cookie-notes {
+    width: 100%;
+  }
+
+  .overall-cookie-notes > .callout {
+    font-size: 20px;
+  }
+
+  .cookie-tasters {
+    height: 250px;
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+  }
+
+  .scores,
+  .scores:first-child {
+    display: flex;
+    min-width: 250px;
+    background-color: #eae0c6;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .scores > .name {
+    padding-top: 20px;
+    font-size: 16px;
+    color: #a58567;
+  }
+
+  .scores > .title {
+    font-size: 10px;
+  }
+
+  .chart {
+    width: 200px;
+    height: 130px;
+  }
+
+  .chart > .scoreBarDivs {
+    height: 100px;
+  }
+
+  .scoreBarDivs > .scoreBars {
+    margin: 5px;
+  }
+
+  .close-buttons {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  #copyright {
+    text-align: center;
+  }
+
+  #aboutButtons {
+    padding-top: 20px;
+  }
+
+  .modal {
+    width: 90%;
+    overflow-y: scroll;
+  }
+
+  .modal > p {
+    font-size: 12px;
+  }
+
+  .modal > h3 {
+    font-size: 22px;
+  }
+
+  .modal > div {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal > div > .roundbutton:first-of-type {
+    border: 1px solid #502a27;
+    font-size: 12px;
+    padding: 3% 5%;
+    align-self: center;
+    border-radius: 10px;
+  }
+
+  .modal > div > .roundbutton:last-of-type {
+    border: 1px solid #502a27;
+    font-size: 12px;
+    padding: 3% 5%;
+    align-self: center;
+    margin: 10px 0px;
+    border-radius: 10px;
+  }
 }

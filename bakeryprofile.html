@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rainbow Cookie - Bakery Profile</title>
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -67,12 +67,11 @@
                 <div id="chart-average"></div>
               </div>
               <div class="vline"></div>
-              <div class="mobileLine"></div>
               <div class="image-area">
                 <img class="images" src="{{image}}">
               </div>
               <div class="vline"></div>
-
+            <hr id="mobileLine"/>
               <div class="overall-cookie-notes">
                 <h3 class="callout">The Cookie</h3>
                 <p class="para-text"> {{cookieDescription}}</p>
@@ -149,12 +148,12 @@
         </section>
         <div class="overlay hidden"></div>
       
-        <div>
+        <div id="aboutButtons">
           <a class="modalBtn btn-open">About</a>
           <a href="index.html">Home</a>
         </div>
       
-        <p>Copyright © Murphy and Poppy's Humans (Rosie and Adrienne)</p>
+        <p id="copyright">Copyright © Murphy and Poppy's Humans (Rosie and Adrienne)</p>
       </footer>
         </div>
       </script>
