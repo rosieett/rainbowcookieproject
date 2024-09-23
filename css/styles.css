@@ -1456,10 +1456,10 @@ button {
 .form > p {
   color: #502a27;
   font-family: "ZT Bros Oskon 90s";
-  font-size: 32px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
-  line-height: 60px; /* 187.5% */
+  line-height: 2;
 }
 
 .form {
@@ -1558,6 +1558,10 @@ input[type="text"] {
   width: 250px;
   align-self: center;
   margin-top: 20px;
+}
+
+.navbar-mobile {
+  display: none;
 }
 
 /* 
@@ -1744,9 +1748,18 @@ MEDIA SIZES
     padding-top: 20px;
   }
 
-  .modal {
-    width: 90%;
+  .modal,
+  .menu {
+    position: fixed;
+    top: calc(50vh - 300px);
+    z-index: 100;
+    width: 80%;
     overflow-y: scroll;
+    z-index: 2;
+  }
+
+  .hidden {
+    display: none;
   }
 
   .modal > p {
@@ -1858,9 +1871,39 @@ MEDIA SIZES
   .rec-h1 {
     font-size: calc(2vw + 3vh);
   }
+
+  .form-text {
+    font-size: 14px;
+  }
+
+  .form > p {
+    color: #502a27;
+    font-family: "ZT Bros Oskon 90s";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+  }
+
+  .navbar-top {
+    display: none;
+  }
+  .navbar-mobile {
+    display: flex;
+  }
+
+  .navbar-menu {
+    width: 100%;
+    background-color: blue;
+    height: 50px;
+  }
 }
 
 @media (600px < width < 900px) {
+  .navbar-mobile {
+    visibility: visible;
+  }
+
   .bakery-restOf {
     gap: 10px;
   }
