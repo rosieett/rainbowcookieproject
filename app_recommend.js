@@ -8,3 +8,5 @@ form.addEventListener("submit", (e) => {
   console.log(name);
   form.submit();
 });
+
+let submitted = false;

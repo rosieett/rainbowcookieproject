@@ -1,6 +1,7 @@
 body {
   background: #f2ebd7;
   font-family: "Gully";
+  min-height: 100%;
 }
 
 @font-face {
@@ -140,12 +141,9 @@ svg:hover {
 .entry {
   display: flex;
   justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
+  flex-direction: column;
   max-width: 1000px;
   margin: 0 auto;
-  height: 90vh;
 }
 
 .navbar-top {
@@ -457,8 +455,7 @@ svg:hover {
 
 /* RESULTS PAGE */
 
-.results,
-.methodology {
+.results {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -672,9 +669,10 @@ svg:hover {
 }
 
 .best-visuals {
-  width: 29%;
+  width: 25%;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
+  transform: translateX(-20px);
 }
 
 .best-superlative > .label {
@@ -701,11 +699,6 @@ svg:hover {
   letter-spacing: 0.8px;
   text-transform: uppercase;
   margin: 0;
-}
-
-.best-visuals > svg {
-  align-self: end;
-  padding-right: 5px;
 }
 
 .best-row {
@@ -958,6 +951,17 @@ input[type="radio"] {
 }
 
 /* METHODOLOGY PAGE */
+
+.methodology {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* align-content: center; */
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 0px;
+}
 
 .topNav {
   display: flex;
@@ -1290,17 +1294,21 @@ hr:last-of-type {
 }
 
 footer {
-  width: 100%;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  color: #502a27;
+  width: 100%;
 }
 
 footer a {
   text-transform: uppercase;
   padding: 0 5px 0 5px;
+}
+
+.footerHr {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .modal {
@@ -1428,10 +1436,11 @@ button {
 .rec-h1 {
   color: #502a27;
   font-family: "Anchor Jack";
-  font-size: 50px;
+  font-size: calc(3vw + 1vh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-align: center;
 }
 
 .rec-subhead {
@@ -1441,11 +1450,10 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  align-self: center;
+  text-align: center;
 }
 
-form > p,
-form > label {
+.form > p {
   color: #502a27;
   font-family: "ZT Bros Oskon 90s";
   font-size: 32px;
@@ -1460,7 +1468,7 @@ form > label {
   background-color: #f2ebd7;
 }
 
-form > div > .roundbutton {
+.form > .roundbutton {
   border-radius: 30px;
   border: 2px solid #502a27;
   padding: 1.5% 1.5%;
@@ -1478,13 +1486,12 @@ form > div > .roundbutton {
   width: 150px;
 }
 
-form > div > .roundbutton:hover {
+.form > .roundbutton:hover {
   background-color: #3c2415;
   color: #f2ebd7;
 }
 
-input[type="text"],
-input[type="email"] {
+input[type="text"] {
   border-radius: 7px;
   border: 1px solid #a58567;
   background: #eae0c6;
@@ -1505,6 +1512,52 @@ input[type="email"] {
 
 #mobileLine {
   display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.rec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2%;
+}
+
+.mainRec > .label-hed.center {
+  margin-top: 2%;
+}
+
+.rec-subsub {
+  color: #502a27;
+  font-family: "Gully";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6;
+  align-self: center;
+  width: 70%;
+}
+
+.roundbutton-rec {
+  border-radius: 30px;
+  border: 2px solid #502a27;
+  padding: 1.5% 1.5%;
+  color: #f2ebd7;
+  text-align: center;
+  font-family: "Gully";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-right: 5px;
+  background-color: #502a27;
+  width: 250px;
+  align-self: center;
+  margin-top: 20px;
 }
 
 /* 
@@ -1727,9 +1780,95 @@ MEDIA SIZES
     margin: 10px 0px;
     border-radius: 10px;
   }
+
+  .best-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .best-visuals {
+    width: 30%;
+    justify-content: flex-start;
+  }
+
+  .best-text {
+    width: 60%;
+  }
+
+  .bakery-restOf {
+    flex-direction: column;
+  }
+
+  .bakery-restOf:first-child > .chart-restOf {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    order: 2;
+  }
+
+  .bakery-restOf:first-child > .bakery-item-name {
+    width: 100%;
+    order: 1;
+    flex-wrap: nowrap;
+    margin-top: 5%;
+    font-size: calc(1vw + 2vh);
+    text-align: center;
+  }
+
+  .bakery-restOf:first-child > .resultbuttonArea {
+    width: 90%;
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .avgScoreRow {
+    width: 100%;
+    max-height: 50px;
+  }
+
+  .filter-bar {
+    flex-direction: column;
+  }
+  .sort-ul {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .sort {
+    width: 100%;
+  }
+
+  .sort > .label,
+  .awards > .label {
+    font-size: 18px;
+  }
+
+  .awards {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .bakery-restOf ~ .bakery-restOf {
+    flex-basis: calc(100%);
+  }
+
+  .rec-h1 {
+    font-size: calc(2vw + 3vh);
+  }
 }
 
 @media (600px < width < 900px) {
+  .bakery-restOf {
+    gap: 10px;
+  }
+
+  .bakery-restOf:first-child > .chart-restOf {
+    width: 35%;
+  }
+
   .bakery-overall {
     display: flex;
     flex-wrap: wrap;
@@ -1777,5 +1916,9 @@ MEDIA SIZES
 
   .modal {
     width: 60%;
+  }
+
+  .bakery-restOf ~ .bakery-restOf {
+    flex-basis: calc(100% / 2 - 20px);
   }
 }
