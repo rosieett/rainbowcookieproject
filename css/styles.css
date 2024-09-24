@@ -994,6 +994,8 @@ input[type="radio"] {
   width: 100%;
   justify-content: center;
   margin: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .intro-rainbowimage {
@@ -1026,6 +1028,11 @@ input[type="radio"] {
   line-height: normal;
   text-transform: capitalize;
   margin: 20px 0 20px 0;
+}
+
+#intro-figure img {
+  max-width: 100%;
+  padding-top: 20px;
 }
 
 .desc-title {
