@@ -21,6 +21,11 @@ body {
 }
 
 @font-face {
+  font-family: "ZTBrosOskon90s-Italic";
+  src: url("../fonts/ZTBrosOskon90s-Italic.otf") format("opentype");
+}
+
+@font-face {
   font-family: "Gully";
   src: url("../fonts/Gully-Regular.otf") format("opentype");
 }
@@ -29,6 +34,7 @@ body {
   font-family: "Gully-bold";
   src: url("../fonts/Gully-Bold.otf") format("opentype");
 }
+
 #profile {
   display: flex;
   justify-content: center;
@@ -507,7 +513,7 @@ svg:hover {
 
 .result-hed {
   color: #502a27;
-  font-family: "ZTBrosOskon90s";
+  font-family: "ZTBrosOskon90s-Italic";
   font-size: 36px;
   font-style: italic;
   font-weight: 100;
@@ -676,7 +682,7 @@ svg:hover {
 
 .label-hed {
   color: #502a27;
-  font-family: "ZTBrosOskon90s";
+  font-family: "ZTBrosOskon90s-Italic";
   font-size: 48px;
   font-style: italic;
   font-weight: 300;
@@ -1021,7 +1027,7 @@ input[type="radio"] {
 
 .intro-title {
   color: #502a27;
-  font-family: "ZTBrosOskon90s";
+  font-family: "ZTBrosOskon90s-Italic";
   font-size: 40px;
   font-style: italic;
   font-weight: 300;
@@ -1037,7 +1043,7 @@ input[type="radio"] {
 
 .desc-title {
   color: #502a27;
-  font-family: "ZTBrosOskon90s";
+  font-family: "ZTBrosOskon90s-Italic";
   font-size: 40px;
   font-style: italic;
   font-weight: 300;
@@ -1382,7 +1388,7 @@ button {
 
 .modal > h3 {
   color: #502a27;
-  font-family: "ZTBrosOskon90s";
+  font-family: "ZTBrosOskon90s-Italic";
   font-size: 40px;
   font-style: italic;
   font-weight: 300;
@@ -1928,10 +1934,6 @@ MEDIA SIZES
     flex-direction: column;
   }
 
-  .methodology > hr {
-    display: none;
-  }
-
   .methodology > .results-title > .result-subhead {
     font-size: 32px;
   }
@@ -1941,7 +1943,7 @@ MEDIA SIZES
     margin: 0 20px;
     padding: 0 20px 0 0;
     color: #502a27;
-    font-family: "ZT Bros Oskon 90s";
+    font-family: "ZTBrosOskon90s-Italic";
     font-size: 20px;
     font-style: italic;
     font-weight: 300;
@@ -1951,6 +1953,142 @@ MEDIA SIZES
 
   .topNav-mobile > .buttonDiv {
     justify-content: start;
+  }
+  .methodology > .intro {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+  }
+
+  .methodology > .intro > .intro-rainbowimage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .methodology > .intro > .intro-rainbowimage > .image-singleLargeCookie {
+    width: 100px;
+  }
+
+  .methodology > .intro > .intro-textArea {
+    width: 100%;
+  }
+
+  .methodology > .intro > .intro-textArea > .intro-title {
+    text-align: center;
+  }
+
+  .methodology > .intro > .intro-textArea > .intro-text {
+    color: #502a27;
+    font-family: Gully;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #intro-figure {
+    display: none;
+  }
+
+  .methodology > hr:nth-of-type(1),
+  .methodology > hr:nth-of-type(2),
+  .methodology > hr:nth-of-type(6) {
+    display: none;
+  }
+
+  .desc-point > .numberCircle {
+    display: none;
+  }
+
+  .desc-area {
+    width: 100%;
+  }
+
+  .desc-image {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .desc-text {
+    width: 60%;
+    margin-left: 10px;
+  }
+
+  .desc-text-title {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+  .desc-text-para {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+
+  .background {
+    width: 100%;
+  }
+
+  .backgroundArea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .background-list {
+    width: 80%;
+    align-self: center;
+  }
+
+  .background-list > ol {
+    width: 80%;
+  }
+
+  .title-line {
+    display: table;
+    white-space: nowrap;
+
+    &:before,
+    &:after {
+      border-top: 1px solid #a58567;
+      content: "";
+      display: table-cell;
+      position: relative;
+      top: 0.6em;
+      width: 30%;
+    }
+
+    &:before {
+      right: 1.5%;
+    }
+
+    &:after {
+      left: 1.5%;
+    }
+  }
+
+  .background-text {
+    width: 100%;
+    padding-left: 0px;
+    align-self: center;
+  }
+
+  .background-paraText {
+    font-size: 14px;
+  }
+
+  .taster-notes {
+    width: 100%;
+    padding: 0px;
+    order: 2;
+  }
+
+  .taster-profile {
+    width: 100%;
+    padding-left: 0px;
+    margin: 10px 0 10px 0;
   }
 }
 
