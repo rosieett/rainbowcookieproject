@@ -8,7 +8,7 @@
     "rank": "No. 3",
     "image": "images/cookies/bakery1.png",
     "bakeryDescription": "Gian Piero Bakery is family-owned, full-service bakery located in Astoria, NY. The bakery opened for business in 1995 and have been growing every year since.",
-    "cookieDescription": "Gian Piero's rainbow cookie looks perfect. It's a general crowd pleaser but needs more jam. Overall, the tasters would go back for another one.",
+    "cookieDescription": "Gian Piero's rainbow cookie looks perfect. It's a general crowd pleaser but needs more jam. The tasters do enjoy rainbow cookies from here on a regular basis.",
     "Overall": 3.6,
     "avgScores": [
       {
@@ -95,7 +95,7 @@
     "rank": "No. 7",
     "image": "images/cookies/bakery2.png",
     "bakeryDescription": "Neighborhood bakery & cafe serving coffee, pastries, cookies, breads & desserts since 1969.",
-    "cookieDescription": "Parisi's rainbow cookie tasted the most natural with true almond tastes but needed more jam. Overall, the tasters might go back again.",
+    "cookieDescription": "Parisi's rainbow cookie tasted the most natural with true almond tastes but needed more jam.",
     "avgScores": [
       {
         "chocolate": 2.6,
@@ -182,7 +182,7 @@
     "rank": "No. 6",
     "image": "images/cookies/bakery3.png",
     "bakeryDescription": "Created in 1964, Astoria Bakery & Cafe is a specialty bakery & cafe, lifestyle and wellness brand based in Astoria.",
-    "cookieDescription": "Astoria Bakery's rainbow cookie was the most jammy of Astoria's bakeries. Overall, the tasters would probably not go back again.",
+    "cookieDescription": "Astoria Bakery's rainbow cookie was the most jammy of Astoria's bakeries. It wasn't bad, but we're not running back.",
     "avgScores": [
       {
         "chocolate": 2.5,
@@ -269,7 +269,7 @@
     "rank": "No. 10",
     "image": "images/cookies/bakery4.png",
     "bakeryDescription": "Cozy French Bakery that serves a variety of delicious Pastries, Coffee, Gelato and more.",
-    "cookieDescription": "Paris Oven's rainbow cookie has great chocolate but the sprinkles throw off the vibes of the cookie. Overall, the tasters would probably not go back again.",
+    "cookieDescription": "Paris Oven's rainbow cookie has great chocolate but the sprinkles throw off the vibes of the cookie. The tasters would probably not go back again.",
     "avgScores": [
       {
         "chocolate": 2.8,
@@ -357,7 +357,7 @@
     "rank": "No. 2",
     "image": "images/cookies/bakery5.png",
     "bakeryDescription": "Il Fornaio Bakery Bakery Cafe provides a classic bakery for breads & sweet treats, including special-occasion cakes, deli offerings, catering, and more to Astoria, NY.",
-    "cookieDescription": "Il Fornaio's rainbow cookie was the highest rated in Astoria. It's a perfectly classic rainbow cookie with noticeably delicious jam and chocolate. Overall, the tasters would go back for another one.",
+    "cookieDescription": "Il Fornaio's rainbow cookie was the highest rated in Astoria. It's a perfectly classic rainbow cookie with noticeably delicious jam and chocolate. We'll remember this spot as a go-to.",
     "avgScores": [
       {
         "chocolate": 5,
@@ -445,7 +445,7 @@
     "rank": "No. 12",
     "image": "images/cookies/bakery6.png",
     "bakeryDescription": "Neighborhood bakery with a handful of tables whips up pastries & cakes, plus coffee & sandwiches.",
-    "cookieDescription": "Leli's rainbow cookie was moist, but overall did not live up to expectations due to it's marzipan layer. Overall, the tasters would not go back again.",
+    "cookieDescription": "Leli's rainbow cookie was moist, but overall did not live up to expectations due to it's marzipan layer.",
     "avgScores": [
       {
         "chocolate": 2.2,
@@ -533,7 +533,7 @@
     "rank": "No. 9",
     "image": "images/cookies/bakery7.png",
     "bakeryDescription": "A cafe with a passion for craft, innovation & discovery comes to life in an ever-evolving menu of coffee, cocktails, food & desserts.",
-    "cookieDescription": "Oasis Cafe's rainbow cookie was not a fan favorite within Astoria, the colors and the texture being the least enjoyed. Overall, the tasters would probably not go back again.",
+    "cookieDescription": "Oasis Cafe's rainbow cookie was not a fan favorite within Astoria, the colors and the texture being the least enjoyed. The tasters would probably not go back again.",
     "avgScores": [
       {
         "chocolate": 2.0,
@@ -621,7 +621,7 @@
     "rank": "No. 11",
     "image": "images/cookies/bakery8.png",
     "bakeryDescription": "Classic Italian bakery with a selection of specialty breads & pastries, plus a back pizza counter.",
-    "cookieDescription": "Rosa and Joe's rainbow cookie, while inexpensive, was not a fan favorite due to it's texture and chocolate. Overall, the tasters would probably not go back again.",
+    "cookieDescription": "Rosa and Joe's rainbow cookie, while inexpensive, was not a fan favorite due to it's texture and chocolate. We'd skip this one and try something else there.",
     "avgScores": [
       {
         "chocolate": 3.0,
@@ -708,7 +708,7 @@
     "rank": "No. 4",
     "image": "images/cookies/bakery9.png",
     "bakeryDescription": "An established bakery dating recipes back to the the 1800's. One of the the few in New York.",
-    "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "cookieDescription": "The marzipan taste was hopeful but the jam was a bit overpowering. The texture was on point and overall a decent cookie.",
     "avgScores": [
       {
         "chocolate": 3.0,
@@ -796,7 +796,7 @@
     "rank": "No. 1",
     "image": "images/cookies/bakery10.png",
     "bakeryDescription": "Il Fornaio Bakery Bakery Cafe provides a classic bakery for breads & sweet treats, including special-occasion cakes, deli offerings, catering, and more to Astoria, NY.",
-    "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "cookieDescription": "Il Fornaio's rainbow cookie was the highest rated in Astoria. It's a perfectly classic rainbow cookie with noticeably delicious jam and chocolate. We'll remember this spot as a go-to.",
     "avgScores": [
       {
         "chocolate": 4.2,
@@ -884,7 +884,7 @@
     "rank": "No. 13",
     "image": "images/cookies/bakery11.png",
     "bakeryDescription": "Local Greek chain with a late-night scene doling out traditional sweets & savory dishes since 1977.",
-    "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "cookieDescription": "We have so many thoughts because none of it makes sense. The cookie is HUGE, colors are wrong, the sprinkles are bad so you can taste them, and the chocolate is a no.",
     "avgScores": [
       {
         "chocolate": 2.8,
@@ -972,7 +972,7 @@
     "rank": "No. 8",
     "image": "images/cookies/bakery12.png",
     "bakeryDescription": "Bakeshop with a warm vibe serving old-fashioned cakes & pastries, plus gelato & an espresso bar.",
-    "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "cookieDescription": "The overall cookie is decent enough but there was only chocolate on one side, so they should fix that.",
     "avgScores": [
       {
         "chocolate": 2.6,
@@ -1059,7 +1059,7 @@
     "rank": "No. 5",
     "image": "images/cookies/bakery13.png",
     "bakeryDescription": "Long-running family-owned pastry shop crafting an array of Italian treats, cakes & baked goods.",
-    "cookieDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "cookieDescription": "The cookie was very cakey, thicker than the others which we weren't made about, but this wasn't our favorite.",
     "avgScores": [
       {
         "chocolate": 3.4,
