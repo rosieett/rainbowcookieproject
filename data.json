@@ -1,9 +1,9 @@
-[
+export default [
   {
     "bakeryNumber": 1,
     "bakeryhed": "Gian Piero Bakery",
     "bakeryaddress": "4417 30th Ave., Queens, NY 11103",
-    "weightg": 28.5,
+    "weilikeghtg": 28.5,
     "price": "1.40",
     "rank": "No. 3",
     "image": "images/cookies/bakery1.png",
