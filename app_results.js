@@ -1,4 +1,4 @@
-import data from "/data.json";
+import data from "/data.js";
 
 var source = document.getElementById("mainContainer").innerHTML;
 var template = Handlebars.compile(source);
