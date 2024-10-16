@@ -392,6 +392,7 @@ svg:hover {
   display: flex;
   gap: 10px;
   height: 100%;
+  min-height: 20px;
 }
 
 .scoreBoxDiv {
@@ -405,7 +406,7 @@ svg:hover {
   width: 100%;
   margin: 2%;
   aspect-ratio: 1/1;
-  /* max-height: 2px; */
+  min-height: 13px;
 }
 
 .labels {
@@ -414,7 +415,7 @@ svg:hover {
 }
 
 .catLabel {
-  width: 40%;
+  width: 50%;
   justify-content: end;
   align-self: center;
   text-align: end;
@@ -422,7 +423,7 @@ svg:hover {
 }
 
 .valueLabel {
-  width: 20%;
+  width: 10%;
   justify-content: end;
   align-self: center;
   text-align: start;
@@ -770,7 +771,7 @@ svg:hover {
   line-height: normal;
   flex-wrap: wrap;
   width: 50%;
-  font-size: calc(2vw + 2vh);
+  font-size: calc(1vw + 1vh);
   text-align: start;
   margin-left: 0;
   margin: 0;
