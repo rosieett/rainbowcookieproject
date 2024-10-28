@@ -8,6 +8,7 @@ body {
   font-family: "AnchorJack";
   src: url("../fonts/AnchorJack.ttf") format("truetype"),
     url("../fonts/AnchorJack.woff") format('woff'),
+    url("../fonts/AnchorJack.otf") format('opentype'),
     url("../fonts/AnchorJack.eot") format('eot');
   font-weight: normal;
 }
