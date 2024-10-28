@@ -6,10 +6,10 @@ body {
 
 @font-face {
   font-family: "AnchorJack";
-  src: url("fonts/AnchorJack.ttf") format("truetype"),
-    url("fonts/AnchorJack.woff2") format('woff2'),
-    url("fonts/AnchorJack.otf") format('opentype'),
-    url("fonts/AnchorJack.eot") format('eot');
+  src: url("../fonts/AnchorJack.ttf") format("truetype"),
+    url("../fonts/AnchorJack.woff2") format('woff2'),
+    url("../fonts/AnchorJack.otf") format('opentype'),
+    url("../fonts/AnchorJack.eot") format('eot');
   font-weight: normal;
 }
 
@@ -271,7 +271,7 @@ svg:hover {
 .area-hed {
   color: #502a27;
   text-align: center;
-  font-family: "Anchor Jack";
+  font-family: "AnchorJack";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -354,7 +354,7 @@ svg:hover {
 
 .name {
   color: #502a27;
-  font-family: "Anchor Jack";
+  font-family: "AnchorJack";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -365,7 +365,7 @@ svg:hover {
 .title {
   color: #a58567;
   text-align: center;
-  font-family: "Intrigora";
+  font-family: "Intrigora Medium";
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
@@ -736,7 +736,7 @@ svg:hover {
 
 #best-hedbakery {
   color: #502a27;
-  font-family: "Anchor Jack";
+  font-family: "AnchorJack";
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
@@ -769,7 +769,7 @@ svg:hover {
 .bakery-restOf:first-child>.bakery-item-name {
   order: 1;
   color: #502a27;
-  font-family: "Anchor Jack";
+  font-family: "AnchorJack";
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -846,7 +846,7 @@ svg:hover {
 .bakery-item-name {
   color: #3c2415;
   text-align: center;
-  font-family: "Anchor Jack";
+  font-family: "AnchorJack";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1131,7 +1131,7 @@ input[type="radio"] {
 
 .background-title {
   color: #a58567;
-  font-family: "Anchor Jack";
+  font-family: "AnchorJack";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -1279,7 +1279,7 @@ a {
 
 .taster-name {
   color: #502a27;
-  font-family: "Anchor Jack";
+  font-family: "AnchorJack";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -1454,7 +1454,7 @@ button {
 
 .rec-h1 {
   color: #502a27;
-  font-family: "Anchor Jack";
+  font-family: "AnchorJack";
   font-size: calc(3vw + 1vh);
   font-style: normal;
   font-weight: 400;
