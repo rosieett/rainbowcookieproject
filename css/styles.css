@@ -22,7 +22,7 @@ body {
 @font-face {
   font-family: "ZTBrosOskon90s";
   src: url("../fonts/ZTBrosOskon90s.otf") format("opentype"),
-    url("../fonts/ZTBrosOskon90s.woff") format("woff");
+    url("../fonts/ZTBrosOskon90s.woff2") format("woff2");
 }
 
 @font-face {
