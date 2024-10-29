@@ -135,6 +135,10 @@ svg {
   stroke: #502a27;
 }
 
+.copyright-text {
+  color: #502a27;
+}
+
 svg:hover {
   fill: #502a27;
   stroke: #f2ebd7;
@@ -177,6 +181,7 @@ svg:hover {
   font-weight: 400;
   line-height: normal;
   margin: 2% 0 0 0;
+  text-align: center;
 }
 
 .bakery-address {
@@ -775,7 +780,7 @@ svg:hover {
   line-height: normal;
   flex-wrap: wrap;
   width: 50%;
-  font-size: calc(1vw + 1vh);
+  font-size: calc(2vw + 2vh);
   text-align: start;
   margin-left: 0;
   margin: 0;
@@ -825,7 +830,7 @@ svg:hover {
 
 .chart-restOf {
   display: flex;
-  width: 80%;
+  /* width: 80%; */
   justify-content: center;
 }
 
@@ -880,6 +885,7 @@ svg:hover {
   letter-spacing: 0.6px;
   text-transform: uppercase;
   margin: 10px;
+  padding-bottom: 10px;
 }
 
 .chart-restOf>.scoreBarDivs {
@@ -905,7 +911,7 @@ svg:hover {
 }
 
 .chart-restOf>.labels {
-  width: 40%;
+  /* width: 40%; */
   margin-right: 10px;
 }
 
@@ -1322,6 +1328,7 @@ footer {
 footer a {
   text-transform: uppercase;
   padding: 0 5px 0 5px;
+  color: #502a27;
 }
 
 .footerHr {
@@ -1753,8 +1760,16 @@ MEDIA SIZES
     height: 100px;
   }
 
+  .chart-restOf {
+    width: 80%;
+  }
+
+  .bakery-item-name {
+    font-size: 16px;
+  }
+
   .scoreBarDivs>.scoreBars {
-    margin: 5px;
+    margin: 2px;
   }
 
   .close-buttons {
@@ -2104,6 +2119,14 @@ MEDIA SIZES
     padding-left: 0px;
     margin: 10px 0 10px 0;
   }
+
+  .catLabel:first-of-type {
+    width: 40%;
+  }
+
+  .chart-restOf>.labels {
+    width: 40%;
+  }
 }
 
 @media (600px < width < 750px) {
@@ -2120,7 +2143,8 @@ MEDIA SIZES
   }
 
   .bakery-restOf:first-child>.resultbuttonArea {
-    width: 100%;
+    width: 30%;
+    max-width: 260px;
   }
 
   .bakery-overall {
@@ -2170,6 +2194,10 @@ MEDIA SIZES
 
   .modal {
     width: 60%;
+  }
+
+  .catLabel {
+    width: 40%;
   }
 
   .bakery-restOf~.bakery-restOf {
@@ -2314,6 +2342,17 @@ MEDIA SIZES
 }
 
 @media (max-width: 900px) {
+
+  #mainContainer {
+    width: 100%;
+  }
+
+  .copyright-text {
+    color: #502a27;
+    text-align: center;
+    width: 100%;
+  }
+
   .navbar-top {
     display: none;
   }
