@@ -1353,12 +1353,15 @@ footer a {
   width: 60%;
   display: flex;
   flex-direction: column;
+  background-color: #f2ebd7cc;
+
 }
 
 .modal .flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 
 button {
@@ -1370,7 +1373,7 @@ button {
 .btn-close {
   justify-content: center;
   padding: 0;
-  background-color: #f2ebd780;
+  background-color: #f2ebd7cc;
   padding-bottom: 20px;
 }
 
@@ -1500,7 +1503,7 @@ button {
 }
 
 .form>.roundbutton {
-  border-radius: 30px;
+  border-radius: 10px;
   border: 2px solid #502a27;
   padding: 1.5% 1.5%;
   color: #502a27;
@@ -2204,6 +2207,7 @@ MEDIA SIZES
 
   .modal {
     width: 60%;
+    background-color: #f2ebd7cc;
   }
 
   .catLabel {
