@@ -787,11 +787,9 @@ svg:hover {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  flex-wrap: wrap;
   width: 50%;
   font-size: clamp(26px, 2vw + 2vh, 42px);
   text-align: start;
-  margin-left: 0;
   margin: 0;
 }
 
