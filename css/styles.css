@@ -1675,7 +1675,8 @@ MEDIA SIZES
 
   .bakery-subhed>.vline:nth-last-of-type(2),
   .bakery-overall>.vline:nth-of-type(2),
-  .section-scores>.vline {
+  .section-scores>.vline,
+  .bakery-overall>.vline {
     display: none;
   }
 
@@ -1702,20 +1703,18 @@ MEDIA SIZES
   }
 
   .image-area {
-    width: 30%;
+    width: 100%;
     background-color: rgba(222, 210, 180, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2%;
-    margin-left: 1%;
-    margin-right: 3%;
+    margin: 2%;
     border-radius: 5px;
+    justify-self: center;
   }
 
   .overall-cookie-notes {
-    width: 54%;
-    margin-left: 3%;
+    width: 100%;
   }
 
   .overall-cookie-notes>.callout {
