@@ -1689,7 +1689,7 @@ MEDIA SIZES
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 95%;
+    margin-left: 1%
   }
 
   .bakery-scores {
