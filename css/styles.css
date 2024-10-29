@@ -991,6 +991,7 @@ input[type="radio"] {
 .topNav {
   display: flex;
   height: 40px;
+  width: 100%;
 }
 
 .buttonDiv {
@@ -1023,7 +1024,6 @@ input[type="radio"] {
   display: flex;
   width: 100%;
   justify-content: center;
-  margin: 10px;
   flex-direction: row;
   flex-wrap: wrap;
 }
