@@ -15,27 +15,36 @@ body {
 
 @font-face {
   font-family: "Intrigora Medium";
-  src: url("../fonts/Intrigora Medium.otf") format("opentype");
+  src: url("../fonts/Intrigora Medium.otf") format("opentype"),
+    url("../fonts/Intrigora Medium.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "ZTBrosOskon90s";
-  src: url("../fonts/ZTBrosOskon90s.otf") format("opentype");
+  src: url("../fonts/ZTBrosOskon90s.otf") format("opentype"),
+    url("../fonts/ZTBrosOskon90s.woff") format("woff");
 }
 
 @font-face {
   font-family: "ZTBrosOskon90s-Italic";
-  src: url("../fonts/ZTBrosOskon90s-Italic.otf") format("opentype");
+  src: url("../fonts/ZTBrosOskon90s-Italic.otf") format("opentype"),
+    url("../fonts/ZTBrosOskon90s-Italic.woff") format("woff");
 }
 
 @font-face {
   font-family: "Gully";
-  src: url("../fonts/Gully-Regular.otf") format("opentype");
+  src: url("../fonts/Gully-Regular.otf") format("opentype"),
+    url("../fonts/Gully-Regular.woff2") format('woff2'),
+    url("../fonts/Gully-Regular.ttf") format('truetype'),
+    url("../fonts/Gully-Regular.eot") format('eot');
 }
 
 @font-face {
   font-family: "Gully-bold";
-  src: url("../fonts/Gully-Bold.otf") format("opentype");
+  src: url("../fonts/Gully-Bold.otf") format("opentype"),
+    url("../fonts/Gully-Bold.woff2") format('woff2'),
+    url("../fonts/Gully-Bold.ttf") format('truetype'),
+    url("../fonts/Gully-Bold.eot") format('eot');
 }
 
 #profile {
