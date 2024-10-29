@@ -1068,7 +1068,7 @@ input[type="radio"] {
 .desc-title {
   color: #502a27;
   font-family: "ZTBrosOskon90s-Italic";
-  font-size: 40px;
+  font-size: 38px;
   font-style: italic;
   font-weight: 300;
   line-height: normal;
@@ -1174,7 +1174,6 @@ input[type="radio"] {
   font-family: Gully;
   font-size: 16px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
 }
 
@@ -1786,6 +1785,10 @@ MEDIA SIZES
     gap: 20px;
   }
 
+  .mainDescription {
+    width: 99%;
+  }
+
   #copyright {
     text-align: center;
   }
@@ -1949,16 +1952,20 @@ MEDIA SIZES
   }
 
   .results-title {
-    width: 100%;
+    width: 97%;
+    margin: 0;
   }
 
   .background {
     display: flex;
     flex-direction: column;
+    width: 97%;
+    padding-left: 5px;
   }
 
   .backgroundArea {
     flex-direction: column;
+    width: 100%;
   }
 
   .rubric {
@@ -1968,6 +1975,7 @@ MEDIA SIZES
   .tasters,
   .taster {
     flex-direction: column;
+    padding: 5px;
   }
 
   .methodology>.results-title>.result-subhead {
@@ -2063,13 +2071,10 @@ MEDIA SIZES
     font-size: 12px;
   }
 
-  .background {
-    width: 100%;
-  }
-
   .backgroundArea {
-    width: 100%;
+    width: 99%;
     display: flex;
+    justify-content: center;
   }
 
   .background-list {
@@ -2107,9 +2112,9 @@ MEDIA SIZES
   }
 
   .background-text {
-    width: 100%;
-    padding-left: 0px;
-    align-self: center;
+    width: 97%;
+    padding-left: 2px;
+
   }
 
   .background-paraText {
