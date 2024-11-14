@@ -61,7 +61,6 @@ button {
   justify-content: center;
   flex-direction: column;
   align-content: center;
-  height: 90vh;
   max-width: 900px;
   margin: 0 auto;
 }
