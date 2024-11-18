@@ -625,18 +625,7 @@ svg:hover {
 }
 
 .sort-button:nth-of-type(2) {
-  color: #502a27;
-  font-family: "Gully";
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
-  list-style: none;
-  padding-left: 20px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  margin-left: 20px;
 }
 
 .awards {
@@ -1882,11 +1871,6 @@ MEDIA SIZES
     flex-direction: column;
   }
 
-  .sort-ul {
-    flex-direction: row;
-    gap: 20px;
-  }
-
   .sort {
     width: 100%;
   }
@@ -2508,8 +2492,11 @@ MEDIA SIZES
     padding-left: 0px;
   }
 
-  .sort-ul {
-    flex-direction: column;
+  .award-ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .sort-button:nth-child(2) {
