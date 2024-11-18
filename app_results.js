@@ -174,25 +174,32 @@ const closeModal = function () {
 closeModalBtn.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
 
+var burger = document.querySelector(".burger")
+var navlinks = document.querySelector(".ul")
 
-const burger = document.querySelector(".burger");
-const navLinks = document.querySelector(".nav-links");
-const body = document.querySelector("body");
-const backdrop = document.createElement("div");
-backdrop.classList.add("menu-backdrop");
+burger.addEventListener("click", function () {
+  this.classList.toggle("is-active")
+  navlinks.classList.toggle("is-active")
+})
 
-body.appendChild(backdrop);
+// const burger = document.querySelector(".burger");
+// const navLinks = document.querySelector(".nav-links");
+// const body = document.querySelector("body");
+// const backdrop = document.createElement("div");
+// backdrop.classList.add("menu-backdrop");
 
-burger.addEventListener("click", () => {
-  navLinks.classList.toggle("nav-active");
-  backdrop.classList.toggle("display"); // Show or hide the backdrop
+// body.appendChild(backdrop);
 
-  // Burger Animation
-  burger.classList.toggle("toggle");
-});
+// burger.addEventListener("click", () => {
+//   navLinks.classList.toggle("nav-active");
+//   backdrop.classList.toggle("display"); // Show or hide the backdrop
 
-backdrop.addEventListener("click", function () {
-  navLinks.classList.remove("nav-active");
-  this.classList.remove("display"); // Hide the backdrop when clicked
-  burger.classList.remove("toggle");
-});
+//   // Burger Animation
+//   burger.classList.toggle("toggle");
+// });
+
+// backdrop.addEventListener("click", function () {
+//   navLinks.classList.remove("nav-active");
+//   this.classList.remove("display"); // Hide the backdrop when clicked
+//   burger.classList.remove("toggle");
+// });

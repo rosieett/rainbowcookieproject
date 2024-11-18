@@ -120,10 +120,6 @@ hr {
   text-align: center;
 }
 
-@media {
-  .landing-button;
-}
-
 /* .footer-button,
 #nextLabel {
   border-radius: 10px;
@@ -1590,11 +1586,6 @@ input[type="text"] {
   margin-top: 20px;
 }
 
-#navbar-mobile,
-.topNav-mobile {
-  display: none;
-}
-
 /* 
 //////
 //////
@@ -2341,6 +2332,50 @@ MEDIA SIZES
 }
 
 @media (max-width: 900px) {
+  .site-header {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    background-color: #f2ebd7;
+    margin: 0;
+    visibility: hidden;
+    transform: translateY(-100%);
+    padding-top: 20px;
+    z-index: 500;
+  }
+
+  .ul.is-active {
+    visibility: visible;
+    transform: translateY(0);
+    padding-left: 60px;
+  }
+
+  .burger {
+    display: flex;
+    align-items: center;
+    z-index: 10;
+
+    img {
+      position: relative;
+      width: 50px;
+      margin-right: 10px;
+    }
+  }
+
+  .site-header li {
+    list-style: none;
+    color: #3c2415;
+  }
+
   #mainContainer {
     width: 100%;
   }
@@ -2351,36 +2386,35 @@ MEDIA SIZES
     width: 100%;
   }
 
-  .navbar-top {
+  /* .navbar-top {
     display: none;
-  }
+  } */
 
-  #navbar-mobile {
-    display: flex;
+  /* #navbar-mobile {
+    position: absolute;
+    /* display: flex;
     width: 90%;
     align-items: center;
     padding: 10px;
     background-color: inherit;
-  }
+  } */
 
-  .menu-cookieimg {
+  /* .menu-cookieimg {
     width: 30px;
     transform: translateY(10px);
     z-index: 10;
   }
 
   .nav-links {
-    list-style: none;
-    position: absolute;
-    left: 0;
-    top: 9vh;
-    background-color: rgb(242, 235, 215, 0.94);
     display: flex;
     flex-direction: column;
+    list-style: none;
+    left: 0;
+     top: 9vh;
+    background-color: rgb(242, 235, 215, 0.94);
     width: 90%;
     transform: translateX(-100%);
     transition: transform 0.5s ease-in;
-    padding-bottom: 10px;
     padding-top: 20px;
   }
 
@@ -2438,9 +2472,9 @@ MEDIA SIZES
 
   .nav-links li {
     animation: navLinkFade 0.5s ease forwards 0.5s;
-  }
+  } */
 
-  .menu-backdrop {
+  /* .menu-backdrop {
     display: none;
     position: fixed;
     top: 0;
@@ -2448,7 +2482,7 @@ MEDIA SIZES
     width: 200px;
     height: 100%;
     z-index: 9;
-  }
+  } */
 
   footer {
     padding-top: 40px;
