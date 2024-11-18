@@ -567,7 +567,6 @@ svg:hover {
   font-family: "Gully-bold";
   font-size: 12px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
   letter-spacing: 0.8px;
   text-transform: uppercase;
@@ -948,7 +947,6 @@ input[type="radio"] {
 
 [name="bestOf"]:checked + label {
   font-family: "Gully-bold";
-  font-weight: bold;
 }
 
 [name="sortDirection"]:checked + label {
@@ -977,6 +975,7 @@ input[type="radio"] {
   display: flex;
   height: 40px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .buttonDiv {
@@ -1772,8 +1771,7 @@ MEDIA SIZES
     padding-top: 20px;
   }
 
-  .modal,
-  .menu {
+  .modal {
     position: fixed;
     top: calc(50vh - 300px);
     z-index: 100;
@@ -2511,7 +2509,7 @@ MEDIA SIZES
     right: 0;
     width: 100%;
     height: 100%;
-    background: hsla(44, 51%, 90%, 0.9);
+    background: hsla(44, 51%, 90%, 0.8);
     backdrop-filter: blur(9px);
     z-index: 1;
   }
