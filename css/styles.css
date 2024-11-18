@@ -1,7 +1,6 @@
 body {
   background: #f2ebd7;
   font-family: "Gully";
-  min-height: 100%;
 }
 
 @font-face {
@@ -58,11 +57,12 @@ button {
 
 .main {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-content: center;
+  justify-content: center;
   max-width: 900px;
   margin: 0 auto;
+  align-content: center;
+  height: 90vh;
 }
 
 .landing-h1 {
@@ -101,12 +101,12 @@ hr {
 .button-list {
   max-width: 950px;
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
 }
 
 .landing-button {
   border-radius: 50vh;
-  border: 2px solid #502a27;
+  border: 1px solid #502a27;
   color: #502a27;
   font-size: 14px;
   font-weight: 400;
@@ -118,6 +118,10 @@ hr {
   padding: 10px;
   margin: 5px 5px 15px 0;
   text-align: center;
+}
+
+@media {
+  .landing-button;
 }
 
 /* .footer-button,
@@ -1623,21 +1627,10 @@ MEDIA SIZES
     margin: 20px 0 20px 0 !important;
   }
 
-  /* .landing-button,
-  #nextLabel {
-    border-radius: 50vh;
-    border: 1px solid #502a27;
-    color: #502a27;
-    font-size: 12px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-    background-color: #f2ebd7;
-    padding: 2% 2% 2% 2%;
-    margin: 5px 5px 5px 0;
-  } */
+  .landing-button {
+    font-size: 13px;
+    margin: 5px 5px 5px 0px;
+  }
 
   /* BAKERY PROFILE */
 
