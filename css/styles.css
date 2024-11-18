@@ -508,7 +508,8 @@ svg:hover {
 
 .buttonBar-button {
   list-style: none;
-  height: 30px;
+  height: 100%;
+  min-height: 30px;
   text-transform: uppercase;
   border-radius: 30px;
   width: 200%;
@@ -1586,6 +1587,14 @@ input[type="text"] {
   margin-top: 20px;
 }
 
+.site-header {
+  display: none;
+}
+
+.topNav-mobile {
+  display: none;
+}
+
 /* 
 //////
 //////
@@ -2116,6 +2125,50 @@ MEDIA SIZES
   .chart-restOf > .labels {
     width: 40%;
   }
+
+  .site-header {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    background-color: #f2ebd7;
+    margin: 0;
+    visibility: hidden;
+    transform: translateY(-100%);
+    padding-top: 20px;
+    z-index: 500;
+  }
+
+  .ul.is-active {
+    visibility: visible;
+    transform: translateY(0);
+    padding-left: 60px;
+  }
+
+  .burger {
+    display: flex;
+    align-items: center;
+    z-index: 10;
+
+    img {
+      position: relative;
+      width: 50px;
+      margin-right: 10px;
+    }
+  }
+
+  .site-header li {
+    list-style: none;
+    color: #3c2415;
+  }
 }
 
 @media (600px < width < 750px) {
@@ -2329,53 +2382,13 @@ MEDIA SIZES
   #rubric {
     display: none;
   }
+
+  .site-header {
+    display: none;
+  }
 }
 
 @media (max-width: 900px) {
-  .site-header {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    margin-bottom: 20px;
-  }
-
-  .ul {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    padding: 8px;
-    background-color: #f2ebd7;
-    margin: 0;
-    visibility: hidden;
-    transform: translateY(-100%);
-    padding-top: 20px;
-    z-index: 500;
-  }
-
-  .ul.is-active {
-    visibility: visible;
-    transform: translateY(0);
-    padding-left: 60px;
-  }
-
-  .burger {
-    display: flex;
-    align-items: center;
-    z-index: 10;
-
-    img {
-      position: relative;
-      width: 50px;
-      margin-right: 10px;
-    }
-  }
-
-  .site-header li {
-    list-style: none;
-    color: #3c2415;
-  }
-
   #mainContainer {
     width: 100%;
   }
