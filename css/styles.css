@@ -21,7 +21,9 @@ body {
 @font-face {
   font-family: "ZTBrosOskon90s";
   src: url("../fonts/ZTBrosOskon90s.otf") format("opentype"),
-    url("../fonts/ZTBrosOskon90s.woff2") format("woff2");
+    url("../fonts/ZTBrosOskon90s.woff2") format("woff2"),
+    url("../fonts/ZTBrosOskon90s.eot") format("eot"),
+    url("../fonts/ZTBrosOskon90s.ttf") format("truetype");
 }
 
 @font-face {
@@ -747,7 +749,7 @@ svg:hover {
 .restOfBest {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .bakery-restOf {
@@ -975,7 +977,6 @@ input[type="radio"] {
   display: flex;
   height: 40px;
   width: 100%;
-  margin-bottom: 20px;
 }
 
 .buttonDiv {
@@ -1451,7 +1452,7 @@ button {
 .rec-h1 {
   color: #502a27;
   font-family: "AnchorJack";
-  font-size: calc(3vw + 1vh);
+  font-size: 48px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -1581,6 +1582,19 @@ input[type="text"] {
 
 .topNav-mobile {
   display: none;
+}
+
+#map {
+  width: 75%;
+  height: 75vh;
+  margin: 0 auto;
+}
+
+.leaflet-layer,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-attribution {
+  filter: grayscale(70%);
 }
 
 /* 
@@ -1888,7 +1902,7 @@ MEDIA SIZES
   }
 
   .rec-h1 {
-    font-size: calc(2vw + 3vh);
+    font-size: 40px;
   }
 
   .form-text {

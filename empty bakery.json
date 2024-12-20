@@ -1,0 +1,89 @@
+{
+    "bakeryNumber": ,
+    "bakeryhed": ,
+    "bakeryaddress": ,
+    "lat": ,
+    "lng": ,
+    "weightg": ,
+    "price": ,
+    "rank": ,
+    "image": ,
+    "bakeryDescription": ,
+    "cookieDescription": ,
+    "avgScores": [
+      {
+        "chocolate": ,
+        "almond": ,
+        "texture": ,
+        "jam": ,
+        "color": 
+      }
+    ],
+    "Overall": ,
+    "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": ,
+                "almond": ,
+                "texture": ,
+                "jam": ,
+                "color": 
+              }
+            ],
+            "Overall": ,
+            "Notes": 
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": ,
+                "almond": ,
+                "texture": ,
+                "jam": ,
+                "color": 
+              }
+            ],
+            "Overall": ,
+            "Notes": 
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": ,
+                "almond": ,
+                "texture": ,
+                "jam": ,
+                "color": 
+              }
+            ],
+            "Overall": ,
+            "Notes":
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": ,
+                "almond": ,
+                "texture": ,
+                "jam": ,
+                "color": 
+              }
+            ],
+            "Overall": ,
+            "Notes":
+          }
+        ]
+      }
+    ]
+  }
