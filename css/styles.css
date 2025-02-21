@@ -1382,7 +1382,7 @@ button {
   padding: 0 5px 0 5px;
   text-decoration: none;
   color: #502a27;
-  cursor: default;
+  cursor: pointer; 
 }
 
 .modal > p {
