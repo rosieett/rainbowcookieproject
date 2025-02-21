@@ -3,11 +3,11 @@
     "bakeryNumber": 1,
     "bakeryhed": "Gian Piero Bakery",
     "bakeryaddress": "4417 30th Ave., Queens, NY 11103",
-    "lat": 40.7652558,
-    "lng": -73.9178739,
+    "lat": 40.762341,
+    "lng": -73.911003,
     "weightg": 28.5,
     "price": "1.40",
-    "rank": "No. 3",
+    "rank": "No. 6",
     "image": "images/cookies/bakery1.png",
     "bakeryDescription": "Gian Piero Bakery is family-owned, full-service bakery located in Astoria, NY. The bakery opened for business in 1995 and have been growing every year since.",
     "cookieDescription": "Gian Piero's rainbow cookie looks perfect. It's a general crowd pleaser but needs more jam. The tasters do enjoy rainbow cookies from here on a regular basis.",
@@ -96,7 +96,7 @@
     "lng": -73.9254304,
     "weightg": 40,
     "price": "1.60",
-    "rank": "No. 13",
+    "rank": "No. 20",
     "image": "images/cookies/bakery2.png",
     "bakeryDescription": "Neighborhood bakery & cafe serving coffee, pastries, cookies, breads & desserts since 1969.",
     "cookieDescription": "Parisi's rainbow cookie tasted the most natural with true almond tastes but needed more jam.",
@@ -185,7 +185,7 @@
     "lng": -73.9089097,
     "weightg": 53.4,
     "price": "2.00",
-    "rank": "No. 10",
+    "rank": "No. 16",
     "image": "images/cookies/bakery3.png",
     "bakeryDescription": "Created in 1964, Astoria Bakery & Cafe is a specialty bakery & cafe, lifestyle and wellness brand based in Astoria.",
     "cookieDescription": "Astoria Bakery's rainbow cookie was the most jammy of Astoria's bakeries. It wasn't bad, but we're not running back.",
@@ -274,7 +274,7 @@
     "lng": -73.9154967,
     "weightg": 104.6,
     "price": "3.50",
-    "rank": "No. 16",
+    "rank": "No. 23",
     "image": "images/cookies/bakery4.png",
     "bakeryDescription": "Cozy French Bakery that serves a variety of delicious Pastries, Coffee, Gelato and more.",
     "cookieDescription": "Paris Oven's rainbow cookie has great chocolate but the sprinkles throw off the vibes of the cookie. The tasters would probably not go back again.",
@@ -364,7 +364,7 @@
     "lng": -73.9193608,
     "weightg": 56.9,
     "price": "2.80",
-    "rank": "No. 2",
+    "rank": "No. 4",
     "image": "images/cookies/bakery5.png",
     "bakeryDescription": "Il Fornaio Bakery Bakery Cafe provides a classic bakery for breads & sweet treats, including special-occasion cakes, deli offerings, catering, and more to Astoria, NY.",
     "cookieDescription": "Il Fornaio's rainbow cookie was the highest rated in Astoria. It's a perfectly classic rainbow cookie with noticeably delicious jam and chocolate. We'll remember this spot as a go-to.",
@@ -450,11 +450,11 @@
     "bakeryNumber": 6,
     "bakeryhed": "Leli's Bakery & Pastry Shop",
     "bakeryaddress": "3514 30th Ave., Queens, NY 11103",
-    "lat": 40.7618985,
-    "lng": -73.9107291,
+    "lat": 40.764971,
+    "lng": -73.917855,
     "weightg": 45.7,
     "price": "2.00",
-    "rank": "No. 19",
+    "rank": "No. 26",
     "image": "images/cookies/bakery6.png",
     "bakeryDescription": "Neighborhood bakery with a handful of tables whips up pastries & cakes, plus coffee & sandwiches.",
     "cookieDescription": "Leli's rainbow cookie was moist, but overall did not live up to expectations due to it's marzipan layer.",
@@ -544,7 +544,7 @@
     "lng": -73.923529,
     "weightg": 46.7,
     "price": "2.70",
-    "rank": "No. 15",
+    "rank": "No. 22",
     "image": "images/cookies/bakery7.png",
     "bakeryDescription": "A cafe with a passion for craft, innovation & discovery comes to life in an ever-evolving menu of coffee, cocktails, food & desserts.",
     "cookieDescription": "Oasis Cafe's rainbow cookie was not a fan favorite within Astoria, the colors and the texture being the least enjoyed. The tasters would probably not go back again.",
@@ -634,7 +634,7 @@
     "lng": -73.9119151,
     "weightg": 29.5,
     "price": "1.10",
-    "rank": "No. 18",
+    "rank": "No. 25",
     "image": "images/cookies/bakery8.png",
     "bakeryDescription": "Classic Italian bakery with a selection of specialty breads & pastries, plus a back pizza counter.",
     "cookieDescription": "Rosa and Joe's rainbow cookie, while inexpensive, was not a fan favorite due to it's texture and chocolate. We'd skip this one and try something else there.",
@@ -723,7 +723,7 @@
     "lng": -73.9299954,
     "weightg": 69.5,
     "price": "3.30",
-    "rank": "No. 7",
+    "rank": "No. 11",
     "image": "images/cookies/bakery9.png",
     "bakeryDescription": "An established bakery dating recipes back to the the 1800's. One of the the few in New York.",
     "cookieDescription": "The marzipan taste was hopeful but the jam was a bit overpowering. The texture was on point and overall a decent cookie.",
@@ -813,7 +813,7 @@
     "lng": -73.9232361,
     "weightg": 65.1,
     "price": "2.65",
-    "rank": "No. 1",
+    "rank": "No. 3",
     "image": "images/cookies/bakery10.png",
     "bakeryDescription": "Il Fornaio Bakery Bakery Cafe provides a classic bakery for breads & sweet treats, including special-occasion cakes, deli offerings, catering, and more to Astoria, NY.",
     "cookieDescription": "Il Fornaio's rainbow cookie was the highest rated in Astoria. It's a perfectly classic rainbow cookie with noticeably delicious jam and chocolate. We'll remember this spot as a go-to.",
@@ -903,7 +903,7 @@
     "lng": -73.921255,
     "weightg": 138.8,
     "price": "8.00",
-    "rank": "No. 20",
+    "rank": "No. 27",
     "image": "images/cookies/bakery11.png",
     "bakeryDescription": "Local Greek chain with a late-night scene doling out traditional sweets & savory dishes since 1977.",
     "cookieDescription": "We have so many thoughts because none of it makes sense. The cookie is HUGE, colors are wrong, the sprinkles are bad so you can taste them, and the chocolate is a no.",
@@ -993,7 +993,7 @@
     "lng": -73.9074739,
     "weightg": 53.8,
     "price": "3.00",
-    "rank": "No. 12",
+    "rank": "No. 19",
     "image": "images/cookies/bakery12.png",
     "bakeryDescription": "Bakeshop with a warm vibe serving old-fashioned cakes & pastries, plus gelato & an espresso bar.",
     "cookieDescription": "The overall cookie is decent enough but there was only chocolate on one side, so they should fix that.",
@@ -1082,7 +1082,7 @@
     "lng": -73.911535,
     "weightg": 75.3,
     "price": "3.50",
-    "rank": "No. 8",
+    "rank": "No. 13",
     "image": "images/cookies/bakery13.png",
     "bakeryDescription": "Long-running family-owned pastry shop crafting an array of Italian treats, cakes & baked goods.",
     "cookieDescription": "The cookie was very cakey, thicker than the others which we weren't made about, but this wasn't our favorite.",
@@ -1170,7 +1170,7 @@
     "lat": 40.783913,
     "lng": -73.84552,
     "price": 1.5,
-    "rank": "No. 21",
+    "rank": "No. 28",
     "image": "images/cookies/bakery14.png",
     "bakeryDescription": "Bakery and cafe offering a variety of cakes, plus breakfast and Dominican desserts like empanadas.",
     "cookieDescription": "This cookie had a funky aftertaste and did not taste much like a rainbow cookie. Do not recommend.",
@@ -1258,7 +1258,7 @@
     "lat": 40.794168,
     "lng": -73.818232,
     "price": 2.5,
-    "rank": "No. 6",
+    "rank": "No. 9",
     "image": "images/cookies/bakery15.png",
     "bakeryDescription": "Long-standing bakery offering cheesecakes, pies, pastries & cookies, as well as wedding cakes.",
     "cookieDescription": "The cake and the chocolate was pretty good but it tasted a bit old, would be better if it was fresh.",
@@ -1346,7 +1346,7 @@
     "lat": 40.780095,
     "lng": -73.802159,
     "price": 2.55,
-    "rank": "No. 5",
+    "rank": "No. 8",
     "image": "images/cookies/bakery16.png",
     "bakeryDescription": "Bakery offering sandwiches, breakfast, and desserts such as baklava and cheesecake.",
     "cookieDescription": "The cake was flavorful and moist but the seeds in the jam were distracted.",
@@ -1434,7 +1434,7 @@
     "lat": 40.748474,
     "lng": -73.756576,
     "price": 2,
-    "rank": "No. 4",
+    "rank": "No. 7",
     "image": "images/cookies/bakery17.png",
     "bakeryDescription": "Sweet Treats Pastry Shoppe is a renowned bakery located in the heart of New York City, offering a delectable array of pastries and confections.",
     "cookieDescription": "Would actually recommend this cookie - it was one of the better ones in eastern Queens.",
@@ -1522,7 +1522,7 @@
     "lat": 40.726475,
     "lng": -73.788689,
     "price": 1.6,
-    "rank": "No. 14",
+    "rank": "No. 18",
     "image": "images/cookies/bakery18.png",
     "bakeryDescription": "Lulu's Bakery, located in Fresh Meadows, NY, serves fresh baked breads, cakes, pastries, cookies, and biscotti.",
     "cookieDescription": "Surprisingly floral taste but the cake was moist and good amount of jam.",
@@ -1610,7 +1610,7 @@
     "lat": 40.730164,
     "lng": -73.821997,
     "price": 2.3,
-    "rank": "No. 9",
+    "rank": "No. 14",
     "image": "images/cookies/bakery19.png",
     "bakeryDescription": "Bakery turning out challah, cookies, rugelach, and other kosher baked goods.",
     "cookieDescription": "Very strong almond liquer flavor in these cookies and you can only buy a box for $15",
@@ -1698,7 +1698,7 @@
     "lat": 40.711338,
     "lng": -73.856448,
     "price": 2,
-    "rank": "No. 17",
+    "rank": "No. 24",
     "image": "images/cookies/bakery20.png",
     "bakeryDescription": "Homey spot for decadent baked goods & custom cakes, plus breakfast favorites, sandwiches & salads. See all reviews.",
     "cookieDescription": "Good amount of jam but overall taste was not great.",
@@ -1786,7 +1786,7 @@
     "lat": 40.7264442,
     "lng": -73.8531571,
     "price": 1.7,
-    "rank": "No. 11",
+    "rank": "No. 15",
     "image": "images/cookies/bakery21.png",
     "bakeryDescription": "Established, family-run Hungarian bakery offering pastries & cakes, including old-fashioned strudel.",
     "cookieDescription": "Their large slice of rainbow cookie cake is MUCH better than the cookie. Absolutely get the larger cake version.",
@@ -1862,6 +1862,711 @@
             ],
             "Overall": 3.5,
             "Notes": "Perfectly good."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bakeryNumber": 22,
+    "bakeryhed": "La Cheesecake Bake Shop",
+    "bakeryaddress":"126-06 14th Ave, College Point, NY 11356",
+    "lat": 40.7851483,
+    "lng": -73.8416681,
+    "price":2.0,
+    "rank": "No. 10",
+    "image": "images/cookies/bakery22.png",
+    "bakeryDescription": "Long-standing, unfussy bakery known for pastries, pies, cookies & New York–style cheesecakes.",
+    "cookieDescription": "The cake is pretty good and moist but the tasters are on the fence about the chocolate.",
+    "avgScores": [
+      {
+        "chocolate": 2.5,
+        "almond": 2.5,
+        "texture": 4.5,
+        "jam": 3.5,
+        "color": 3.0
+      }
+    ],
+    "Overall": 3.3,
+    "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 2,
+                "almond": 4,
+                "texture": 6,
+                "jam": 3,
+                "color": 4
+              }
+            ],
+            "Overall": 3.5,
+            "Notes": "Great cake but dont love the chocolate"
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 4,
+                "almond": 4,
+                "texture": 5,
+                "jam": 5,
+                "color": 3
+              }
+            ],
+            "Overall": 4.5,
+            "Notes": "Wish chocolate was higher quality but in general very nice"
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 1,
+                "almond": 1,
+                "texture": 5,
+                "jam": 3,
+                "color": 2
+              }
+            ],
+            "Overall": 2,
+            "Notes": "Chocolate is chalky but cake is moist"
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 3,
+                "almond": 1,
+                "texture": 3,
+                "jam": 3,
+                "color": 3
+               }
+            ],
+            "Overall": 3,
+            "Notes": "Corner slice - dry cake, very jammy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bakeryNumber": 23,
+    "bakeryhed": "Framboise Patisserie",
+    "bakeryaddress": "6459 Dry Harbor Rd, Middle Village, NY 11379",
+    "lat": 40.7268011,
+    "lng": -73.8718224,
+    "price": 1.3,
+    "rank": "No. 21",
+    "image": "images/cookies/bakery23.png",
+    "bakeryDescription": "Bakery located in Middle Village, Queens that sells a variety of cakes, cookies, breads, and pastries but custom cakes are our specialty.",
+    "cookieDescription": "It's sprinkles and density are wrong as well as it being a pretty dry cookie.",
+    "avgScores": [
+      {
+        "chocolate": 2.3,
+        "almond": 2.8,
+        "texture": 3.8,
+        "jam": 1.5,
+        "color": 2.0
+      }
+    ],
+    "Overall": 2.3,
+    "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 1,
+                "almond": 3,
+                "texture": 3,
+                "jam": 1,
+                "color": 2
+              }
+            ],
+            "Overall": 2,
+            "Notes": "too fake and chemical tasting"
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 2,
+                "almond": 3,
+                "texture": 4,
+                "jam": 1,
+                "color": 1
+              }
+            ],
+            "Overall": 4,
+            "Notes": "It has sprinkles! "
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 2,
+                "almond": 1,
+                "texture": 4,
+                "jam": 1,
+                "color": 3
+              }
+            ],
+            "Overall": 2,
+            "Notes": "no red, just yellow instead of white."
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 4,
+                "almond": 4,
+                "texture": 4,
+                "jam": 3,
+                "color": 4
+               }
+            ],
+            "Overall": 4,
+            "Notes": "Smaller and denser - almond forward chocolate and jam took the back seat"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bakeryNumber": 24,
+    "bakeryhed": "Joe's Bakery",
+    "bakeryaddress": "75-50 Metropolitan Ave, Middle Village, NY 11379",
+    "lat": 40.7129192,
+    "lng": -73.8758488,
+    "price": 3.3,
+    "rank": "No. 2",
+    "image": "images/cookies/bakery24.png",
+    "bakeryDescription": "Bakery known for breads, cakes, pastries, cookies, and cheesecakes.",
+    "cookieDescription": "The cookie was actually great but we don't all love the apricot jam (Rosie does!)",
+    "avgScores": [
+      {
+        "chocolate":4.3,
+        "almond": 3.1,
+        "texture": 4.3,
+        "jam": 4.3,
+        "color": 4.5
+      }
+    ],
+    "Overall": 4.0,
+    "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 4,
+                "almond": 3,
+                "texture": 4,
+                "jam": 4,
+                "color": 5
+              }
+            ],
+            "Overall": 4,
+            "Notes": "Very good - moist and jammy"
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 5,
+                "almond": 5,
+                "texture": 5,
+                "jam": 5,
+                "color": 5
+              }
+            ],
+            "Overall": 5,
+            "Notes": "Dont love apricot but perfect otherwise"
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 4,
+                "almond": 1,
+                "texture": 5,
+                "jam": 4,
+                "color": 4
+              }
+            ],
+            "Overall": 3.6,
+            "Notes": "Overall good cookie"
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 4.0,
+                "almond": 3.5,
+                "texture": 3.0,
+                "jam": 4.0,
+                "color": 4.0
+               }
+            ],
+            "Overall": 3.5,
+            "Notes": "Holy sweetness - almond is late and ate poorly"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "bakeryNumber": 25,
+    "bakeryhed": "Catania Bakery",
+    "bakeryaddress": "6410 Fresh Pond Rd, Flushing, NY 11385",
+    "lat": 40.712005,
+    "lng": -73.919255,
+    "price": 3.5,
+    "rank": "No. 1",
+    "image": "images/cookies/bakery25.png",
+    "bakeryDescription": "Location offering pastries, breads & other baked goods, plus gelato & cakes for special occasions.",
+    "cookieDescription": "Moist and jammy cookie that we all really enjoyed except the chocolate could be a bit better.",
+    "avgScores": [
+      {
+        "chocolate": 3.8,
+        "almond": 3.5,
+        "texture": 5.0,
+        "jam": 4.3,
+        "color":4.8 
+      }
+    ],
+    "Overall": 4.2,
+    "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 4,
+                "almond": 4,
+                "texture": 5,
+                "jam": 5,
+                "color": 4
+              }
+            ],
+            "Overall": 4,
+            "Notes": "Very similar - moist and jammy"
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 5,
+                "almond": 5,
+                "texture": 5,
+                "jam": 5,
+                "color": 5
+              }
+            ],
+            "Overall": 5,
+            "Notes": "overall checks all the boxes"
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 2,
+                "almond": 1,
+                "texture": 5,
+                "jam": 3,
+                "color": 4
+              }
+            ],
+            "Overall": 3,
+            "Notes": "the chocolate was a miss but overall great"
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 4,
+                "almond": 4,
+                "texture": 5,
+                "jam": 5,
+                "color": 4.5
+               }
+            ],
+            "Overall": 4.5,
+            "Notes": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bakeryNumber": 26,
+    "bakeryhed": "Grimadli Bakery",
+    "bakeryaddress": "21-01 Menahan St, Ridgewood, NY 11385",
+    "lat": 40.7091306,
+    "lng": -73.9063182,
+    "price": 2,
+    "rank": "No. 5",
+    "image": "images/cookies/bakery26.png",
+    "bakeryDescription": "Established bakeshop with many offerings such as breads, pastries & cookies, plus custom cakes.",
+    "cookieDescription": "This cookie is pretty good but the seeded jam isn't great. The chocolate is better than average! ",
+    "avgScores": [
+      {
+        "chocolate": 3.8,
+        "almond": 3.3,
+        "texture": 4.5,
+        "jam": 3.8,
+        "color": 4.8
+      }
+    ],
+    "Overall": 3.7,
+    "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 3,
+                "almond": 3,
+                "texture": 5,
+                "jam": 3,
+                "color": 5
+              }
+            ],
+            "Overall": 3,
+            "Notes": "Something is off."
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 5,
+                "almond": 5,
+                "texture": 4,
+                "jam": 4,
+                "color": 5
+              }
+            ],
+            "Overall": 4.5,
+            "Notes": "Seeds in the jam, chocolate better than average"
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 3,
+                "almond": 1,
+                "texture": 4,
+                "jam": 4,
+                "color": 4
+              }
+            ],
+            "Overall": 3.2,
+            "Notes": "Seeded jam?! but good flavot"
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 4,
+                "almond": 4,
+                "texture": 4,
+                "jam": 4,
+                "color": 5
+               }
+            ],
+            "Overall": 4.5,
+            "Notes": "Makes jam ration weird but good."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bakeryNumber": 27,
+    "bakeryhed": "Glendale Bakery",
+    "bakeryaddress": "6925 Grand Ave, Maspeth, NY 11378",
+    "lat": 40.714424,
+    "lng": -73.914236,
+    "price": 1,
+    "rank": "No. 29",
+    "image": "images/cookies/bakery27.png",
+    "bakeryDescription": "Classic bakery offering breakfast fare such as sandwiches, breads, and pastries.",
+    "cookieDescription": "This cookie is probably the worst one we've tried. It's an older stale version of one we've disliked from other bakeries.",
+    "avgScores": [
+      {
+        "chocolate": 1.5,
+        "almond": 1.3,
+        "texture": 1.0,
+        "jam": 1.3,
+        "color": 1.3
+      }
+    ],
+    "Overall": 1.1,
+    "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 1,
+                "almond": 1,
+                "texture": 1,
+                "jam": 1,
+                "color": 1
+              }
+            ],
+            "Overall": 1,
+            "Notes": "So old."
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 1,
+                "almond": 1,
+                "texture": 1,
+                "jam": 1,
+                "color": 1
+              }
+            ],
+            "Overall": 1,
+            "Notes": "Even the sprinkles were crunchy and old"
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 1,
+                "almond": 1,
+                "texture": 1,
+                "jam": 1,
+                "color": 1
+              }
+            ],
+            "Overall": 1,
+            "Notes": "So stale, worst one yet." 
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 3,
+                "almond": 1,
+                "texture": 1,
+                "jam": 2,
+                "color": 2
+               }
+            ],
+             "Overall": 2.5,
+            "Notes": "End piece with sprinkles - very dry"
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
+    "bakeryNumber": 28,
+    "bakeryhed": "Lety's Bakery",
+    "bakeryaddress": "7707 37th Ave, Jackson Heights, NY 11372",
+    "lat": 40.749864,
+    "lng": -73.8832982,
+    "price": 2.2,
+    "rank": "No. 12",
+    "image": "images/cookies/bakery28.png",
+    "bakeryDescription": "Compact, art-lined neighborhood bakery featuring coffee, cookies, pastries & cakes.",
+    "cookieDescription": "The cookie has a weird aftertaste so it's not our favorite.",
+    "avgScores": [
+      {
+        "chocolate": 2.5,
+        "almond": 2.3,
+        "texture": 3.3,
+        "jam": 2.8,
+        "color": 4.3
+      }
+    ],
+    "Overall": 2.9,
+    "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 2,
+                "almond": 2,
+                "texture": 2,
+                "jam": 3,
+                "color": 4
+              }
+            ],
+            "Overall": 3,
+            "Notes": "it's fine. not amazing."
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 3.0,
+                "almond": 3.0,
+                "texture": 5.0,
+                "jam": 3.0,
+                "color": 5.0
+              }
+            ],
+            "Overall": 3.0,
+            "Notes": "dry, weird aftertaste but overall acceptable."
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 4.0,
+                "almond": 3.0,
+                "texture": 4.0,
+                "jam": 2,
+                "color": 3.3
+              }
+            ],
+            "Overall": "Seeded jam is not good.",
+            "Notes": " "
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 1,
+                "almond": 1,
+                "texture": 2,
+                "jam": 3,
+                "color": 4
+               }
+            ],
+            "Overall": 2.5,
+            "Notes": "Tastes like popcorn - looks dry"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bakeryNumber": 29,
+    "bakeryhed": "Parva Bakeshop and Cafe",
+    "bakeryaddress": "8201 Northern Blvd, Jackson Heights, NY 11372",
+    "lat": 40.7553411,
+    "lng": -73.8875224,
+    "price": 6,
+    "rank": "No. 17",
+    "image": "images/cookies/bakery29.png",
+    "bakeryDescription": "A modern artisanal bakeshop & café full of delicious breads, empanadas, croissants, sandwiches, coffee, fresh juices, tea, and bagels made daily.",
+    "cookieDescription": "The cake is good but it's not a rainbow cookie - it's a piece of cake that doesn't really taste like much of anything. ",
+    "avgScores": [
+      {
+        "chocolate": 3.3,
+        "almond": 1.0,
+        "texture": 4.5,
+        "jam": 2.3,
+        "color": 4.5
+      }
+    ],
+    "Overall": 2.6,
+    "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 3,
+                "almond": 1,
+                "texture": 5,
+                "jam": 2,
+                "color": 5
+              }
+            ],
+            "Overall": 2,
+            "Notes": "Flavorless but moist."
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 2,
+                "almond": 1,
+                "texture": 4,
+                "jam": 2,
+                "color": 3
+              }
+            ],
+            "Overall": 2,
+            "Notes": "Too cakey, not a rainbow cookie"
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 5,
+                "almond": 1,
+                "texture": 5,
+                "jam": 3,
+                "color": 5
+              }
+            ],
+            "Overall": 3.5,
+            "Notes": "Flavorless - not a rainbow cookie."
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 3,
+                "almond": 1,
+                "texture": 4,
+                "jam": 2,
+                "color": 5
+               }
+            ],
+            "Overall": 3,
+            "Notes": "Very very cakey"
           }
         ]
       }

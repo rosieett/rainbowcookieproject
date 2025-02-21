@@ -6,21 +6,15 @@ var template = Handlebars.compile(source);
 let url = new URL(document.location);
 let params = url.searchParams;
 let catData = params.get('defaultSort')
-console.log(catData)
 
 //make list of categories to pull from
 let catList = data[0].avgScores[0]
 catList = Object.keys(catList)
-console.log(catList)
 
 //if the button that's clicked on on the homepage isn't in the catList, then default to overall
 if (!catList.includes(catData)){
     catData = 'Overall'   
 }
-
-
-
-
 let awardbtns = d3.selectAll('input[name="bestOf"],input[name="sortDirection"]');
 awardbtns.on('input', (e) => { 
     let sortLow = (document.querySelector("input[name='sortDirection']:checked").value == 'ascending');
@@ -29,7 +23,7 @@ awardbtns.on('input', (e) => {
 })
 
 
-function sort(by=catData, isReversed = false) {
+export function sort(by=catData, isReversed = false) {
     
     let sortedHighArray = data.sort((a, b) => {
         if (by in a) {
@@ -182,24 +176,8 @@ burger.addEventListener("click", function () {
   navlinks.classList.toggle("is-active")
 })
 
-// const burger = document.querySelector(".burger");
-// const navLinks = document.querySelector(".nav-links");
-// const body = document.querySelector("body");
-// const backdrop = document.createElement("div");
-// backdrop.classList.add("menu-backdrop");
 
-// body.appendChild(backdrop);
 
-// burger.addEventListener("click", () => {
-//   navLinks.classList.toggle("nav-active");
-//   backdrop.classList.toggle("display"); // Show or hide the backdrop
 
-//   // Burger Animation
-//   burger.classList.toggle("toggle");
-// });
+  
 
-// backdrop.addEventListener("click", function () {
-//   navLinks.classList.remove("nav-active");
-//   this.classList.remove("display"); // Hide the backdrop when clicked
-//   burger.classList.remove("toggle");
-// });

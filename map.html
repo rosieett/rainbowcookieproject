@@ -15,7 +15,7 @@
 
 </head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HPSBW18F6K"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-HPSBW18F6K"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -25,17 +25,106 @@
     gtag('js', new Date());
 
     gtag('config', 'G-HPSBW18F6K');
-</script>
+</script> -->
+<script type="module" src="app_map.js"></script>
 
 <body>
-    <div id="map"></div>
 
 
+    <div id="mainContainer">
+
+        <header class="site-header">
+            <div class="container">
+                <a href="#" class="burger"><img src="images/menu-btn.png" class="menu-cookieimg" alt="">Menu</a>
+                <ul class="ul">
+                    <li><a href="results.html">Explore the list</a></li>
+                    <li><a href="map.html">Bakery Map</a></li>
+                    <li><a href="methodology.html">Method to the Madness</a></li>
+                    <li><a href="recommend.html">Recommend a Bakery</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="navbar-top">
+            <div class="buttonBar">
+                <ul>
+                    <li class="buttonBar-button">
+                        <a href="results.html">Explore the list</a>
+                    </li>
+                    <li class="buttonBar-button map-button">
+                        <a href="map.html">Map</a>
+                    </li>
+                    <li class="buttonBar-button">
+                        <a href="methodology.html">Method to the Madness</a>
+                    </li>
+                    <li class="buttonBar-button">
+                        <a href="recommend.html">Recommend a Bakery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+ 
+        <div class="results-title">
+            <div class="result-hed">I'm going on an adventure!</div>
+            <div class="result-subhead">Bakery Map</div>
+            <div class="taster-body-map">Click on a pin to see the bakery name and it's overall score</div>
+        </div>
+        
+        <!-- <p class="result-subhead">Bakery spots</p> -->
+        <div id="map">
+
+        </div>
+        <hr>
+        <footer>
+            <section class="modal hidden">
+                <button class="btn-close">
+                    <img src="images/closebutton.png" class="modalclose" alt="">
+                </button>
+                <h3>About the creators</h3>
+                <p>
+                    Rosie and Adri are star-crossed design soul mates who met clandestinely through working as graphics
+                    reporters on the
+                    same team at the Wall Street Journal. They regularly match each other’s silliness - including, but not
+                    limited to making
+                    entire websites
+                    about cookies, love for pets, food, and their shared colleague-turned-bestie, Danny (who also taught Rosie
+                    d3).
+                </p>
+                <p>Rosie is a born and raised New Yorker and loves rainbow cookies maybe a little too much. Rosie thought up
+                    the
+                    concept of the project and all that comes with it, coded it, and ate a lot of cookies.
+
+                </p>
+                <p>Adri has never had a rainbow cookie but loves to design them. Adri took Rosie's horrible mock ups
+                    and made it the beauty you see before you. She also figured out the UX
+                    design for the project.</p>
+                <div>
+                    <a href="https://www.rosieettenheim.com" class="landing-button" target="_blank">See what Rosie's up
+                        to</a>
+                    <a href="https://www.adriennetong.com/" class="landing-button" target="_blank">See what Adri's up
+                        to</a>
+                </div>
 
 
-    <script type="module" src="app_map.js"></script>
+            </section>
+            <div class="overlay hidden"></div>
+
+            <div id="aboutButtons">
+                <a class="modalBtn btn-open">About</a>
+                <a href="index.html">Home</a>
+            </div>
+
+            <p class="copyright-text">© 2024 Murphy and Poppy's Humans (Rosie and Adrienne)</p>
+        </footer>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"
+        integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
 </body>
 
 </html>

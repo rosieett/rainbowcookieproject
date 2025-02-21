@@ -518,6 +518,7 @@ svg:hover {
   text-align: center;
   align-content: center;
   color: #502a27;
+  padding-left: 3px;
 }
 
 .buttonBar-button:hover {
@@ -1585,7 +1586,6 @@ input[type="text"] {
 }
 
 #map {
-  width: 75%;
   height: 75vh;
   margin: 0 auto;
 }
@@ -2395,104 +2395,6 @@ MEDIA SIZES
     width: 100%;
   }
 
-  /* .navbar-top {
-    display: none;
-  } */
-
-  /* #navbar-mobile {
-    position: absolute;
-    /* display: flex;
-    width: 90%;
-    align-items: center;
-    padding: 10px;
-    background-color: inherit;
-  } */
-
-  /* .menu-cookieimg {
-    width: 30px;
-    transform: translateY(10px);
-    z-index: 10;
-  }
-
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    left: 0;
-     top: 9vh;
-    background-color: rgb(242, 235, 215, 0.94);
-    width: 90%;
-    transform: translateX(-100%);
-    transition: transform 0.5s ease-in;
-    padding-top: 20px;
-  }
-
-  .nav-links li {
-    display: inline-block;
-    padding: 0 20px;
-    opacity: 0;
-  }
-
-  .nav-links li:last-of-type {
-    padding-bottom: 20px;
-  }
-
-  .nav-links a {
-    text-decoration: none;
-    font-size: 18px;
-    list-style: none;
-    text-transform: uppercase;
-    color: #502a27;
-  }
-
-  .burger a {
-    font-size: 18px;
-    list-style: none;
-    text-transform: uppercase;
-    color: #502a27;
-    padding-left: 8px;
-    transform: translateY(-20px);
-  }
-
-  .logo a {
-    color: white;
-    text-decoration: none;
-    font-size: 24px;
-  }
-
-  .burger {
-    display: block;
-    cursor: pointer;
-  }
-
-  .nav-active {
-    transform: translateX(0);
-  }
-
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-    }
-
-    to {
-      opacity: 1;
-    }
-  }
-
-  .nav-links li {
-    animation: navLinkFade 0.5s ease forwards 0.5s;
-  } */
-
-  /* .menu-backdrop {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 100%;
-    z-index: 9;
-  } */
-
   footer {
     padding-top: 40px;
     width: 80%;
@@ -2527,4 +2429,49 @@ MEDIA SIZES
     backdrop-filter: blur(9px);
     z-index: 1;
   }
+}
+
+.leaflet-popup-content p:first-child {
+  color: #502a27;
+  font-family: "AnchorJack";
+  font-size: 14px;
+  font-style: normal;
+  margin: 0.5em 0;
+}
+
+.leaflet-popup-content p:nth-child(2),
+.leaflet-popup-content p:nth-child(3) {
+  color: #502a27;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 0;
+}
+
+#mainContainer {
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 0px;
+}
+
+#map {
+  height: 60vh;
+  max-height: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip{
+  background-color: #f2ebd7 !important;
+}
+
+.taster-body-map{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.map-button{
+  width: 100%;
 }
