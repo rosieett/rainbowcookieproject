@@ -11,7 +11,7 @@
     "image": "images/cookies/bakery1.png",
     "bakeryDescription": "Gian Piero Bakery is family-owned, full-service bakery located in Astoria, NY. The bakery opened for business in 1995 and have been growing every year since.",
     "cookieDescription": "Gian Piero's rainbow cookie looks perfect. It's a general crowd pleaser but needs more jam. The tasters do enjoy rainbow cookies from here on a regular basis.",
-    "Overall": 3.6,
+    "Overall": 3.8,
     "avgScores": [
       {
         "chocolate": 2.8,
@@ -96,7 +96,7 @@
     "lng": -73.9254304,
     "weightg": 40,
     "price": "1.60",
-    "rank": "No. 20",
+    "rank": "No. 19",
     "image": "images/cookies/bakery2.png",
     "bakeryDescription": "Neighborhood bakery & cafe serving coffee, pastries, cookies, breads & desserts since 1969.",
     "cookieDescription": "Parisi's rainbow cookie tasted the most natural with true almond tastes but needed more jam.",
@@ -109,7 +109,7 @@
         "color": 3.1
       }
     ],
-    "Overall": 2.5,
+    "Overall": 2.9,
     "scores": [
       {
         "person": [
@@ -185,7 +185,7 @@
     "lng": -73.9089097,
     "weightg": 53.4,
     "price": "2.00",
-    "rank": "No. 16",
+    "rank": "No. 9",
     "image": "images/cookies/bakery3.png",
     "bakeryDescription": "Created in 1964, Astoria Bakery & Cafe is a specialty bakery & cafe, lifestyle and wellness brand based in Astoria.",
     "cookieDescription": "Astoria Bakery's rainbow cookie was the most jammy of Astoria's bakeries. It wasn't bad, but we're not running back.",
@@ -198,7 +198,7 @@
         "color": 5.0
       }
     ],
-    "Overall": 2.8,
+    "Overall": 3.5,
     "scores": [
       {
         "person": [
@@ -274,7 +274,7 @@
     "lng": -73.9154967,
     "weightg": 104.6,
     "price": "3.50",
-    "rank": "No. 23",
+    "rank": "No. 18",
     "image": "images/cookies/bakery4.png",
     "bakeryDescription": "Cozy French Bakery that serves a variety of delicious Pastries, Coffee, Gelato and more.",
     "cookieDescription": "Paris Oven's rainbow cookie has great chocolate but the sprinkles throw off the vibes of the cookie. The tasters would probably not go back again.",
@@ -287,7 +287,7 @@
         "color": 4.5
       }
     ],
-    "Overall": 2.2,
+    "Overall": 2.9,
     "scores": [
       {
         "person": [
@@ -467,7 +467,7 @@
         "color": 3.0
       }
     ],
-    "Overall": 1.8,
+    "Overall": 2.4,
     "scores": [
       {
         "person": [
@@ -544,7 +544,7 @@
     "lng": -73.923529,
     "weightg": 46.7,
     "price": "2.70",
-    "rank": "No. 22",
+    "rank": "No. 25",
     "image": "images/cookies/bakery7.png",
     "bakeryDescription": "A cafe with a passion for craft, innovation & discovery comes to life in an ever-evolving menu of coffee, cocktails, food & desserts.",
     "cookieDescription": "Oasis Cafe's rainbow cookie was not a fan favorite within Astoria, the colors and the texture being the least enjoyed. The tasters would probably not go back again.",
@@ -557,7 +557,7 @@
         "color": 1.8
       }
     ],
-    "Overall": 2.3,
+    "Overall": 2.5,
     "scores": [
       {
         "person": [
@@ -634,7 +634,7 @@
     "lng": -73.9119151,
     "weightg": 29.5,
     "price": "1.10",
-    "rank": "No. 25",
+    "rank": "No. 20",
     "image": "images/cookies/bakery8.png",
     "bakeryDescription": "Classic Italian bakery with a selection of specialty breads & pastries, plus a back pizza counter.",
     "cookieDescription": "Rosa and Joe's rainbow cookie, while inexpensive, was not a fan favorite due to it's texture and chocolate. We'd skip this one and try something else there.",
@@ -647,7 +647,7 @@
         "color": 4.2
       }
     ],
-    "Overall": 2,
+    "Overall": 2.6,
     "scores": [
       {
         "person": [
@@ -723,7 +723,7 @@
     "lng": -73.9299954,
     "weightg": 69.5,
     "price": "3.30",
-    "rank": "No. 11",
+    "rank": "No. 7",
     "image": "images/cookies/bakery9.png",
     "bakeryDescription": "An established bakery dating recipes back to the the 1800's. One of the the few in New York.",
     "cookieDescription": "The marzipan taste was hopeful but the jam was a bit overpowering. The texture was on point and overall a decent cookie.",
@@ -736,7 +736,7 @@
         "color": 4.2
       }
     ],
-    "Overall": 3.2,
+    "Overall": 3.8,
     "scores": [
       {
         "person": [
@@ -916,7 +916,7 @@
         "color": 1.0
       }
     ],
-    "Overall": 1.5,
+    "Overall": 2.4,
     "scores": [
       {
         "person": [
@@ -993,7 +993,7 @@
     "lng": -73.9074739,
     "weightg": 53.8,
     "price": "3.00",
-    "rank": "No. 19",
+    "rank": "No. 12",
     "image": "images/cookies/bakery12.png",
     "bakeryDescription": "Bakeshop with a warm vibe serving old-fashioned cakes & pastries, plus gelato & an espresso bar.",
     "cookieDescription": "The overall cookie is decent enough but there was only chocolate on one side, so they should fix that.",
@@ -1006,7 +1006,7 @@
         "color": 2.2
       }
     ],
-    "Overall": 2.5,
+    "Overall": 3.3,
     "scores": [
       {
         "person": [
@@ -1082,7 +1082,7 @@
     "lng": -73.911535,
     "weightg": 75.3,
     "price": "3.50",
-    "rank": "No. 13",
+    "rank": "No. 11",
     "image": "images/cookies/bakery13.png",
     "bakeryDescription": "Long-running family-owned pastry shop crafting an array of Italian treats, cakes & baked goods.",
     "cookieDescription": "The cookie was very cakey, thicker than the others which we weren't made about, but this wasn't our favorite.",
@@ -1095,7 +1095,7 @@
         "color": 3.2
       }
     ],
-    "Overall": 2.9,
+    "Overall": 3.3,
     "scores": [
       {
         "person": [
@@ -1183,7 +1183,7 @@
         "color": 2.0
       }
     ],
-    "Overall": 1.3,
+    "Overall": 1.6,
     "scores": [
       {
         "person": [
@@ -1258,7 +1258,7 @@
     "lat": 40.794168,
     "lng": -73.818232,
     "price": 2.5,
-    "rank": "No. 9",
+    "rank": "No. 10",
     "image": "images/cookies/bakery15.png",
     "bakeryDescription": "Long-standing bakery offering cheesecakes, pies, pastries & cookies, as well as wedding cakes.",
     "cookieDescription": "The cake and the chocolate was pretty good but it tasted a bit old, would be better if it was fresh.",
@@ -1271,7 +1271,7 @@
         "color": 4.3
       }
     ],
-    "Overall": 3.3,
+    "Overall": 3.5,
     "scores": [
       {
         "person": [
@@ -1346,7 +1346,7 @@
     "lat": 40.780095,
     "lng": -73.802159,
     "price": 2.55,
-    "rank": "No. 8",
+    "rank": "No. 13",
     "image": "images/cookies/bakery16.png",
     "bakeryDescription": "Bakery offering sandwiches, breakfast, and desserts such as baklava and cheesecake.",
     "cookieDescription": "The cake was flavorful and moist but the seeds in the jam were distracted.",
@@ -1359,7 +1359,7 @@
         "color": 4.0
       }
     ],
-    "Overall": 3.5,
+    "Overall": 3.3,
     "scores": [
       {
         "person": [
@@ -1434,7 +1434,7 @@
     "lat": 40.748474,
     "lng": -73.756576,
     "price": 2,
-    "rank": "No. 7",
+    "rank": "No. 8",
     "image": "images/cookies/bakery17.png",
     "bakeryDescription": "Sweet Treats Pastry Shoppe is a renowned bakery located in the heart of New York City, offering a delectable array of pastries and confections.",
     "cookieDescription": "Would actually recommend this cookie - it was one of the better ones in eastern Queens.",
@@ -1447,7 +1447,7 @@
         "color": 3.5
       }
     ],
-    "Overall": 3.6,
+    "Overall": 3.7,
     "scores": [
       {
         "person": [
@@ -1522,7 +1522,7 @@
     "lat": 40.726475,
     "lng": -73.788689,
     "price": 1.6,
-    "rank": "No. 18",
+    "rank": "No. 23",
     "image": "images/cookies/bakery18.png",
     "bakeryDescription": "Lulu's Bakery, located in Fresh Meadows, NY, serves fresh baked breads, cakes, pastries, cookies, and biscotti.",
     "cookieDescription": "Surprisingly floral taste but the cake was moist and good amount of jam.",
@@ -1535,7 +1535,7 @@
         "color": 3.3
       }
     ],
-    "Overall": 2.5,
+    "Overall": 2.6,
     "scores": [
       {
         "person": [
@@ -1610,7 +1610,7 @@
     "lat": 40.730164,
     "lng": -73.821997,
     "price": 2.3,
-    "rank": "No. 14",
+    "rank": "No. 16",
     "image": "images/cookies/bakery19.png",
     "bakeryDescription": "Bakery turning out challah, cookies, rugelach, and other kosher baked goods.",
     "cookieDescription": "Very strong almond liquer flavor in these cookies and you can only buy a box for $15",
@@ -1623,7 +1623,7 @@
         "color": 3.5
       }
     ],
-    "Overall": 2.9,
+    "Overall": 3.0,
     "scores": [
       {
         "person": [
@@ -1698,7 +1698,7 @@
     "lat": 40.711338,
     "lng": -73.856448,
     "price": 2,
-    "rank": "No. 24",
+    "rank": "No. 22",
     "image": "images/cookies/bakery20.png",
     "bakeryDescription": "Homey spot for decadent baked goods & custom cakes, plus breakfast favorites, sandwiches & salads. See all reviews.",
     "cookieDescription": "Good amount of jam but overall taste was not great.",
@@ -1711,7 +1711,7 @@
         "color": 4.5
       }
     ],
-    "Overall": 2.0,
+    "Overall": 2.6,
     "scores": [
       {
         "person": [
@@ -1786,7 +1786,7 @@
     "lat": 40.7264442,
     "lng": -73.8531571,
     "price": 1.7,
-    "rank": "No. 15",
+    "rank": "No. 21",
     "image": "images/cookies/bakery21.png",
     "bakeryDescription": "Established, family-run Hungarian bakery offering pastries & cakes, including old-fashioned strudel.",
     "cookieDescription": "Their large slice of rainbow cookie cake is MUCH better than the cookie. Absolutely get the larger cake version.",
@@ -1799,7 +1799,7 @@
         "color": 2.0
       }
     ],
-    "Overall": 2.8,
+    "Overall": 2.6,
     "scores": [
       {
         "person": [
@@ -1874,7 +1874,7 @@
     "lat": 40.7851483,
     "lng": -73.8416681,
     "price":2.0,
-    "rank": "No. 10",
+    "rank": "No. 14",
     "image": "images/cookies/bakery22.png",
     "bakeryDescription": "Long-standing, unfussy bakery known for pastries, pies, cookies & New York–style cheesecakes.",
     "cookieDescription": "The cake is pretty good and moist but the tasters are on the fence about the chocolate.",
@@ -1887,7 +1887,7 @@
         "color": 3.0
       }
     ],
-    "Overall": 3.3,
+    "Overall": 3.2,
     "scores": [
       {
         "person": [
@@ -1962,7 +1962,7 @@
     "lat": 40.7268011,
     "lng": -73.8718224,
     "price": 1.3,
-    "rank": "No. 21",
+    "rank": "No. 24",
     "image": "images/cookies/bakery23.png",
     "bakeryDescription": "Bakery located in Middle Village, Queens that sells a variety of cakes, cookies, breads, and pastries but custom cakes are our specialty.",
     "cookieDescription": "It's sprinkles and density are wrong as well as it being a pretty dry cookie.",
@@ -1975,7 +1975,7 @@
         "color": 2.0
       }
     ],
-    "Overall": 2.3,
+    "Overall": 2.5,
     "scores": [
       {
         "person": [
@@ -2221,7 +2221,7 @@
   },
   {
     "bakeryNumber": 26,
-    "bakeryhed": "Grimadli Bakery",
+    "bakeryhed": "Grimaldi's Bakery",
     "bakeryaddress": "21-01 Menahan St, Ridgewood, NY 11385",
     "lat": 40.7091306,
     "lng": -73.9063182,
@@ -2239,7 +2239,7 @@
         "color": 4.8
       }
     ],
-    "Overall": 3.7,
+    "Overall": 4.0,
     "scores": [
       {
         "person": [
@@ -2327,7 +2327,7 @@
         "color": 1.3
       }
     ],
-    "Overall": 1.1,
+    "Overall": 1.3,
     "scores": [
       {
         "person": [
@@ -2403,7 +2403,7 @@
     "lat": 40.749864,
     "lng": -73.8832982,
     "price": 2.2,
-    "rank": "No. 12",
+    "rank": "No. 17",
     "image": "images/cookies/bakery28.png",
     "bakeryDescription": "Compact, art-lined neighborhood bakery featuring coffee, cookies, pastries & cakes.",
     "cookieDescription": "The cookie has a weird aftertaste so it's not our favorite.",
@@ -2491,7 +2491,7 @@
     "lat": 40.7553411,
     "lng": -73.8875224,
     "price": 6,
-    "rank": "No. 17",
+    "rank": "No. 15",
     "image": "images/cookies/bakery29.png",
     "bakeryDescription": "A modern artisanal bakeshop & café full of delicious breads, empanadas, croissants, sandwiches, coffee, fresh juices, tea, and bagels made daily.",
     "cookieDescription": "The cake is good but it's not a rainbow cookie - it's a piece of cake that doesn't really taste like much of anything. ",
@@ -2504,7 +2504,7 @@
         "color": 4.5
       }
     ],
-    "Overall": 2.6,
+    "Overall": 3.1,
     "scores": [
       {
         "person": [
