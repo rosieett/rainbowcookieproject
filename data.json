@@ -377,7 +377,7 @@
         "color": 5.0
       }
     ],
-    "Overall": 3.8,
+    "Overall": 4.4,
     "scores": [
       {
         "person": [
@@ -819,14 +819,14 @@
     "cookieDescription": "Il Fornaio's rainbow cookie was the highest rated in Astoria. It's a perfectly classic rainbow cookie with noticeably delicious jam and chocolate. We'll remember this spot as a go-to.",
     "avgScores": [
       {
-        "chocolate": 4.2,
+        "chocolate": 4.3,
         "almond": 3.8,
         "texture": 4.5,
         "jam": 4.3,
         "color": 5.0
       }
     ],
-    "Overall": 3.9,
+    "Overall": 4.4,
     "scores": [
       {
         "person": [
@@ -2057,13 +2057,13 @@
     "avgScores": [
       {
         "chocolate":4.3,
-        "almond": 3.1,
-        "texture": 4.3,
-        "jam": 4.3,
+        "almond": 4.0,
+        "texture": 4.5,
+        "jam": 5.0,
         "color": 4.5
       }
     ],
-    "Overall": 4.0,
+    "Overall": 4.5,
     "scores": [
       {
         "person": [
@@ -2144,14 +2144,14 @@
     "cookieDescription": "Moist and jammy cookie that we all really enjoyed except the chocolate could be a bit better.",
     "avgScores": [
       {
-        "chocolate": 3.8,
-        "almond": 3.5,
+        "chocolate": 4.3,
+        "almond": 4.0,
         "texture": 5.0,
         "jam": 4.3,
         "color":4.8 
       }
     ],
-    "Overall": 4.2,
+    "Overall": 4.5,
     "scores": [
       {
         "person": [
@@ -2190,14 +2190,14 @@
             "title": "texture Aficianado",
             "votes": [
               {
-                "chocolate": 2,
-                "almond": 1,
+                "chocolate": 4,
+                "almond": 3,
                 "texture": 5,
                 "jam": 3,
                 "color": 4
               }
             ],
-            "Overall": 3,
+            "Overall": 3.8,
             "Notes": "the chocolate was a miss but overall great"
           },
           {
@@ -2209,10 +2209,10 @@
                 "almond": 4,
                 "texture": 5,
                 "jam": 5,
-                "color": 4.5
+                "color": 5
                }
             ],
-            "Overall": 4.5,
+            "Overall":4.5,
             "Notes": " "
           }
         ]
