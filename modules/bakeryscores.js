@@ -1,4 +1,5 @@
-import data from "/data.json" with { type: "json" };
+import data from "../data/data.json" with { type: "json" };
+
 
 
 

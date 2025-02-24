@@ -1,4 +1,7 @@
-import data from "/data.json" with { type: "json" };
+import data from "../data/data.json" with { type: "json" };
+import { mobileMenu } from "../modules/mobileMenu.js";
+mobileMenu();
+
 
 var source = document.getElementById("mainContainer").innerHTML;
 var template = Handlebars.compile(source);
@@ -146,37 +149,6 @@ export function sort(by=catData, isReversed = false) {
 }
 
 sort(catData);
-
-
-const modal = document.querySelector(".modal");
-const overlay = document.querySelector(".overlay");
-const openModalBtn = document.querySelector(".btn-open");
-const closeModalBtn = document.querySelector(".btn-close");
-
-const openModal = function () {
-  modal.classList.remove("hidden");
-  overlay.classList.remove("hidden");
-};
-
-openModalBtn.addEventListener("click", openModal);
-
-const closeModal = function () {
-  modal.classList.add("hidden");
-  overlay.classList.add("hidden");
-};
-
-closeModalBtn.addEventListener("click", closeModal);
-overlay.addEventListener("click", closeModal);
-
-var burger = document.querySelector(".burger")
-var navlinks = document.querySelector(".ul")
-
-burger.addEventListener("click", function () {
-  this.classList.toggle("is-active")
-  navlinks.classList.toggle("is-active")
-})
-
-
 
 
   

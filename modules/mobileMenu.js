@@ -1,3 +1,5 @@
+export function mobileMenu() {
+
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const openModalBtn = document.querySelector(".btn-open");
@@ -25,3 +27,5 @@ burger.addEventListener("click", function () {
   this.classList.toggle("is-active");
   navlinks.classList.toggle("is-active");
 });
+
+}
