@@ -1,0 +1,1068 @@
+    {
+      "bakeryNumber": 30,
+      "bakeryhed": "Ciro's Pastry Shop",
+      "bakeryaddress": "4-15 Beach 129th St, Rockaway Park, NY 11694",
+      "lat": 40.573918,
+      "lng": -73.846814,
+      "price": "4.00",
+      "rank": "No. 12",
+      "image": "images/cookies/bakery30.png",
+      "bakeryDescription": "Neighborhood bakery known for cookies, croissants, donuts, and bread.",
+      "cookieDescription": "This rainbow cookie was overall fine but had a bit of chalkiness in the chocolate.",
+      "avgScores": [
+        {
+          "chocolate": 2.5,
+          "almond": 3.0,
+          "texture": 4.0,
+          "jam": 3.3,
+          "color": 4.0 
+        }
+      ],
+      "Overall": 2.9,
+      "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 3.0,
+                "almond": 3.0,
+                "texture": 5.0,
+                "jam": 4.0,
+                "color": 5.0 
+              }
+            ],
+            "Overall": 3.0,
+            "Notes": "fine but weird aftertaste"
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 3.0,
+                "almond": 4.0,
+                "texture": 3.0,
+                "jam": 3.0,
+                "color": 3.0 
+              }
+            ],
+            "Overall": 3.0,
+            "Notes": ""
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 2.0,
+                "almond": 2.0,
+                "texture": 5.0,
+                "jam": 3.0,
+                "color":3.0 
+              }
+            ],
+            "Overall": 2.5,
+            "Notes": ""
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 2.0,
+                "almond": 3.0,
+                "texture": 3.0,
+                "jam": 3.0,
+                "color": 4.0 
+              }
+            ],
+            "Overall": 3.0,
+            "Notes": ""
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "bakeryNumber": 31,
+      "bakeryhed": "Pasticceria La Torre",
+      "bakeryaddress": "158-12 Cross Bay Blvd, Howard Beach, NY 11414",
+      "lat": 40.66063,
+      "lng": -73.840325,
+      "price": 4,
+      "rank": "No. 21",
+      "image": "images/cookies/bakery31.png",
+      "bakeryDescription": "Bakery offering Italian favorites including cannoli, cheesecake, and cookies, plus gluten-free pies.",
+      "cookieDescription": "The cookie was fine, nothing special, but it was a bit dry.",
+      "Overall": 3,
+      "avgScores": [
+        {
+          "chocolate": 2.5,
+          "almond": 2.8,
+          "texture": 2.3,
+          "jam": 3.3,
+          "color": 4.3
+        }
+      ],
+      "Overall": 2.1,
+      "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 3.0,
+                "almond": 4.0,
+                "texture": 3.0,
+                "jam": 4.0,
+                "color": 5.0 
+              }
+            ],
+            "Overall": 2.0,
+            "Notes": ""         
+           },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 1.0,
+                "almond": 1.0,
+                "texture": 1.0,
+                "jam": 2.0,
+                "color": 3.0
+              }
+            ],
+            "Overall": 1.0,
+            "Notes": ""          
+           },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 2.0,
+                "almond": 2.0,
+                "texture": 2.0,
+                "jam": 3.0,
+                "color": 4.0 
+              }
+            ],
+            "Overall": 1.5,
+            "Notes":""
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 4.0,
+                "almond": 4.0,
+                "texture": 3.0,
+                "jam": 4.0,
+                "color": 5.0 
+              }
+            ],
+            "Overall": 4.0,
+            "Notes": ""
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "bakeryNumber": 32,
+      "bakeryhed": "SugarBun.NYC Bakery & Cafe",
+      "bakeryaddress": "156-22 Cross Bay Blvd, Howard Beach, NY 11414",
+      "lat": 40.663804,
+      "lng": -73.841121,
+      "price": 1.25,
+      "rank": "No. 24",
+      "image": "images/cookies/bakery32.png",
+      "bakeryDescription": "Homey spot for decadent baked goods & custom cakes, plus breakfast favorites, sandwiches & salads.",
+      "cookieDescription": "The jam was tangy, which made for an odd taste and we hate sprinkles on rainbow cookies.",
+      "Overall": 2.7,
+      "avgScores": [
+        {
+          "chocolate": 2.0,
+          "almond": 2.0,
+          "texture": 2.8,
+          "jam": 3.8,
+          "color": 2.8
+        }
+      ],
+      "Overall": 2.8,
+      "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 2.0,
+                "almond": 2.0,
+                "texture": 2.0,
+                "jam": 5.0,
+                "color": 3.0 
+              }
+            ],
+            "Overall": 3.0,
+            "Notes":  ""
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 1.0,
+                "almond": 2.0,
+                "texture": 2.0,
+                "jam": 3.0,
+                "color": 1.0 
+              }
+            ],
+            "Overall": 2.0,
+            "Notes":  ""
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 2.0,
+                "almond": 0.0,
+                "texture": 3.0,
+                "jam": 4.0,
+                "color": 2.0 
+              }
+            ],
+            "Overall": 2.0,
+ "Notes":  ""
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 3.0,
+                "almond": 4.0,
+                "texture": 4.0,
+                "jam": 3.0,
+                "color": 5.0 
+              }
+            ],
+            "Overall": 4.0,
+            "Notes":
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "bakeryNumber": 33,
+      "bakeryhed": "Paneorama",
+      "bakeryaddress": "95-20 Jamaica Ave, Woodhaven, NY 11421",
+      "lat": 40.694421,
+      "lng": -73.849561,
+      "price": 2,
+      "rank": "No. 40",
+      "image": "images/cookies/bakery33.png",
+      "bakeryDescription": "Bakery featuring bread and cookies, as well as coffee and breakfast offerings.",
+      "cookieDescription": "You couldn't pay me to eat that again\" - Ken",
+      "Overall": 0.8,
+      "avgScores": [
+        {
+          "chocolate": 0.5,
+          "almond": 0.5,
+          "texture": 1.3,
+          "jam": 0.5,
+          "color": 1.3 
+        }
+      ],
+      "Overall": 0.5,
+      "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 1.0,
+                "almond": 1.0,
+                "texture": 1.0,
+                "jam": 1.0,
+                "color": 2.0
+              }
+            ],
+            "Overall": 1.0,
+            "Notes": "so bad."
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 0.0,
+                "almond": 0.0,
+                "texture": 0.0,
+                "jam": 0.0,
+                "color": 0.0
+              }
+            ],
+            "Overall": 0.0,
+            "Notes":  ""
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+                {
+                "chocolate": 0.0,
+                "almond": 0.0,
+                "texture": 2.0,
+                "jam": 0.0,
+                "color": 1.0
+                }
+            ],
+            "Overall": 0.0,
+ "Notes":  ""
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 1.0,
+                "almond": 1.0,
+                "texture": 2.0,
+                "jam": 1.0,
+                "color": 2.0
+              }
+            ],
+            "Overall": 1.0,
+            "Notes":
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "bakeryNumber": 34,
+      "bakeryhed": "Sweet Bakery and Pastry",
+      "bakeryaddress": "117-02 Jamaica Ave, Richmond Hill, NY 11418",
+      "lat": 40.699515,
+      "lng": -73.832368,
+      "price": 2,
+      "rank": "No. 35",
+      "image": "images/cookies/bakery34.png",
+      "bakeryDescription": "Cakes, cookies, sweets, doughnuts and pastries for dine-in, takeaway or delivery, plus breakfast.",
+      "cookieDescription": "This cookie had a very bad fruity liquor taste - really took away from anything else good about this cookie.",
+      "Overall": 2,
+      "avgScores": [
+        {
+          "chocolate": 1.8,
+          "almond": 0.8,
+          "texture": 3.3,
+          "jam": 2.3,
+          "color": 2.0
+        }
+      ],
+      "Overall": 1.5,
+      "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 2.0,
+                "almond": 0.0,
+                "texture": 3.0,
+                "jam": 2.0,
+                "color": 2.0 
+              }
+            ],
+            "Overall": 1.0,
+            "Notes": "very fruity from liquor?"
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 0.0,
+                "almond": 0.0,
+                "texture": 3.0,
+                "jam": 0.0,
+                "color": 1.0
+              }
+            ],
+            "Overall": 0.0,
+            "Notes":  ""
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 2.0,
+                "almond": 1.0,
+                "texture": 4.0,
+                "jam": 4.0,
+                "color": 1.0
+              }
+            ],
+            "Overall": 2.0,
+ "Notes":  ""
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 3.0,
+                "almond": 2.0,
+                "texture": 3.0,
+                "jam": 3.0,
+                "color": 4.0
+              }
+            ],
+            "Overall": 3.0,
+            "Notes":
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "bakeryNumber": 35,
+      "bakeryhed": "Bonelle",
+      "bakeryaddress": "108-30 Ascan Ave, Forest Hills, NY 11375",
+      "lat": 40.7149983,
+      "lng": -73.8426887,
+      "price": 3,
+      "rank": "No. 34",
+      "image": "images/cookies/bakery35.png",
+      "bakeryDescription": "Longtime neighborhood bakery known for its croissants, cookies, and cakes.",
+      "cookieDescription": "We had high hopes because of the almond layers but the cake was too dry to notice anything else.",
+      "Overall": 2.2,
+      "avgScores": [
+        {
+          "chocolate": 2.8,
+          "almond": 3.0,
+          "texture": 1.8,
+          "jam": 1.8,
+          "color":1.8 
+        }
+      ],
+      "Overall": 2.8,
+      "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 2.0,
+                "almond": 4.0,
+                "texture": 1.0,
+                "jam": 3.0,
+                "color": 2.0
+              }
+            ],
+            "Overall": 3.0,
+            "Notes": "decent almond"
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 2.0,
+                "almond": 3.0,
+                "texture": 2.0,
+                "jam": 2.0,
+                "color": 1.0
+              }
+            ],
+            "Overall": 2.0,
+            "Notes":  ""
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 3.0,
+                "almond": 1.0,
+                "texture": 1.0,
+                "jam": 1.0,
+                "color": 1.0
+              }
+            ],
+            "Overall": 3.0,
+ "Notes":  ""
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 4.0,
+                "almond": 4.0,
+                "texture": 3.0,
+                "jam": 3.0,
+                "color": 3.0
+              }
+            ],
+            "Overall": 3.0,
+            "Notes":
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "bakeryNumber": 36,
+      "bakeryhed": "Pani Dolci",
+      "bakeryaddress": "137-67 Queens Blvd, Jamaica, NY 11435",
+      "lat": 40.7061908,
+      "lng": -73.8167258,
+      "price": 2,
+      "rank": "No. 11",
+      "image": "images/cookies/bakery36.png",
+      "bakeryDescription": "Bakery supplying an assortment of pastries, including its well-known cheesecakes.",
+      "cookieDescription": "Totally acceptable but nothing special.",
+      "Overall": 3.4,
+      "avgScores": [
+        {
+          "chocolate": 3.8,
+          "almond": 2.3,
+          "texture": 2.8,
+          "jam": 3.8,
+          "color": 4.5 
+        }
+      ],
+      "Overall": 3.3,
+      "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 4.0,
+                "almond": 2.0,
+                "texture": 3.0,
+                "jam": 4.0,
+                "color": 5.0
+              }
+            ],
+            "Overall": 3.0,
+            "Notes": "it's fine."
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 5.0,
+                "almond": 3.0,
+                "texture": 2.0,
+                "jam": 5.0,
+                "color": 5.0 
+              }
+            ],
+            "Overall": 3.0,
+            "Notes":  ""
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 2.0,
+                "almond": 2.0,
+                "texture": 3.0,
+                "jam": 3.0,
+                "color": 3.0
+              }
+            ],
+            "Overall": 3.0,
+ "Notes":  ""
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 4.0,
+                "almond": 3.0,
+                "texture": 3.0,
+                "jam": 3.0,
+                "color": 5.0 
+              }
+            ],
+            "Overall": 4.0,
+            "Notes":
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "bakeryNumber": 37,
+      "bakeryhed": "Bonbon",
+      "bakeryaddress": "164-18A 69th Ave, Fresh Meadows, NY 11365",
+      "lat": 40.7371282,
+      "lng": -73.7774459,
+      "price": 1,
+      "rank": "No. 39",
+      "image": "images/cookies/bakery37.png",
+      "bakeryDescription": "Friendly fixture specializing in Argentinian and Uruguayan sweets, pastries, cakes, sandwiches and empanadas.",
+      "cookieDescription": "It tastes like deli salami air\" - Tracy",
+      "Overall": 1.1,
+      "avgScores": [
+        {
+          "chocolate": 1.5,
+          "almond": 0.8,
+          "texture": 1.0,
+          "jam": 0.8,
+          "color": 1.3
+        }
+      ],
+      "Overall": 0.6,
+      "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate":1.0 ,
+                "almond": 1.0,
+                "texture": 1.0,
+                "jam": 1.0,
+                "color": 1.0
+              }
+            ],
+            "Overall": 0.0,
+            "Notes": "just so bad."
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 0.0,
+                "almond": 0.0,
+                "texture": 0.0,
+                "jam": 0.0,
+                "color": 0.0 
+              }
+            ],
+            "Overall": ,
+            "Notes":  ""
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 1.0,
+                "almond": 0.0,
+                "texture": 2.0,
+                "jam": 0.0,
+                "color": 1.0 
+              }
+            ],
+            "Overall": 0.0,
+ "Notes":  ""
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 4.0,
+                "almond": 2.0,
+                "texture": 1.0,
+                "jam": 2.0,
+                "color": 3.0 
+              }
+            ],
+            "Overall": 2.5,
+            "Notes":
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "bakeryNumber": 38,
+      "bakeryhed": "Elite Bakery",
+      "bakeryaddress": "47-36 Bell Blvd, Bayside, NY 11361",
+      "lat": 40.7602663,
+      "lng": -73.7693385,
+      "price": 1,
+      "rank": "No. 38",
+      "image": "images/cookies/bakery38.png",
+      "bakeryDescription": "Baked goods such as cakes, cookies, cannolis, and pies served in a casual setting with Wi-Fi.",
+      "cookieDescription": "The cake was so old that it ruined everything else.",
+      "Overall": 1.3,
+      "avgScores": [
+        {
+          "chocolate": 1.0,
+          "almond": 1.0,
+          "texture": 2.0,
+          "jam": 1.0,
+          "color": 1.3
+        }
+      ],
+      "Overall": 1.3,
+      "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 1.0,
+                "almond": 1.0,
+                "texture": 1.0,
+                "jam": 1.0,
+                "color": 2.0
+              }
+            ],
+            "Overall": 1.0,
+            "Notes": "nope"
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": ,
+                "almond": ,
+                "texture": ,
+                "jam": ,
+                "color": 
+              }
+            ],
+            "Overall": ,
+            "Notes":  ""
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 0.0,
+                "almond": 0.0,
+                "texture": 3.0,
+                "jam": 0.0,
+                "color": 0.0
+              }
+            ],
+            "Overall": 0.0,
+ "Notes":  ""
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 3.0,
+                "almond": 3.0,
+                "texture": 4.0,
+                "jam": 3.0,
+                "color": 3.0 
+              }
+            ],
+            "Overall": 4.0,
+            "Notes":
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "bakeryNumber": 39,
+      "bakeryhed": "Rudy's Pastry Shop",
+      "bakeryaddress": "9-05 Seneca Ave, Ridgewood, NY 11385",
+      "lat": 40.700409,
+      "lng": -73.903675,
+      "price": 2.5,
+      "rank": "No. 18",
+      "image": "images/cookies/bakery39.png",
+      "bakeryDescription": "Iconic pastry shop & dine-in cafe features free WiFi, an espresso bar & vegan/gluten-free treats.",
+      "cookieDescription": "We hated the yellow color but overall fine cookie.",
+      "Overall": 3.1,
+      "avgScores": [
+        {
+          "chocolate": 3.0,
+          "almond": 2.5,
+          "texture": 3.5,
+          "jam": 3.3,
+          "color": 3.0
+        }
+      ],
+      "Overall": 3.1,
+      "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 4.0,
+                "almond": 3.0,
+                "texture": 4.0,
+                "jam": 4.0,
+                "color": 4.0
+              }
+            ],
+            "Overall": 3.0,
+            "Notes":  ""
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 2.0,
+                "almond": 2.0,
+                "texture": 2.0,
+                "jam": 2.0,
+                "color": 2.0 
+              }
+            ],
+            "Overall": 2.0,
+            "Notes":  ""
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 2.0,
+                "almond": 2.0,
+                "texture": 4.0,
+                "jam": 5.0,
+                "color": 4.0 
+              }
+            ],
+            "Overall": 4.0,
+ "Notes":  ""
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 4.0,
+                "almond": 4.0,
+                "texture": 4.0,
+                "jam": 5.0,
+                "color": 4.0 
+              }
+            ],
+            "Overall": 4.0,
+            "Notes":
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "bakeryNumber": 40,
+      "bakeryhed": "Russo Bakery",
+      "bakeryaddress": "61-04 Grand Ave, Maspeth, NY 11378",
+      "lat": 40.721849,
+      "lng": -73.904328,
+      "price": 4.2,
+      "rank": "No. 33",
+      "image": "images/cookies/bakery40.png",
+      "bakeryDescription": "Family-run eatery for Italian baked goods including cakes, cookies and pastries.",
+      "cookieDescription": "Dry but fine enough everything else.",
+      "Overall": 2.3,
+      "avgScores": [
+        {
+          "chocolate": 1.5,
+          "almond": 1.5,
+          "texture": 2.3,
+          "jam": 2.0,
+          "color": 3.0
+        }
+      ],
+      "Overall": 3.1,
+      "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 1.0,
+                "almond": 2.0,
+                "texture": 3.0,
+                "jam": 2.0,
+                "color": 4.0 
+              }
+            ],
+            "Overall": 3.0,
+            "Notes":  ""
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 0.0,
+                "almond": 0.0,
+                "texture": 0.0,
+                "jam": 0.0,
+                "color": 5.0
+              }
+            ],
+            "Overall": 2.0,
+            "Notes":  ""
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 1.0,
+                "almond": 0.0,
+                "texture": 2.0,
+                "jam": 2.0,
+                "color": 3.0
+              }
+            ],
+            "Overall": 2.0,
+ "Notes":  ""
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 4.0,
+                "almond": 4.0,
+                "texture": 4.0,
+                "jam": 4.0,
+                "color": 5.0
+              }
+            ],
+            "Overall": 4.0,
+            "Notes":
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "bakeryNumber": 41,
+      "bakeryhed": "Nita's Bakery",
+      "bakeryaddress": "40-10 Greenpoint Ave, Sunnyside, NY 11104",
+      "lat": 40.739497,
+      "lng": -73.925007,
+      "price": 1.6,
+      "rank": "No. 41",
+      "image": "images/cookies/bakery41.png",
+      "bakeryDescription": "Long-standing place specializing in Romanians desserts, plus other cakes, cookies & pastries.",
+      "cookieDescription": "Old and bad.",
+      "Overall": 0.6,
+      "avgScores": [
+        {
+          "chocolate": 0.5,
+          "almond": 0.4,
+          "texture": 0.6,
+          "jam": 0.8,
+          "color": 0.8
+        }
+      ],
+      "Overall": 0.5,
+      "scores": [
+      {
+        "person": [
+          {
+            "name": "Rosie",
+            "title": "The Obsessed",
+            "votes": [
+              {
+                "chocolate": 0.0,
+                "almond": 0.0,
+                "texture": 0.0,
+                "jam": 0.0,
+                "color": 0.0 
+              }
+            ],
+            "Overall": 0.0,
+            "Notes":  ""
+          },
+          {
+            "name": "Mattie",
+            "title": "Almond Connoisseur",
+            "votes": [
+              {
+                "chocolate": 0.0,
+                "almond": 0.0,
+                "texture": 0.0,
+                "jam": 0.0,
+                "color": 0.0
+              }
+            ],
+            "Overall": 0.0,
+            "Notes":  ""
+          },
+          {
+            "name": "Tracy",
+            "title": "texture Aficianado",
+            "votes": [
+              {
+                "chocolate": 0.0,
+                "almond": 0.0,
+                "texture": 0.0,
+                "jam": 0.0,
+                "color": 0.0
+              }
+            ],
+            "Overall": 0.0,
+ "Notes":  ""
+          },
+          {
+            "name": "Ken",
+            "title": "chocolate Expert",
+            "votes": [
+              {
+                "chocolate": 2.0,
+                "almond": 1.5,
+                "texture": 2.5,
+                "jam": 3.0,
+                "color": 3.0 
+              }
+            ],
+            "Overall": 2.0,
+            "Notes": ""
+          }
+        ]
+      }
+    ]
+    }
+  
