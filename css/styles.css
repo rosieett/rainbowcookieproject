@@ -1122,7 +1122,7 @@ input[type="radio"] {
 }
 
 .background-list {
-  width: 30%;
+  width: 40%;
   flex-shrink: 1;
   border-radius: 10px;
   background: #eae0c6;
