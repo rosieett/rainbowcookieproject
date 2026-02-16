@@ -1,6 +1,6 @@
 [
   {
-    "bakeryNumber": 1,
+    "bakeryNumber": 6,
     "bakeryhed": "Gian Piero Bakery",
     "bakeryaddress": "4417 30th Ave., Queens, NY 11103",
     "lat": 40.762341,
@@ -89,7 +89,7 @@
     ]
   },
   {
-    "bakeryNumber": 2,
+    "bakeryNumber": 23,
     "bakeryhed": "Parisi Bakery",
     "bakeryaddress": "30-17 Broadway, Queens, NY 11106",
     "lat": 40.7622384,
@@ -178,7 +178,7 @@
     ]
   },
   {
-    "bakeryNumber": 3,
+    "bakeryNumber": 9,
     "bakeryhed": "Astoria Bakery",
     "bakeryaddress": "4321 Ditmars Blvd, Queens, NY 11105",
     "lat": 40.7748712,
@@ -267,7 +267,7 @@
     ]
   },
   {
-    "bakeryNumber": 4,
+    "bakeryNumber": 22,
     "bakeryhed": "Paris Oven",
     "bakeryaddress": "38-12 30th Ave., Queens, NY 11103",
     "lat": 40.7639406,
@@ -357,7 +357,7 @@
     ]
   },
   {
-    "bakeryNumber": 5,
+    "bakeryNumber": 3,
     "bakeryhed": "Il Fornaio (34th Street)",
     "bakeryaddress": "33-14 30th Ave., Queens, NY 11103",
     "lat": 40.7657681,
@@ -447,7 +447,7 @@
     ]
   },
   {
-    "bakeryNumber": 6,
+    "bakeryNumber": 31,
     "bakeryhed": "Leli's Bakery & Pastry Shop",
     "bakeryaddress": "3514 30th Ave., Queens, NY 11103",
     "lat": 40.764971,
@@ -537,7 +537,7 @@
     ]
   },
   {
-    "bakeryNumber": 7,
+    "bakeryNumber": 29,
     "bakeryhed": "Oasis Cafe",
     "bakeryaddress": "30-92 31st St, Queens, NY 11102",
     "lat": 40.7647836,
@@ -627,7 +627,7 @@
     ]
   },
   {
-    "bakeryNumber": 8,
+    "bakeryNumber": 25,
     "bakeryhed": "Rose & Joe's Italian Bakery",
     "bakeryaddress": "22-40 31st St, Queens, NY 11105",
     "lat": 40.7753672,
@@ -716,7 +716,7 @@
     ]
   },
   {
-    "bakeryNumber": 9,
+    "bakeryNumber": 7,
     "bakeryhed": "New York Bakery Café",
     "bakeryaddress": "32-06 30th Ave., Astoria, NY 11102",
     "lat": 40.7709075,
@@ -806,7 +806,7 @@
     ]
   },
   {
-    "bakeryNumber": 10,
+    "bakeryNumber": 4,
     "bakeryhed": "Il Fornaio (29th Street)",
     "bakeryaddress": "29-14 30th Ave., Astoria, NY 11102",
     "lat": 40.7676046,
@@ -896,7 +896,7 @@
     ]
   },
   {
-    "bakeryNumber": 11,
+    "bakeryNumber": 32,
     "bakeryhed": "Omonia Cafe",
     "bakeryaddress": "32 16 Broadway, Long Island City, NY 11106",
     "lat": 40.759924,
@@ -986,7 +986,7 @@
     ]
   },
   {
-    "bakeryNumber": 12,
+    "bakeryNumber": 14,
     "bakeryhed": "Martha's Country Bakery",
     "bakeryaddress": "36-21 Ditmars Blvd, Queens, NY 11105",
     "lat": 40.774032,
@@ -1164,7 +1164,7 @@
     ]
   },
   {
-    "bakeryNumber": 14,
+    "bakeryNumber": 36,
     "bakeryhed": "Valerio Bakery",
     "bakeryaddress": "15-07 College Point Blvd, College Point, NY 11356",
     "lat": 40.783913,
@@ -1252,7 +1252,7 @@
     ]
   },
   {
-    "bakeryNumber": 15,
+    "bakeryNumber": 10,
     "bakeryhed": "Cascon Cheesecakes",
     "bakeryaddress": "704 149th St, Flushing, NY 11357",
     "lat": 40.794168,
@@ -1340,7 +1340,7 @@
     ]
   },
   {
-    "bakeryNumber": 16,
+    "bakeryNumber": 15,
     "bakeryhed": "Aphrodites Sweets",
     "bakeryaddress": "2007 Francis Lewis Blvd, Whitestone, NY 11357",
     "lat": 40.780095,
@@ -1428,7 +1428,7 @@
     ]
   },
   {
-    "bakeryNumber": 17,
+    "bakeryNumber": 8,
     "bakeryhed": "Sweet treats pastry shop",
     "bakeryaddress": "61-22 Springfield Blvd, Oakland Gardens, NY 11364",
     "lat": 40.748474,
@@ -1516,7 +1516,7 @@
     ]
   },
   {
-    "bakeryNumber": 18,
+    "bakeryNumber": 26,
     "bakeryhed": "Lulu's bakery",
     "bakeryaddress": "179-04, 06 Union Tpke, Flushing, NY 11366",
     "lat": 40.726475,
@@ -1692,7 +1692,7 @@
     ]
   },
   {
-    "bakeryNumber": 20,
+    "bakeryNumber": 27,
     "bakeryhed": "La Dolce Italian",
     "bakeryaddress": "10405 Metropolitan Ave, Flushing, NY 11375",
     "lat": 40.711338,
@@ -1780,7 +1780,7 @@
     ]
   },
   {
-    "bakeryNumber": 21,
+    "bakeryNumber": 28,
     "bakeryhed": "Andre's Hungarian Bakery",
     "bakeryaddress": "100-28 Queens Blvd, Forest Hills, NY 11375",
     "lat": 40.7264442,
@@ -1868,7 +1868,7 @@
     ]
   },
   {
-    "bakeryNumber": 22,
+    "bakeryNumber": 16,
     "bakeryhed": "La Cheesecake Bake Shop",
     "bakeryaddress":"126-06 14th Ave, College Point, NY 11356",
     "lat": 40.7851483,
@@ -1956,7 +1956,7 @@
     ]
   },
   {
-    "bakeryNumber": 23,
+    "bakeryNumber": 30,
     "bakeryhed": "Framboise Patisserie",
     "bakeryaddress": "6459 Dry Harbor Rd, Middle Village, NY 11379",
     "lat": 40.7268011,
@@ -2044,7 +2044,7 @@
     ]
   },
   {
-    "bakeryNumber": 24,
+    "bakeryNumber": 2,
     "bakeryhed": "Joe's Bakery",
     "bakeryaddress": "75-50 Metropolitan Ave, Middle Village, NY 11379",
     "lat": 40.7129192,
@@ -2132,7 +2132,7 @@
     ]
   },
    {
-    "bakeryNumber": 25,
+    "bakeryNumber": 1,
     "bakeryhed": "Catania Bakery",
     "bakeryaddress": "6410 Fresh Pond Rd, Flushing, NY 11385",
     "lat": 40.712005,
@@ -2220,7 +2220,7 @@
     ]
   },
   {
-    "bakeryNumber": 26,
+    "bakeryNumber": 5,
     "bakeryhed": "Grimaldi's Bakery",
     "bakeryaddress": "21-01 Menahan St, Ridgewood, NY 11385",
     "lat": 40.7091306,
@@ -2308,7 +2308,7 @@
     ]
   },
   {
-    "bakeryNumber": 27,
+    "bakeryNumber": 37,
     "bakeryhed": "Glendale Bakery",
     "bakeryaddress": "6925 Grand Ave, Maspeth, NY 11378",
     "lat": 40.714424,
@@ -2397,7 +2397,7 @@
   },
   
   {
-    "bakeryNumber": 28,
+    "bakeryNumber": 20,
     "bakeryhed": "Lety's Bakery",
     "bakeryaddress": "7707 37th Ave, Jackson Heights, NY 11372",
     "lat": 40.749864,
@@ -2485,7 +2485,7 @@
     ]
   },
   {
-    "bakeryNumber": 29,
+    "bakeryNumber": 17,
     "bakeryhed": "Parva Bakeshop and Cafe",
     "bakeryaddress": "8201 Northern Blvd, Jackson Heights, NY 11372",
     "lat": 40.7553411,
@@ -2573,7 +2573,7 @@
     ]
   },
   {
-    "bakeryNumber": 31,
+    "bakeryNumber": 21,
     "bakeryhed": "Pasticceria La Torre",
     "bakeryaddress": "158-12 Cross Bay Blvd, Howard Beach, NY 11414",
     "lat": 40.66063,
@@ -2667,7 +2667,7 @@
     "lat": 40.663804,
     "lng": -73.841121,
     "price": 1.25,
-    "rank": "No. 24",
+    "rank": "No. 32",
     "image": "images/cookies/bakery32.png",
     "bakeryDescription": "Homey spot for decadent baked goods & custom cakes, plus breakfast favorites, sandwiches & salads.",
     "cookieDescription": "The jam was tangy, which made for an odd taste and we hate sprinkles on rainbow cookies.",
@@ -2749,7 +2749,7 @@
   ]
   },
   {
-    "bakeryNumber": 33,
+    "bakeryNumber": 40,
     "bakeryhed": "Paneorama Bakery",
     "bakeryaddress": "95-20 Jamaica Ave, Woodhaven, NY 11421",
     "lat": 40.694421,
@@ -2837,7 +2837,7 @@
   ]
   },
   {
-    "bakeryNumber": 34,
+    "bakeryNumber": 35,
     "bakeryhed": "Sweet Bakery and Pastry",
     "bakeryaddress": "117-02 Jamaica Ave, Richmond Hill, NY 11418",
     "lat": 40.699515,
@@ -2925,7 +2925,7 @@
   ]
   },
   {
-    "bakeryNumber": 35,
+    "bakeryNumber": 34,
     "bakeryhed": "Bonelle Bakery",
     "bakeryaddress": "108-30 Ascan Ave, Forest Hills, NY 11375",
     "lat": 40.7149983,
@@ -3013,7 +3013,7 @@
   ]
   },
   {
-    "bakeryNumber": 36,
+    "bakeryNumber": 11,
     "bakeryhed": "Pani Dolci",
     "bakeryaddress": "137-67 Queens Blvd, Jamaica, NY 11435",
     "lat": 40.7061908,
@@ -3101,7 +3101,7 @@
   ]
   },
   {
-    "bakeryNumber": 37,
+    "bakeryNumber": 39,
     "bakeryhed": "Bonbon Bakery",
     "bakeryaddress": "164-18A 69th Ave, Fresh Meadows, NY 11365",
     "lat": 40.7371282,
@@ -3277,7 +3277,7 @@
   ]
   },
   {
-    "bakeryNumber": 39,
+    "bakeryNumber": 18,
     "bakeryhed": "Rudy's Pastry Shop",
     "bakeryaddress": "9-05 Seneca Ave, Ridgewood, NY 11385",
     "lat": 40.700409,
@@ -3365,7 +3365,7 @@
   ]
   },
   {
-    "bakeryNumber": 40,
+    "bakeryNumber": 33,
     "bakeryhed": "Russo Bakery",
     "bakeryaddress": "61-04 Grand Ave, Maspeth, NY 11378",
     "lat": 40.721849,
@@ -3541,7 +3541,7 @@
   ]
   },
   {
-    "bakeryNumber": 30,
+    "bakeryNumber": 12,
     "bakeryhed": "Ciro's Pastry Shop",
     "bakeryaddress": "4-15 Beach 129th St, Rockaway Park, NY 11694",
     "lat": 40.573918,
