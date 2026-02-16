@@ -297,6 +297,7 @@ svg:hover {
 }
 
 .image-area {
+  width: 30%;
   background-color: rgba(222, 210, 180, 0.8);
   display: flex;
   justify-content: center;
