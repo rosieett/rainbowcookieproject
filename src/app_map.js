@@ -2,25 +2,39 @@ import data from "../data/data.json" with { type: "json" };
 import { bakeryinfo } from "/modules/bakeryscores.js";
 import { mobileMenu } from "../modules/mobileMenu.js";
 
+// Create map (no setView when using fitBounds)
+var map = L.map('map');
 
-
-var map = L.map('map').setView([40.763098, -73.843033], 12);
+// Add tile layer
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution:  '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    maxZoom: 22,
-  }).addTo(map);
+  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  maxZoom: 22,
+}).addTo(map);
 
-  var pinIcon = L.icon({
-    iconUrl: 'images/Pin.png'
-  })
+// Custom pin icon
+var pinIcon = L.icon({
+  iconUrl: 'images/Pin.png'
+});
 
-data.forEach(data => {
-  console.log(data)
-  let marker = L.marker([data.lat,data.lng],{icon: pinIcon})
+// Store marker coordinates
+let markers = [];
+
+// Loop through data and create markers
+data.forEach(item => {
+  console.log(item);
+
+  let marker = L.marker([item.lat, item.lng], { icon: pinIcon })
     .addTo(map)
-    .bindPopup(`<p>${data.bakeryhed}<br> <p>Overall Score: ${data.Overall}</p>`
-    )
-})
+    .bindPopup(`
+      <p>${item.bakeryhed}</p>
+      <p>Overall Score: ${item.Overall}</p>
+    `);
 
+  markers.push([item.lat, item.lng]);
+});
 
+// Automatically fit map to all markers
+map.fitBounds(markers, { padding: [50, 50] });
+
+// Run mobile menu
 mobileMenu();
