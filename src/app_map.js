@@ -34,7 +34,7 @@ data.forEach(item => {
 });
 
 // Automatically fit map to all markers
-map.fitBounds(markers, { padding: [50, 50] });
+map.fitBounds(markers, { padding: [25, 25] });
 
 // Run mobile menu
 mobileMenu();
