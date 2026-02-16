@@ -1,4 +1,4 @@
-
+[
 {
   "bakeryNumber": 31,
   "bakeryhed": "Pasticceria La Torre",
@@ -36,8 +36,8 @@
           }
         ],
         "Overall": 2.0,
-        "Notes": ""         
-       },
+        "Notes": " "         
+      },
       {
         "name": "Mattie",
         "title": "Almond Connoisseur",
@@ -51,7 +51,7 @@
           }
         ],
         "Overall": 1.0,
-        "Notes": ""          
+        "Notes": " "          
        },
       {
         "name": "Tracy",
@@ -66,7 +66,7 @@
           }
         ],
         "Overall": 1.5,
-        "Notes":""
+        "Notes": " "
       },
       {
         "name": "Ken",
@@ -81,7 +81,7 @@
           }
         ],
         "Overall": 4.0,
-        "Notes": ""
+        "Notes": " "
       }
     ]
   }
@@ -177,7 +177,7 @@
 },
 {
   "bakeryNumber": 33,
-  "bakeryhed": "Paneorama",
+  "bakeryhed": "Paneorama Bakery",
   "bakeryaddress": "95-20 Jamaica Ave, Woodhaven, NY 11421",
   "lat": 40.694421,
   "lng": -73.849561,
@@ -353,7 +353,7 @@
 },
 {
   "bakeryNumber": 35,
-  "bakeryhed": "Bonelle",
+  "bakeryhed": "Bonelle Bakery",
   "bakeryaddress": "108-30 Ascan Ave, Forest Hills, NY 11375",
   "lat": 40.7149983,
   "lng": -73.8426887,
@@ -529,7 +529,7 @@
 },
 {
   "bakeryNumber": 37,
-  "bakeryhed": "Bonbon",
+  "bakeryhed": "Bonbon Bakery",
   "bakeryaddress": "164-18A 69th Ave, Fresh Meadows, NY 11365",
   "lat": 40.7371282,
   "lng": -73.7774459,
@@ -617,7 +617,7 @@
 },
 {
   "bakeryNumber": 38,
-  "bakeryhed": "Elite Bakery",
+  "bakeryhed": "Elite Pastries Cafe",
   "bakeryaddress": "47-36 Bell Blvd, Bayside, NY 11361",
   "lat": 40.7602663,
   "lng": -73.7693385,
@@ -659,14 +659,14 @@
         "title": "Almond Connoisseur",
         "votes": [
           {
-            "chocolate": ,
-            "almond": ,
-            "texture": ,
-            "jam": ,
-            "color": 
+            "chocolate": 0.0,
+            "almond": 0.0,
+            "texture": 0.0,
+            "jam": 0.0,
+            "color": 0.0
           }
         ],
-        "Overall": ,
+        "Overall":0.0,
         "Notes":  ""
       },
       {
@@ -1056,3 +1056,4 @@
   ]
 }
 
+]
