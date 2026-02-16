@@ -2720,7 +2720,7 @@
           "votes": [
             {
               "chocolate": 2.0,
-              "almond": 0.0,
+              "almond": 0.1,
               "texture": 3.0,
               "jam": 4.0,
               "color": 2.0 
@@ -2792,14 +2792,14 @@
           "title": "Almond Connoisseur",
           "votes": [
             {
-              "chocolate": 0.0,
-              "almond": 0.0,
-              "texture": 0.0,
-              "jam": 0.0,
-              "color": 0.0
+              "chocolate": 0.1,
+              "almond": 0.1,
+              "texture": 0.1,
+              "jam": 0.1,
+              "color": 0.1
             }
           ],
-          "Overall": 0.0,
+          "Overall": 0.1,
           "Notes":  ""
         },
         {
@@ -2807,14 +2807,14 @@
           "title": "texture aficionado",
           "votes": [
               {
-              "chocolate": 0.0,
-              "almond": 0.0,
+              "chocolate": 0.1,
+              "almond": 0.1,
               "texture": 2.0,
-              "jam": 0.0,
+              "jam": 0.1,
               "color": 1.0
               }
           ],
-          "Overall": 0.0,
+          "Overall": 0.1,
           "Notes":  ""
         },
         {
@@ -2866,7 +2866,7 @@
           "votes": [
             {
               "chocolate": 2.0,
-              "almond": 0.0,
+              "almond": 0.1,
               "texture": 3.0,
               "jam": 2.0,
               "color": 2.0 
@@ -2880,14 +2880,14 @@
           "title": "Almond Connoisseur",
           "votes": [
             {
-              "chocolate": 0.0,
-              "almond": 0.0,
+              "chocolate": 0.1,
+              "almond": 0.1,
               "texture": 3.0,
-              "jam": 0.0,
+              "jam": 0.1,
               "color": 1.0
             }
           ],
-          "Overall": 0.0,
+          "Overall": 0.1,
           "Notes":  ""
         },
         {
@@ -3136,7 +3136,7 @@
               "color": 1.0
             }
           ],
-          "Overall": 0.0,
+          "Overall": 0.1,
           "Notes": "just so bad."
         },
         {
@@ -3144,14 +3144,14 @@
           "title": "Almond Connoisseur",
           "votes": [
             {
-              "chocolate": 0.0,
-              "almond": 0.0,
-              "texture": 0.0,
-              "jam": 0.0,
-              "color": 0.0 
+              "chocolate": 0.1,
+              "almond": 0.1,
+              "texture": 0.1,
+              "jam": 0.1,
+              "color": 0.1 
             }
           ],
-          "Overall": 0.0,
+          "Overall": 0.1,
           "Notes":  ""
         },
         {
@@ -3160,13 +3160,13 @@
           "votes": [
             {
               "chocolate": 1.0,
-              "almond": 0.0,
+              "almond": 0.1,
               "texture": 2.0,
-              "jam": 0.0,
+              "jam": 0.1,
               "color": 1.0 
             }
           ],
-          "Overall": 0.0,
+          "Overall": 0.1,
           "Notes":  ""
         },
         {
@@ -3232,14 +3232,14 @@
           "title": "Almond Connoisseur",
           "votes": [
             {
-              "chocolate": 0.0,
-              "almond": 0.0,
-              "texture": 0.0,
-              "jam": 0.0,
-              "color": 0.0
+              "chocolate": 0.1,
+              "almond": 0.1,
+              "texture": 0.1,
+              "jam": 0.1,
+              "color": 0.1
             }
           ],
-          "Overall":0.0,
+          "Overall":0.1,
           "Notes":  ""
         },
         {
@@ -3247,14 +3247,14 @@
           "title": "texture aficionado",
           "votes": [
             {
-              "chocolate": 0.0,
-              "almond": 0.0,
+              "chocolate": 0.1,
+              "almond": 0.1,
               "texture": 3.0,
-              "jam": 0.0,
-              "color": 0.0
+              "jam": 0.1,
+              "color": 0.1
             }
           ],
-          "Overall": 0.0,
+          "Overall": 0.1,
           "Notes":  ""
         },
         {
@@ -3408,10 +3408,10 @@
           "title": "Almond Connoisseur",
           "votes": [
             {
-              "chocolate": 0.0,
-              "almond": 0.0,
-              "texture": 0.0,
-              "jam": 0.0,
+              "chocolate": 0.1,
+              "almond": 0.1,
+              "texture": 0.1,
+              "jam": 0.1,
               "color": 5.0
             }
           ],
@@ -3424,7 +3424,7 @@
           "votes": [
             {
               "chocolate": 1.0,
-              "almond": 0.0,
+              "almond": 0.1,
               "texture": 2.0,
               "jam": 2.0,
               "color": 3.0
@@ -3481,14 +3481,14 @@
           "title": "The Obsessed",
           "votes": [
             {
-              "chocolate": 0.0,
-              "almond": 0.0,
-              "texture": 0.0,
-              "jam": 0.0,
-              "color": 0.0 
+              "chocolate": 0.1,
+              "almond": 0.1,
+              "texture": 0.1,
+              "jam": 0.1,
+              "color": 0.1 
             }
           ],
-          "Overall": 0.0,
+          "Overall": 0.1,
           "Notes":  ""
         },
         {
@@ -3496,14 +3496,14 @@
           "title": "Almond Connoisseur",
           "votes": [
             {
-              "chocolate": 0.0,
-              "almond": 0.0,
-              "texture": 0.0,
-              "jam": 0.0,
-              "color": 0.0
+              "chocolate": 0.1,
+              "almond": 0.1,
+              "texture": 0.1,
+              "jam": 0.1,
+              "color": 0.1
             }
           ],
-          "Overall": 0.0,
+          "Overall": 0.1,
           "Notes":  ""
         },
         {
@@ -3511,14 +3511,14 @@
           "title": "texture aficionado",
           "votes": [
             {
-              "chocolate": 0.0,
-              "almond": 0.0,
-              "texture": 0.0,
-              "jam": 0.0,
-              "color": 0.0
+              "chocolate": 0.1,
+              "almond": 0.1,
+              "texture": 0.1,
+              "jam": 0.1,
+              "color": 0.1
             }
           ],
-          "Overall": 0.0,
+          "Overall": 0.1,
           "Notes":  ""
         },
         {
