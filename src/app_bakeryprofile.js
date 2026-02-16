@@ -22,24 +22,58 @@ let html = template(context);
 document.getElementById("profile").innerHTML = html;
 
 //NEXT BUTTON
-//find the main part of the url that wont change
+// //find the main part of the url that wont change
+// let mainURL = window.location.href.split('=')[0];
+
+// //find the button
+// let nextButton = document.getElementById('next')
+
+// //add one to the bakeryId that it's currently on
+// let nextBakery = bakeryID+1
+
+// //when you click the next button, take the part of the url that doesnt change, and add in an = then next bakery number
+// nextButton.addEventListener('click', (e) => {
+//     window.location.href = mainURL + '=' + nextBakery;
+// })
+
+// //when you hit the end of the data set, hide the next button
+// if (bakeryID === data.length){
+//     let hidden = d3.select('#nextLabel')
+//         .style('display', 'none')
+// }
+
+// NEXT BUTTON FIX //
+
+// find the main part of the url that wont change
 let mainURL = window.location.href.split('=')[0];
 
-//find the button
+// find the button + label
 let nextButton = document.getElementById('next')
+let nextLabel = document.getElementById('nextLabel')
 
-//add one to the bakeryId that it's currently on
-let nextBakery = bakeryID+1
+// add one to the bakeryId that it's currently on
+let nextBakery = bakeryID + 1
 
-//when you click the next button, take the part of the url that doesnt change, and add in an = then next bakery number
-nextButton.addEventListener('click', (e) => {
-    window.location.href = mainURL + '=' + nextBakery;
-})
+// check if we are on the last bakery
+let isLast = bakeryID >= data.length
 
-//when you hit the end of the data set, hide the next button
-if (bakeryID === data.length){
-    let hidden = d3.select('#nextLabel')
-        .style('display', 'none')
+// update label + click behavior
+if (isLast) {
+    // change button text
+    if (nextLabel) nextLabel.textContent = "Top of the list"
+
+    // send back to first bakery
+    nextButton.addEventListener('click', () => {
+        window.location.href = mainURL + '=1'
+    })
+
+} else {
+
+    // normal behavior
+    nextButton.addEventListener('click', () => {
+        window.location.href = mainURL + '=' + nextBakery
+    })
+
 }
 
 
